@@ -32,4 +32,4 @@ jobs:
           GH_PAT:         ${{ secrets.GH_PAT }}
           GH_USER:        ${{ secrets.GH_USER }}
           GH_REPO:        ${{ secrets.GH_REPO }}
-        run: python 아침_브리프.py
+        run: python morning_brief.py
