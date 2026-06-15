@@ -2,7 +2,7 @@ import os, json, base64
 import yfinance as yf
 import feedparser
 import requests
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 
 # ─────────────────────────────────────────
 # [설정 정보] — GitHub Actions Secrets에서 자동 주입
@@ -185,7 +185,8 @@ def save_to_github(payload: dict) -> None:
 
 
 def main():
-    now        = datetime.now()
+    KST        = timezone(timedelta(hours=9))
+    now        = datetime.now(KST)
     today      = now.strftime("%Y-%m-%d")
     is_weekend = now.weekday() >= 5
     title      = "☀️ 주말 AI 경제 브리핑" if is_weekend else "☀️ AI 경제 브리핑"
