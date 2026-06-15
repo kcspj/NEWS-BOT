@@ -33,7 +33,3 @@ jobs:
           GH_USER:        ${{ secrets.GH_USER }}
           GH_REPO:        ${{ secrets.GH_REPO }}
         run: python morning_brief.py
-
-
-if __name__ == "__main__":
-    main()
