@@ -10,9 +10,9 @@ from datetime import datetime
 TELEGRAM_TOKEN  = os.environ["TELEGRAM_TOKEN"]
 CHAT_ID         = os.environ["CHAT_ID"]
 GEMINI_API_KEY  = os.environ["GEMINI_API_KEY"]
-GITHUB_TOKEN    = os.environ.get("GITHUB_TOKEN", "")   # ✅ 추가
-GITHUB_USER     = os.environ.get("GITHUB_USER", "")    # ✅ 추가
-GITHUB_REPO     = os.environ.get("GITHUB_REPO", "morning-briefing")  # ✅ 추가
+GITHUB_TOKEN    = os.environ.get("GH_PAT", "")
+GITHUB_USER     = os.environ.get("GH_USER", "")
+GITHUB_REPO     = os.environ.get("GH_REPO", "NEWS-BOT")
 
 # 뉴스 소스
 NEWS_FEEDS = [
