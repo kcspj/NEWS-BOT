@@ -29,7 +29,7 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           CHAT_ID:        ${{ secrets.CHAT_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GITHUB_TOKEN:   ${{ secrets.GH_PAT }}
-          GITHUB_USER:    ${{ secrets.GITHUB_USER }}
-          GITHUB_REPO:    ${{ secrets.GITHUB_REPO }}
+          GH_PAT:         ${{ secrets.GH_PAT }}
+          GH_USER:        ${{ secrets.GH_USER }}
+          GH_REPO:        ${{ secrets.GH_REPO }}
         run: python 아침_브리프.py
