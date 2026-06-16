@@ -1,8 +1,7 @@
-import os, json, base64
-import yfinance as yf
+import os, json, base64, time
 import feedparser
 import requests
-from datetime import datetime, timezone, timedelta
+from datetime import datetime
 
 # ─────────────────────────────────────────
 # [설정 정보] — GitHub Actions Secrets에서 자동 주입
@@ -36,7 +35,39 @@ TICKERS = {
     "금":         "GC=F",
     "WTI유가":    "CL=F",
 }
+
+# Yahoo Finance v8 API 헤더 (GitHub Actions 환경 우회)
+YF_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "application/json",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Referer": "https://finance.yahoo.com/",
+}
 # ─────────────────────────────────────────
+
+
+def fetch_ticker(symbol: str) -> tuple[float, float] | None:
+    """Yahoo Finance v8 API로 종가 2일치 직접 조회"""
+    url = (
+        f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}"
+        f"?interval=1d&range=5d"
+    )
+    try:
+        r = requests.get(url, headers=YF_HEADERS, timeout=15)
+        if r.status_code != 200:
+            # query2 fallback
+            url2 = url.replace("query1", "query2")
+            r = requests.get(url2, headers=YF_HEADERS, timeout=15)
+        if r.status_code != 200:
+            return None
+        closes = r.json()["chart"]["result"][0]["indicators"]["quote"][0]["close"]
+        closes = [c for c in closes if c is not None]
+        if len(closes) < 2:
+            return None
+        return closes[-1], closes[-2]
+    except Exception as e:
+        print(f"    fetch_ticker({symbol}) 오류: {e}")
+        return None
 
 
 def get_market_data() -> tuple[str, dict]:
@@ -44,20 +75,18 @@ def get_market_data() -> tuple[str, dict]:
     lines  = []
     market = {}
     for name, symbol in TICKERS.items():
-        try:
-            data = yf.Ticker(symbol).history(period="2d")
-            if len(data) < 2:
-                raise ValueError("데이터 부족")
-            curr  = data["Close"].iloc[-1]
-            prev  = data["Close"].iloc[-2]
+        result = fetch_ticker(symbol)
+        if result:
+            curr, prev = result
             pct   = (curr - prev) / prev * 100
             arrow = "▲" if pct > 0 else ("▼" if pct < 0 else "━")
             lines.append(f"  {name:<12}: {curr:>10,.2f}  {arrow}{abs(pct):.2f}%")
             market[name] = f"{curr:,.2f} {arrow}{abs(pct):.2f}%"
-        except Exception as e:
-            print(f"  ⚠️ {name}({symbol}) 수집 실패: {e}")
+        else:
+            print(f"  ⚠️ {name}({symbol}) 수집 실패")
             lines.append(f"  {name:<12}: 데이터 없음")
             market[name] = "데이터 없음"
+        time.sleep(0.3)  # 요청 간 짧은 딜레이
     return "\n".join(lines), market
 
 
@@ -185,8 +214,7 @@ def save_to_github(payload: dict) -> None:
 
 
 def main():
-    KST        = timezone(timedelta(hours=9))
-    now        = datetime.now(KST)
+    now        = datetime.now()
     today      = now.strftime("%Y-%m-%d")
     is_weekend = now.weekday() >= 5
     title      = "☀️ 주말 AI 경제 브리핑" if is_weekend else "☀️ AI 경제 브리핑"
