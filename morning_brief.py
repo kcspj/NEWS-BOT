@@ -23,7 +23,7 @@ NEWS_FEEDS = [
 
 # 시장 지표
 TICKERS = {
-    "나스닥":     "^IXIC",
+    "나스닥100":    "^NDX",
     "S&P500":    "^GSPC",
     "다우존스":   "^DJI",
     "코스피":     "^KS11",
@@ -47,7 +47,7 @@ YF_HEADERS = {
 
 
 def fetch_ticker(symbol: str) -> tuple[float, float] | None:
-    """Yahoo Finance v8 API로 종가 2일치 직접 조회 (당일 미확정 데이터 제외)"""
+    """Yahoo Finance v8 API로 종가 2일치 직접 조회"""
     url = (
         f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}"
         f"?interval=1d&range=5d"
@@ -60,19 +60,11 @@ def fetch_ticker(symbol: str) -> tuple[float, float] | None:
             r = requests.get(url2, headers=YF_HEADERS, timeout=15)
         if r.status_code != 200:
             return None
-        result    = r.json()["chart"]["result"][0]
-        timestamps = result["timestamp"]
-        closes     = result["indicators"]["quote"][0]["close"]
-        from datetime import datetime, timezone, timedelta
-        today_utc = datetime.now(timezone.utc).date()
-        # 당일 미확정 데이터 제외: None이거나 타임스탬프가 오늘인 경우 제외
-        filtered = [
-            c for ts, c in zip(timestamps, closes)
-            if c is not None and datetime.fromtimestamp(ts, tz=timezone.utc).date() < today_utc
-        ]
-        if len(filtered) < 2:
+        closes = r.json()["chart"]["result"][0]["indicators"]["quote"][0]["close"]
+        closes = [c for c in closes if c is not None]
+        if len(closes) < 2:
             return None
-        return filtered[-1], filtered[-2]
+        return closes[-1], closes[-2]
     except Exception as e:
         print(f"    fetch_ticker({symbol}) 오류: {e}")
         return None
