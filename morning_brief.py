@@ -1,7 +1,11 @@
 import os, json, base64, time
 import feedparser
 import requests
-from datetime import datetime
+import holidays
+from datetime import datetime, timezone, timedelta
+
+# 한국 시간대 상수
+KST = timezone(timedelta(hours=9))
 
 # ─────────────────────────────────────────
 # [설정 정보] — GitHub Actions Secrets에서 자동 주입
@@ -115,8 +119,9 @@ def get_news() -> tuple[list[str], str, list[dict]]:
 def get_ai_report(market_data: str, news_titles: list[str]) -> str:
     """Gemini 2.5 Flash로 AI 브리핑 생성"""
     weekday_kr = ["월", "화", "수", "목", "금", "토", "일"]
-    today_str  = datetime.now().strftime("%Y년 %m월 %d일")
-    day_kr     = weekday_kr[datetime.now().weekday()]
+    _now_kst   = datetime.now(KST)
+    today_str  = _now_kst.strftime("%Y년 %m월 %d일")
+    day_kr     = weekday_kr[_now_kst.weekday()]
 
     prompt = f"""당신은 한국의 증권사 리서치센터 수석 애널리스트입니다.
 
@@ -214,9 +219,17 @@ def save_to_github(payload: dict) -> None:
 
 
 def main():
-    now        = datetime.now()
+    # KST(한국시간) 기준으로 날짜/요일 계산
+    now        = datetime.now(KST)
     today      = now.strftime("%Y-%m-%d")
     is_weekend = now.weekday() >= 5
+
+    # 한국 공휴일 체크
+    kr_holidays = holidays.KR(years=now.year)
+    if now.date() in kr_holidays:
+        holiday_name = kr_holidays.get(now.date())
+        print(f"  오늘은 한국 공휴일({holiday_name}) — 브리핑 스킵")
+        return
     title      = "☀️ 주말 AI 경제 브리핑" if is_weekend else "☀️ AI 경제 브리핑"
 
     print(f"\n{'='*50}")
