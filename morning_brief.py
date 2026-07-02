@@ -4,7 +4,6 @@ import requests
 import holidays
 from datetime import datetime, timezone, timedelta
 
-# 한국 시간대 상수
 KST = timezone(timedelta(hours=9))
 
 # ─────────────────────────────────────────
@@ -27,7 +26,7 @@ NEWS_FEEDS = [
 
 # 시장 지표
 TICKERS = {
-    "나스닥100":    "^NDX",
+    "나스닥100":     "^NDX",
     "S&P500":    "^GSPC",
     "다우존스":   "^DJI",
     "코스피":     "^KS11",
@@ -51,24 +50,38 @@ YF_HEADERS = {
 
 
 def fetch_ticker(symbol: str) -> tuple[float, float] | None:
-    """Yahoo Finance v8 API로 종가 2일치 직접 조회"""
+    """Yahoo Finance v8 API로 종가 2일치 직접 조회 (당일 미확정 데이터 제외)"""
     url = (
         f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}"
         f"?interval=1d&range=5d"
     )
+    # 한국 지수 여부 판단 (KST 기준 필터링 필요)
+    KR_SYMBOLS = {"^KS11", "^KQ11", "^KS200"}
+    is_kr = symbol in KR_SYMBOLS
+    from datetime import timezone, timedelta
+    KST = timezone(timedelta(hours=9))
+    UTC = timezone.utc
+    # 기준: 한국 지수는 KST, 해외 지수는 UTC 기준 전날까지만 사용
+    ref_tz   = KST if is_kr else UTC
+    ref_date = datetime.now(ref_tz).date()
     try:
         r = requests.get(url, headers=YF_HEADERS, timeout=15)
         if r.status_code != 200:
-            # query2 fallback
             url2 = url.replace("query1", "query2")
             r = requests.get(url2, headers=YF_HEADERS, timeout=15)
         if r.status_code != 200:
             return None
-        closes = r.json()["chart"]["result"][0]["indicators"]["quote"][0]["close"]
-        closes = [c for c in closes if c is not None]
-        if len(closes) < 2:
+        result     = r.json()["chart"]["result"][0]
+        timestamps = result["timestamp"]
+        closes     = result["indicators"]["quote"][0]["close"]
+        # 당일(기준시간대) 미확정 데이터 제외
+        filtered = [
+            c for ts, c in zip(timestamps, closes)
+            if c is not None and datetime.fromtimestamp(ts, tz=ref_tz).date() < ref_date
+        ]
+        if len(filtered) < 2:
             return None
-        return closes[-1], closes[-2]
+        return filtered[-1], filtered[-2]
     except Exception as e:
         print(f"    fetch_ticker({symbol}) 오류: {e}")
         return None
@@ -125,7 +138,7 @@ def get_ai_report(market_data: str, news_titles: list[str]) -> str:
 
     prompt = f"""당신은 한국의 증권사 리서치센터 수석 애널리스트입니다.
 
-오늘은 {today_str} ({day_kr}요일)이며, 전날 낮 마감된 한국증시 및 전날 밤 마감된 미국 시장 기준으로 분석하세요.
+오늘은 {today_str} ({day_kr}요일)이며, 전날 밤 마감된 미국 시장 기준으로 분석하세요.
 
 [시장 지표]
 {market_data}
@@ -219,7 +232,6 @@ def save_to_github(payload: dict) -> None:
 
 
 def main():
-    # KST(한국시간) 기준으로 날짜/요일 계산
     now        = datetime.now(KST)
     today      = now.strftime("%Y-%m-%d")
     is_weekend = now.weekday() >= 5
