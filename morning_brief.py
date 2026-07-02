@@ -125,7 +125,7 @@ def get_ai_report(market_data: str, news_titles: list[str]) -> str:
 
     prompt = f"""당신은 한국의 증권사 리서치센터 수석 애널리스트입니다.
 
-오늘은 {today_str} ({day_kr}요일)이며, 전날 밤 마감된 미국 시장 기준으로 분석하세요.
+오늘은 {today_str} ({day_kr}요일)이며, 전날 낮 마감된 한국증시 및 전날 밤 마감된 미국 시장 기준으로 분석하세요.
 
 [시장 지표]
 {market_data}
