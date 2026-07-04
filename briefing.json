@@ -1,44 +1,44 @@
 {
-  "date": "2026-07-03",
-  "title": "☀️ AI 경제 브리핑",
-  "content": "## 증권시장 리서치센터 모닝브리핑 (2026.07.03)\n\n**수석 애널리스트:** [본인 이름]\n\n■ **시장 요약**\n전일 미국 증시는 고용 지표 혼재 속 나스닥100이 1.54% 하락하며 기술주 약세, S&P500(-0.22%)·다우존스(-0.03%)는 보합세였습니다. 국내 증시는 코스피 2.04% 급락했으나 코스닥은 1.44% 상승하며 극명한 차별화를 보였습니다. 원/달러 환율은 1,551.81원(▲0.21%)을 기록했습니다.\n\n■ **핵심 이슈 3가지**\n1.  **美 연준 금리 경로 불확실성:** 예상보다 낮은 고용 지표에도 불구, 주요 IB발 금리 동결/인상 전망이 엇갈리며 연준 금리 경로에 대한 시장 불확실성이 심화되었습니다.\n2.  **미국 기술주 및 반도체 섹터 약세:** 나스닥100이 1.54% 하락하고 '반도체 폭락'이 언급되는 등 고금리 장기화 우려에 성장주 투자 심리가 위축되었습니다.\n3.  **국내 증시 KOSPI-KOSDAQ 차별화:** 코스피가 2.04% 급락하며 외국인 매도 압력을 받았으나, 코스닥은 1.44% 상승하며 국내 개별 테마주 중심으로 수급 쏠림 현상이 심화되었습니다.\n\n■ **미국 증시 영향**\n연준의 금리 경로에 대한 혼선이 당분간 지속되며 변동성이 유지될 전망입니다. 금리 인하 기대감 약화는 나스닥 중심의 기술주에 지속적인 부담으로 작용할 것이며, 다우존스는 상대적으로 견고한 흐름을 보일 것으로 예상됩니다.\n\n■ **한국 증시 영향**\n미국 기술주 약세와 원/달러 환율 상승(1,551.81원)은 코스피 대형 기술주 및 수출주에 외국인 매도 압력을 가중시킬 수 있습니다. 반면, 코스닥은 국내 개별 모멘텀 및 테마주 중심으로 단기 자금 유입이 지속되며 차별적 강세를 이어갈 것으로 예상됩니다.\n\n■ **관심 업종**\nKOSDAQ 강세가 뚜렷한 만큼, 국내 성장 모멘텀이 유효한 AI, 로봇, 바이오 등 중소형 기술주 및 테마주에 대한 관심이 지속될 것으로 보입니다. 또한, 변동성 장세에서는 방어적 성격의 배당주 및 필수소비재 업종에 대한 선별적 접근도 유효합니다.\n\n■ **투자 포인트**\n미 연준 금리 경로의 불확실성이 해소되기 전까지는 보수적인 접근이 필요합니다. 코스닥 시장 내 개별 성장 모멘텀이 강한 종목에 대한 선별적 투자와 함께, 변동성 확대를 대비한 포트폴리오 다각화가 중요합니다. 미국 기술주 전반에 대한 무분별한 추격 매수는 지양해야 합니다.",
+  "date": "2026-07-04",
+  "title": "☀️ 주말 AI 경제 브리핑",
+  "content": "⚠️ AI 분석을 가져오지 못했습니다.",
   "market": {
-    "나스닥100": "29,809.13 ▼1.54%",
-    "S&P500": "7,483.23 ▼0.22%",
-    "다우존스": "52,305.24 ▼0.03%",
-    "코스피": "8,303.41 ▼2.04%",
-    "코스닥": "929.35 ▲1.44%",
-    "원/달러": "1,551.81 ▲0.21%",
-    "달러인덱스": "101.39 ▲0.20%",
+    "나스닥100": "29,329.21 ▼1.61%",
+    "S&P500": "7,483.24 ▲0.00%",
+    "다우존스": "52,900.07 ▲1.14%",
+    "코스피": "8,088.34 ▲5.76%",
+    "코스닥": "868.41 ▲0.19%",
+    "원/달러": "1,530.15 ▼0.78%",
+    "달러인덱스": "100.86 ▼0.00%",
     "미국채10년": "데이터 없음",
-    "VIX(공포)": "16.59 ▲0.85%",
-    "금": "4,068.30 ▲1.13%",
-    "WTI유가": "68.58 ▼1.32%"
+    "VIX(공포)": "15.81 ▼2.11%",
+    "금": "4,187.30 ▲1.81%",
+    "WTI유가": "68.78 ▲0.13%"
   },
   "links": [
     {
-      "title": "‘케데헌 루미’ 아덴 조, 이탈리아서 의사 남편과 결혼…한복 입고 폐백까지",
-      "url": "https://www.mk.co.kr/news/culture/12089542"
+      "title": "한국 떨어졌지만 ‘메시’ 보는 재미에…역시 ‘축구의 신’, 월드컵 최초 20골 대기록",
+      "url": "https://www.mk.co.kr/news/world/12090275"
     },
     {
-      "title": "“할 이야기는 있지만”…청문회 부른다는데 홍명보 돌연 미국행, 왜?",
-      "url": "https://www.mk.co.kr/news/society/12089540"
+      "title": "이재명 대통령 “3대 메가 프로젝트, 지지율 관리용이면 지방선거 전에 했을 것”",
+      "url": "https://www.mk.co.kr/news/business/12090274"
     },
     {
-      "title": "미국 증시, '독립기념일'로 휴장 - KB Think",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8tYnc2UHVJWTZLTnFxSFFsRFRJOExMbkRmUzVEY3hkTGg5dzZoZkZETDdhUmowWVZGaUtzOWJ6RzNJanN4eTZYZzlLdDkzRVpBWkhaVElvSDExS1JIeG94MXI1RThFRGxhLWNjQnpLTldKdw?oc=5"
+      "title": "[마켓노트] 미국 빅테크가 맞이한 시험대 - 연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBlWnI2Y0k5THI5SHBKVUkyVUtGVTB4ZkZ1REtGX1lFcGh5NEJUUHR0VGkzSU54ZGJIMi04SkhSZVVRRm5FUkVMajN0TWxYTnNVX0s3a2xiNkZLUHPSAWBBVV95cUxQMlY4MnFGeHBYcXlRSGlkSlRVU1ZXWU9tcktVMnI1aVRZUTNHT1E3MEJxcGJaMl9iLXhYRzlsR09YeG9kRmIyREZ3TnNOaFl3VmxoZ1h3Xzl2enpHTTZxQzc?oc=5"
     },
     {
-      "title": "[뉴욕증시] 금리 압박 줄어 다우 신기록, 반도체 폭락에 제자리 - v.daum.net",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE95ZGJHVkEwM2RtVXo5LU04WFBBMlowZTh2cEtXZ1BsX1BPY1EydXMxNTZScEh5emNmSXRHRHlrQ0NzcmRjZ3phLTZldlZpSE0?oc=5"
+      "title": "미국 증시, '독립기념일'로 휴장 - 연합인포맥스",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1UcGVyWHpkTk54TDhCazZXVDZJa3ctSExZRjVBUVJBd2lMV1YtSmR5MFBqYXdCcVJsa0F4ZmFnV3RhMGJSQUlmU0hfOF9NNVQxWUllMVNiM0IzcmxfSkk4cTFiR09hSTgyYVBEU3JwSUE?oc=5"
     },
     {
-      "title": "예상 밑돈 美 고용...연준 금리인상 시점 늦춰지나 - 서울경제",
+      "title": "예상 밑돈 美 고용...연준 금리인상 시점 늦춰지나 - 서울경제신문",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBFWjBhV1g1NGxNaTU2a2NDcmh3bjUxeWFDRVd2YzVuamtDZ1Z1U2Zvc0M4MlcxYXJKWmRCWkZuajVqczJXOEVjcEhMNVRJM3ZNX0HSAVNBVV95cUxQMm84ZWtJQVlhZklmZnd1bEsyZ05leDhiWXc0aVg2X1NYTEJNZFNpSWRCcHUzSERGaEM0SzhDOVNGWm8wcGRlSnFCSU9HVFBoeVhNUQ?oc=5"
     },
     {
-      "title": "\"주요 IB, 美연준 금리인하 종료 평가…하반기 동결·인상 전망\" - 연합뉴스",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5nNmRIem1iX0ptdGFKdlcza1VGNlFHbkFrQUZNYnZNT0JkX0JJUU1fU3B5bHFtMFVkRl9wNGg2Z2hIVjlBeGRHejlEM1d3OXB1eXdwTHJSeVA2ZnPSAWBBVV95cUxPQVlPb2NMdFVRUVpIYW53V0dWWFNTR3UwZzJRekVVQV9XMDlCbFRWc1J1SU4teGZrNFJGajhvek91YmQtRkxMU2NTY1l0OGZiTFdTaEpDX3c5OWdnT1FTb2M?oc=5"
+      "title": "’워시 연준’ 기준금리 동결…트럼프 “인상시 경제침체“ - 연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB3bjdtLVpsUGVmckNxNnAxXzVGQnZFS2pKc28xU04yUWc1TURMSzE5NktqQktpd0xhdW1YemRrTDZ4TjZZTnVVSmhxaUswbjZLRDhneHY3YWcwd0thOVhoTlpCTjNTZHc?oc=5"
     }
   ]
 }
