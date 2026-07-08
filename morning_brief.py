@@ -188,6 +188,63 @@ def get_ai_report(market_data: str, news_titles: list[str]) -> str:
         return f"⚠️ Gemini 통신 오류: {e}"
 
 
+# ✅ 추가: 구글 캘린더 오늘의 일정 (비공개 iCal 주소 사용)
+def get_today_events() -> list[tuple[str, str]]:
+    """구글 캘린더 비공개 iCal 주소에서 오늘(KST) 일정을 가져온다.
+    환경변수 GCAL_ICS_URLS (여러 개면 쉼표 구분). 실패/미설정 시 빈 리스트."""
+    urls = [u.strip() for u in os.environ.get("GCAL_ICS_URLS", "").split(",") if u.strip()]
+    if not urls:
+        print("  ⏭️ 일정 스킵 (GCAL_ICS_URLS 미설정)")
+        return []
+    try:
+        import icalendar
+        import recurring_ical_events
+    except ImportError:
+        print("  ⚠️ icalendar 라이브러리 없음 — 워크플로 yml의 pip install 확인 필요")
+        return []
+
+    today = datetime.now(KST).date()          # 반드시 KST 기준 (UTC 날짜 밀림 방지)
+    start = datetime(today.year, today.month, today.day, tzinfo=KST)
+    end   = start + timedelta(days=1)
+
+    events = []
+    for url in urls:
+        try:
+            r = requests.get(url, timeout=15)
+            r.raise_for_status()
+            cal = icalendar.Calendar.from_ical(r.content)
+            # 반복 일정(RRULE)까지 자동 전개해서 오늘 발생분만 추출
+            for ev in recurring_ical_events.of(cal).between(start, end):
+                name = str(ev.get("SUMMARY", "(제목 없음)"))
+                dtstart = ev.get("DTSTART").dt
+                if isinstance(dtstart, datetime):              # 시간 지정 일정
+                    t = dtstart.astimezone(KST)
+                    events.append((t.strftime("%H%M"), t.strftime("%H:%M"), name))
+                else:                                          # 종일 일정
+                    events.append(("0000", "종일", name))
+        except Exception as e:
+            print(f"  ⚠️ 캘린더 읽기 실패: {e}")
+
+    events.sort(key=lambda x: x[0])
+    seen, out = set(), []                     # 중복 제거 (복수 캘린더 대비)
+    for _, time_str, name in events:
+        if (time_str, name) not in seen:
+            seen.add((time_str, name))
+            out.append((time_str, name))
+    print(f"  📅 오늘 일정 {len(out)}건")
+    return out
+
+
+def build_schedule_section(events: list[tuple[str, str]]) -> str:
+    """텔레그램 메시지에 붙일 '오늘의 일정' 섹션. 일정 없으면 빈 문자열."""
+    if not events:
+        return ""
+    lines = ["📅 오늘의 일정"]
+    for time_str, name in events:
+        lines.append(f"  · {time_str}  {name}")
+    return "\n".join(lines) + "\n\n"
+
+
 def send_telegram(text: str) -> None:
     """텔레그램 발송 (4000자 초과 시 자동 분할)"""
     MAX   = 4000
@@ -273,10 +330,16 @@ def main():
     print("\n🤖 AI 브리핑 생성 중...")
     ai_summary = get_ai_report(market_text, titles)
 
+    # ✅ 구글 캘린더 오늘의 일정
+    print("\n📅 일정 수집 중...")
+    today_events = get_today_events()
+    schedule_section = build_schedule_section(today_events)
+
     # 텔레그램 발송
     separator = "─" * 30
     full_msg  = (
         f"{today} {title}\n\n"
+        f"{schedule_section}"
         f"{ai_summary}\n\n"
         f"{separator}\n"
         f"🔗 뉴스 원문\n\n"
@@ -293,6 +356,7 @@ def main():
         "content": ai_summary,
         "market":  market_dict,
         "links":   links_json,
+        "schedule": [{"time": t, "name": n} for t, n in today_events],
     })
 
     print("\n✅ 전체 완료!")
