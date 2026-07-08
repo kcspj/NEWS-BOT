@@ -50,7 +50,10 @@ YF_HEADERS = {
 
 
 def fetch_ticker(symbol: str) -> tuple[float, float] | None:
-    """Yahoo Finance v8 API로 종가 2일치 직접 조회"""
+    """Yahoo Finance v8 API로 종가 2일치 직접 조회
+    - range=10d로 충분한 데이터 확보
+    - None(미확정) 제거 후 가장 최근 확정 종가 2개 사용
+    """
     url = (
         f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}"
         f"?interval=1d&range=10d"
@@ -68,9 +71,31 @@ def fetch_ticker(symbol: str) -> tuple[float, float] | None:
         confirmed = [c for c in closes if c is not None]
         if len(confirmed) < 2:
             return None
+        print(f"    {symbol}: 최근확정={confirmed[-1]:.2f} 전일={confirmed[-2]:.2f}")
         return confirmed[-1], confirmed[-2]
     except Exception as e:
         print(f"    fetch_ticker({symbol}) 오류: {e}")
+        return None
+
+
+def fetch_naver_index(symbol: str) -> tuple[float, float] | None:
+    """네이버 API로 한국 지수 현재가 및 등락 가져오기"""
+    naver_map = {"^KS11": "KOSPI", "^KQ11": "KOSDAQ", "^KS200": "KPI200"}
+    naver_sym = naver_map.get(symbol)
+    if not naver_sym:
+        return None
+    headers = {"User-Agent": "Mozilla/5.0", "Referer": "https://m.stock.naver.com/"}
+    try:
+        d = requests.get(
+            f"https://m.stock.naver.com/api/index/{naver_sym}/basic",
+            headers=headers, timeout=5
+        ).json()
+        current = float(d["closePrice"].replace(",", ""))
+        change  = float(d["compareToPreviousClosePrice"].replace(",", ""))
+        prev    = current - change
+        return current, prev
+    except Exception as e:
+        print(f"    네이버 {symbol} 오류: {e}")
         return None
 
 
@@ -78,8 +103,9 @@ def get_market_data() -> tuple[str, dict]:
     """시장 지표 수집 — (표시용 텍스트, 허브용 dict) 반환"""
     lines  = []
     market = {}
+    KR_SYMBOLS = {"^KS11", "^KQ11", "^KS200"}
     for name, symbol in TICKERS.items():
-        result = fetch_ticker(symbol)
+        result = fetch_naver_index(symbol) if symbol in KR_SYMBOLS else fetch_ticker(symbol)
         if result:
             curr, prev = result
             pct   = (curr - prev) / prev * 100
