@@ -22,10 +22,11 @@ jobs:
           cache: 'pip'
 
       - name: 📦 패키지 설치
-        run: pip install -r requirements.txt
+         run: pip install requests feedparser holidays icalendar recurring-ical-events
 
       - name: 🚀 브리핑 실행
         env:
+          GCAL_ICS_URLS: ${{ secrets.GCAL_ICS_URLS }}
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           CHAT_ID:        ${{ secrets.CHAT_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
