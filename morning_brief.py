@@ -50,20 +50,11 @@ YF_HEADERS = {
 
 
 def fetch_ticker(symbol: str) -> tuple[float, float] | None:
-    """Yahoo Finance v8 API로 종가 2일치 직접 조회 (당일 미확정 데이터 제외)"""
+    """Yahoo Finance v8 API로 종가 2일치 직접 조회"""
     url = (
         f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}"
-        f"?interval=1d&range=5d"
+        f"?interval=1d&range=10d"
     )
-    # 한국 지수 여부 판단 (KST 기준 필터링 필요)
-    KR_SYMBOLS = {"^KS11", "^KQ11", "^KS200"}
-    is_kr = symbol in KR_SYMBOLS
-    from datetime import timezone, timedelta
-    KST = timezone(timedelta(hours=9))
-    UTC = timezone.utc
-    # 기준: 한국 지수는 KST, 해외 지수는 UTC 기준 전날까지만 사용
-    ref_tz   = KST if is_kr else UTC
-    ref_date = datetime.now(ref_tz).date()
     try:
         r = requests.get(url, headers=YF_HEADERS, timeout=15)
         if r.status_code != 200:
@@ -71,17 +62,13 @@ def fetch_ticker(symbol: str) -> tuple[float, float] | None:
             r = requests.get(url2, headers=YF_HEADERS, timeout=15)
         if r.status_code != 200:
             return None
-        result     = r.json()["chart"]["result"][0]
-        timestamps = result["timestamp"]
-        closes     = result["indicators"]["quote"][0]["close"]
-        # 당일(기준시간대) 미확정 데이터 제외
-        filtered = [
-            c for ts, c in zip(timestamps, closes)
-            if c is not None and datetime.fromtimestamp(ts, tz=ref_tz).date() < ref_date
-        ]
-        if len(filtered) < 2:
+        result = r.json()["chart"]["result"][0]
+        closes = result["indicators"]["quote"][0]["close"]
+        # None(당일 미확정) 제거 후 최근 확정 종가 2개 사용
+        confirmed = [c for c in closes if c is not None]
+        if len(confirmed) < 2:
             return None
-        return filtered[-1], filtered[-2]
+        return confirmed[-1], confirmed[-2]
     except Exception as e:
         print(f"    fetch_ticker({symbol}) 오류: {e}")
         return None
