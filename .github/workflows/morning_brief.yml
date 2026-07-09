@@ -32,4 +32,5 @@ jobs:
           GH_PAT:         ${{ secrets.GH_PAT }}
           GH_USER:        ${{ secrets.GH_USER }}
           GH_REPO:        ${{ secrets.GH_REPO }}
+          GCAL_ICS_URLS:  ${{ secrets.GCAL_ICS_URLS }}
         run: python morning_brief.py
