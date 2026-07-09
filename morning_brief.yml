@@ -26,11 +26,11 @@ jobs:
 
       - name: 🚀 브리핑 실행
         env:
-          GCAL_ICS_URLS: ${{ secrets.GCAL_ICS_URLS }}
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           CHAT_ID:        ${{ secrets.CHAT_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GITHUB_TOKEN:   ${{ secrets.GH_PAT }}
-          GITHUB_USER:    ${{ secrets.GITHUB_USER }}
-          GITHUB_REPO:    ${{ secrets.GITHUB_REPO }}
+          GH_PAT:         ${{ secrets.GH_PAT }}
+          GH_USER:        ${{ secrets.GH_USER }}
+          GH_REPO:        ${{ secrets.GH_REPO }}
+          GCAL_ICS_URLS:  ${{ secrets.GCAL_ICS_URLS }}
         run: python morning_brief.py
