@@ -49,10 +49,11 @@ YF_HEADERS = {
 # ─────────────────────────────────────────
 
 
-def fetch_ticker(symbol: str) -> tuple[float, float] | None:
+def fetch_ticker(symbol: str) -> tuple[float, float, str] | None:
     """Yahoo Finance v8 API로 종가 2일치 직접 조회
     - range=10d로 충분한 데이터 확보
     - None(미확정) 제거 후 가장 최근 확정 종가 2개 사용
+    - timestamp를 이용해 '가장 최근 확정 종가가 실제로 몇 월 며칠자 마감인지'를 함께 반환
     """
     url = (
         f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}"
@@ -67,19 +68,40 @@ def fetch_ticker(symbol: str) -> tuple[float, float] | None:
             return None
         result = r.json()["chart"]["result"][0]
         closes = result["indicators"]["quote"][0]["close"]
-        # None(당일 미확정) 제거 후 최근 확정 종가 2개 사용
-        confirmed = [c for c in closes if c is not None]
+        timestamps = result.get("timestamp", [])
+        # None(당일 미확정) 제거 후 (timestamp, close) 쌍으로 최근 확정 2개 사용
+        confirmed = [(t, c) for t, c in zip(timestamps, closes) if c is not None]
         if len(confirmed) < 2:
             return None
-        print(f"    {symbol}: 최근확정={confirmed[-1]:.2f} 전일={confirmed[-2]:.2f}")
-        return confirmed[-1], confirmed[-2]
+        (ts_last, c_last), (_, c_prev) = confirmed[-1], confirmed[-2]
+        # 미국 거래소 종가 timestamp를 한국시간(KST) 날짜로 변환
+        # (예: 미국 동부시간 7/16 16:00 마감 → KST로는 7/17 새벽 → "07월 17일"로 정확히 표시)
+        last_date = datetime.fromtimestamp(ts_last, tz=KST).strftime("%m월 %d일")
+        print(f"    {symbol}: 최근확정({last_date})={c_last:.2f} 전일={c_prev:.2f}")
+        return c_last, c_prev, last_date
     except Exception as e:
         print(f"    fetch_ticker({symbol}) 오류: {e}")
         return None
 
 
-def fetch_naver_index(symbol: str) -> tuple[float, float] | None:
-    """네이버 API로 한국 지수 현재가 및 등락 가져오기"""
+def get_last_kr_trading_date(now: datetime) -> str:
+    """가장 최근에 '완료된' 국내 거래일을 계산 (주말·공휴일 제외)
+    - 브리핑은 항상 국내 개장(09:00) 전에 실행되므로, 오늘은 아직 거래일이 아님
+    - 어제부터 거슬러 올라가며 주말/공휴일이 아닌 첫 날을 찾는다
+    """
+    kr_holidays = holidays.KR(years=[now.year - 1, now.year])
+    d = now.date() - timedelta(days=1)
+    while d.weekday() >= 5 or d in kr_holidays:
+        d -= timedelta(days=1)
+    return d.strftime("%m월 %d일")
+
+
+def fetch_naver_index(symbol: str) -> tuple[float, float, str] | None:
+    """네이버 API로 한국 지수 현재가 및 등락 가져오기
+    - 국내 지수의 '기준 날짜'는 네이버 API가 아니라 거래일 계산 로직으로 직접 산출
+      (장전에는 change/pct가 0으로 오는 경우가 있어, 그 값을 신뢰하지 않고
+       history 유무와 무관하게 날짜만 별도로 계산)
+    """
     naver_map = {"^KS11": "KOSPI", "^KQ11": "KOSDAQ", "^KS200": "KPI200"}
     naver_sym = naver_map.get(symbol)
     if not naver_sym:
@@ -93,31 +115,40 @@ def fetch_naver_index(symbol: str) -> tuple[float, float] | None:
         current = float(d["closePrice"].replace(",", ""))
         change  = float(d["compareToPreviousClosePrice"].replace(",", ""))
         prev    = current - change
-        return current, prev
+        kr_date = get_last_kr_trading_date(datetime.now(KST))
+        return current, prev, kr_date
     except Exception as e:
         print(f"    네이버 {symbol} 오류: {e}")
         return None
 
 
-def get_market_data() -> tuple[str, dict]:
-    """시장 지표 수집 — (표시용 텍스트, 허브용 dict) 반환"""
-    lines  = []
-    market = {}
+def get_market_data() -> tuple[str, dict, str, str]:
+    """시장 지표 수집 — (표시용 텍스트, 허브용 dict, 미국시장 기준일, 국내시장 기준일) 반환"""
+    lines    = []
+    market   = {}
+    us_date  = None
+    kr_date  = None
     KR_SYMBOLS = {"^KS11", "^KQ11", "^KS200"}
     for name, symbol in TICKERS.items():
-        result = fetch_naver_index(symbol) if symbol in KR_SYMBOLS else fetch_ticker(symbol)
+        is_kr  = symbol in KR_SYMBOLS
+        result = fetch_naver_index(symbol) if is_kr else fetch_ticker(symbol)
         if result:
-            curr, prev = result
+            curr, prev, date_str = result
             pct   = (curr - prev) / prev * 100
             arrow = "▲" if pct > 0 else ("▼" if pct < 0 else "━")
-            lines.append(f"  {name:<12}: {curr:>10,.2f}  {arrow}{abs(pct):.2f}%")
+            lines.append(f"  [{date_str} 마감] {name:<12}: {curr:>10,.2f}  {arrow}{abs(pct):.2f}%")
             market[name] = f"{curr:,.2f} {arrow}{abs(pct):.2f}%"
+            # 대표 기준일 저장 (코스피 → 국내 기준일 / 나스닥100 → 미국 기준일)
+            if is_kr and kr_date is None:
+                kr_date = date_str
+            if not is_kr and us_date is None:
+                us_date = date_str
         else:
             print(f"  ⚠️ {name}({symbol}) 수집 실패")
             lines.append(f"  {name:<12}: 데이터 없음")
             market[name] = "데이터 없음"
         time.sleep(0.3)  # 요청 간 짧은 딜레이
-    return "\n".join(lines), market
+    return "\n".join(lines), market, us_date, kr_date
 
 
 def get_news() -> tuple[list[str], str, list[dict]]:
@@ -142,18 +173,29 @@ def get_news() -> tuple[list[str], str, list[dict]]:
     return titles, links_text, links_json
 
 
-def get_ai_report(market_data: str, news_titles: list[str]) -> str:
+def get_ai_report(market_data: str, news_titles: list[str],
+                   us_date: str | None, kr_date: str | None) -> str:
     """Gemini 2.5 Flash로 AI 브리핑 생성"""
     weekday_kr = ["월", "화", "수", "목", "금", "토", "일"]
     _now_kst   = datetime.now(KST)
     today_str  = _now_kst.strftime("%Y년 %m월 %d일")
     day_kr     = weekday_kr[_now_kst.weekday()]
+    us_date_str = us_date or "확인불가"
+    kr_date_str = kr_date or "확인불가"
 
     prompt = f"""당신은 한국의 증권사 리서치센터 수석 애널리스트입니다.
 
-오늘은 {today_str} ({day_kr}요일)이며, 전날 밤 마감된 미국 시장 기준으로 분석하세요.
+오늘 브리핑 발행일은 {today_str} ({day_kr}요일)입니다.
 
-[시장 지표]
+[중요 — 날짜 표기 규칙, 반드시 지킬 것]
+- "전날", "어제", "오늘", "다음날" 등 상대적인 날짜 표현을 절대 쓰지 마세요.
+- 미국 시장 데이터는 반드시 "{us_date_str} 마감 미국 증시"처럼 정확한 날짜를 명시하세요.
+- 국내 시장 데이터는 반드시 "{kr_date_str} 마감 국내 증시"처럼 정확한 날짜를 명시하세요.
+- 미국 시장과 국내 시장의 기준일이 서로 다를 수 있습니다({us_date_str} vs {kr_date_str}).
+  두 시장을 같은 날짜의 사건인 것처럼 섞어 쓰지 말고, 각 데이터가 어느 날짜 마감 기준인지
+  문장마다 명확히 구분해서 서술하세요.
+
+[시장 지표] (각 줄 맨 앞 [ ] 안이 해당 지표의 실제 마감일입니다)
 {market_data}
 
 [주요 뉴스 헤드라인]
@@ -186,63 +228,6 @@ def get_ai_report(market_data: str, news_titles: list[str]) -> str:
     except Exception as e:
         print(f"  Gemini 통신 오류: {e}")
         return f"⚠️ Gemini 통신 오류: {e}"
-
-
-# ✅ 추가: 구글 캘린더 오늘의 일정 (비공개 iCal 주소 사용)
-def get_today_events() -> list[tuple[str, str]]:
-    """구글 캘린더 비공개 iCal 주소에서 오늘(KST) 일정을 가져온다.
-    환경변수 GCAL_ICS_URLS (여러 개면 쉼표 구분). 실패/미설정 시 빈 리스트."""
-    urls = [u.strip() for u in os.environ.get("GCAL_ICS_URLS", "").split(",") if u.strip()]
-    if not urls:
-        print("  ⏭️ 일정 스킵 (GCAL_ICS_URLS 미설정)")
-        return []
-    try:
-        import icalendar
-        import recurring_ical_events
-    except ImportError:
-        print("  ⚠️ icalendar 라이브러리 없음 — 워크플로 yml의 pip install 확인 필요")
-        return []
-
-    today = datetime.now(KST).date()          # 반드시 KST 기준 (UTC 날짜 밀림 방지)
-    start = datetime(today.year, today.month, today.day, tzinfo=KST)
-    end   = start + timedelta(days=1)
-
-    events = []
-    for url in urls:
-        try:
-            r = requests.get(url, timeout=15)
-            r.raise_for_status()
-            cal = icalendar.Calendar.from_ical(r.content)
-            # 반복 일정(RRULE)까지 자동 전개해서 오늘 발생분만 추출
-            for ev in recurring_ical_events.of(cal).between(start, end):
-                name = str(ev.get("SUMMARY", "(제목 없음)"))
-                dtstart = ev.get("DTSTART").dt
-                if isinstance(dtstart, datetime):              # 시간 지정 일정
-                    t = dtstart.astimezone(KST)
-                    events.append((t.strftime("%H%M"), t.strftime("%H:%M"), name))
-                else:                                          # 종일 일정
-                    events.append(("0000", "종일", name))
-        except Exception as e:
-            print(f"  ⚠️ 캘린더 읽기 실패: {e}")
-
-    events.sort(key=lambda x: x[0])
-    seen, out = set(), []                     # 중복 제거 (복수 캘린더 대비)
-    for _, time_str, name in events:
-        if (time_str, name) not in seen:
-            seen.add((time_str, name))
-            out.append((time_str, name))
-    print(f"  📅 오늘 일정 {len(out)}건")
-    return out
-
-
-def build_schedule_section(events: list[tuple[str, str]]) -> str:
-    """텔레그램 메시지에 붙일 '오늘의 일정' 섹션. 일정 없으면 빈 문자열."""
-    if not events:
-        return ""
-    lines = ["📅 오늘의 일정"]
-    for time_str, name in events:
-        lines.append(f"  · {time_str}  {name}")
-    return "\n".join(lines) + "\n\n"
 
 
 def send_telegram(text: str) -> None:
@@ -319,8 +304,9 @@ def main():
     print(f"{'='*50}")
 
     print("\n📊 시장 지표 수집 중...")
-    market_text, market_dict = get_market_data()
+    market_text, market_dict, us_date, kr_date = get_market_data()
     print(market_text)
+    print(f"  ▶ 미국 시장 기준일: {us_date} / 국내 시장 기준일: {kr_date}")
 
     print("\n📰 뉴스 수집 중...")
     titles, links_text, links_json = get_news()
@@ -328,18 +314,12 @@ def main():
         print(f"  - {t}")
 
     print("\n🤖 AI 브리핑 생성 중...")
-    ai_summary = get_ai_report(market_text, titles)
-
-    # ✅ 구글 캘린더 오늘의 일정
-    print("\n📅 일정 수집 중...")
-    today_events = get_today_events()
-    schedule_section = build_schedule_section(today_events)
+    ai_summary = get_ai_report(market_text, titles, us_date, kr_date)
 
     # 텔레그램 발송
     separator = "─" * 30
     full_msg  = (
         f"{today} {title}\n\n"
-        f"{schedule_section}"
         f"{ai_summary}\n\n"
         f"{separator}\n"
         f"🔗 뉴스 원문\n\n"
@@ -356,7 +336,6 @@ def main():
         "content": ai_summary,
         "market":  market_dict,
         "links":   links_json,
-        "schedule": [{"time": t, "name": n} for t, n in today_events],
     })
 
     print("\n✅ 전체 완료!")
