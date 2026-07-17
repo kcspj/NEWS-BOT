@@ -276,19 +276,41 @@ def get_ai_report(market_data: str, news_titles: list[str],
         "https://generativelanguage.googleapis.com/v1beta"
         f"/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
     )
-    try:
-        resp = requests.post(api_url,
-                             json={"contents": [{"parts": [{"text": prompt}]}]},
-                             headers={"Content-Type": "application/json"},
-                             timeout=40)
-        print(f"  Gemini 응답 코드: {resp.status_code}")
-        if resp.status_code != 200:
+
+    # 일시적 오류(과부하 503, 요청량 초과 429)는 잠깐 대기 후 재시도
+    RETRY_STATUS  = {429, 500, 503}
+    MAX_RETRIES   = 3
+    WAIT_SECONDS  = [5, 15, 30]  # 재시도마다 대기 시간 증가
+
+    for attempt in range(MAX_RETRIES + 1):
+        try:
+            resp = requests.post(api_url,
+                                 json={"contents": [{"parts": [{"text": prompt}]}]},
+                                 headers={"Content-Type": "application/json"},
+                                 timeout=40)
+            print(f"  Gemini 응답 코드: {resp.status_code} (시도 {attempt + 1}/{MAX_RETRIES + 1})")
+
+            if resp.status_code == 200:
+                return resp.json()["candidates"][0]["content"]["parts"][0]["text"].strip()
+
+            if resp.status_code in RETRY_STATUS and attempt < MAX_RETRIES:
+                wait = WAIT_SECONDS[attempt]
+                print(f"  ⏳ 일시적 오류({resp.status_code}) — {wait}초 후 재시도...")
+                time.sleep(wait)
+                continue
+
+            # 재시도 대상이 아니거나, 재시도 횟수 소진
             print(f"  Gemini 오류: {resp.text[:300]}")
-            return "⚠️ AI 분석을 가져오지 못했습니다."
-        return resp.json()["candidates"][0]["content"]["parts"][0]["text"].strip()
-    except Exception as e:
-        print(f"  Gemini 통신 오류: {e}")
-        return f"⚠️ Gemini 통신 오류: {e}"
+            return "⚠️ AI 분석을 가져오지 못했습니다. (일시적으로 AI 서버가 혼잡합니다)"
+
+        except Exception as e:
+            if attempt < MAX_RETRIES:
+                wait = WAIT_SECONDS[attempt]
+                print(f"  ⚠️ Gemini 통신 오류: {e} — {wait}초 후 재시도...")
+                time.sleep(wait)
+                continue
+            print(f"  Gemini 통신 오류: {e}")
+            return f"⚠️ Gemini 통신 오류: {e}"
 
 
 def send_telegram(text: str) -> None:
