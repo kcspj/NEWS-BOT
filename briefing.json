@@ -8,21 +8,21 @@
     "다우존스": "52,552.97 ▼0.20%",
     "코스피": "6,820.60 ▼6.37%",
     "코스닥": "791.84 ▼4.53%",
-    "원/달러": "1,477.07 ▼0.61%",
-    "달러인덱스": "100.74 ▲0.23%",
+    "원/달러": "1,476.36 ▼0.66%",
+    "달러인덱스": "100.72 ▲0.22%",
     "미국채10년": "4.57 ▲0.53%",
     "VIX(공포)": "16.73 ▲6.76%",
-    "금": "3,990.00 ▼1.34%",
-    "WTI유가": "79.06 ▼0.68%"
+    "금": "3,991.10 ▼1.31%",
+    "WTI유가": "79.05 ▼0.69%"
   },
   "links": [
     {
-      "title": "“캐나다에서 내려 왔다”…아르헨 스페인 결승전 ‘초비상’, 뉴욕 발칵",
-      "url": "https://www.mk.co.kr/news/world/12100906"
+      "title": "“직간접수요 풍부한 항아리 상권”…‘벤처밸리 푸르지오’ 단지 내 상가 공급",
+      "url": "https://www.mk.co.kr/news/realestate/12100655"
     },
     {
-      "title": "“뱃 속에 있을 때 기도했다”…아내와 똑 닮은 딸 공개한 션, 난리난 팬들",
-      "url": "https://www.mk.co.kr/news/culture/12100902"
+      "title": "“스타벅스 가야지” 전부터 조롱 심해 경고 수차례…사투리 따라 하며 놀리기도",
+      "url": "https://www.mk.co.kr/news/society/12100907"
     },
     {
       "title": "[뉴욕증시] 반도체에 호재가 없네…필리 4.3% 급락 - 연합인포맥스",
@@ -39,6 +39,16 @@
     {
       "title": "\"미국 경제 인플레이션 장기화…연준 금리 인하 여지 없다\" - 머니투데이 - 머니투데이",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1TZHdnYndNN3ZORGVLbFVfRmRlX0toR2FTM2ZKMk85dHl1ZzNyZGI3VnZIZjlvallJSDh4bk1hTjZVbnk5LWJicmdFLVRyWU9FbXpYWEh0SnRLdWkxd2hiTnBsamNhekRf0gFuQVVfeXFMTW1BZ0NJUDZRVkRLZHk0TlR4cVNTdi1wa0VoaHFJaWd3VTZvenZITEUxcndmTVFXbDhrTWI5eFZmUGh3eGxuUThDaVZCYzJkejdCUkl1ajlsd3BsdmxySU0yS3dURm1ZY3pKallkYVE?oc=5"
+    }
+  ],
+  "schedule": [
+    {
+      "time": "종일",
+      "name": "20일 주봉 지지선 이탈중"
+    },
+    {
+      "time": "04:00",
+      "name": "스페이스X 상장 후 하락중"
     }
   ]
 }
