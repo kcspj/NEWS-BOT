@@ -2,7 +2,9 @@ import os, json, base64, time
 import feedparser
 import requests
 import holidays
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone, timedelta, date as date_cls
+from icalendar import Calendar
+import recurring_ical_events
 
 KST = timezone(timedelta(hours=9))
 
@@ -15,6 +17,11 @@ GEMINI_API_KEY  = os.environ["GEMINI_API_KEY"]
 GITHUB_TOKEN    = os.environ.get("GH_PAT", "")
 GITHUB_USER     = os.environ.get("GH_USER", "")
 GITHUB_REPO     = os.environ.get("GH_REPO", "NEWS-BOT")
+
+# 구글 캘린더 (비공개 주소 - Secret address in iCal format 방식)
+# 캘린더 설정 → 캘린더 통합 → "비공개 주소(iCal 형식)" 에서 발급되는 .ics URL
+# 여러 캘린더를 합치려면 콤마(,) 또는 줄바꿈으로 구분해서 저장
+GCAL_ICS_URLS = os.environ.get("GCAL_ICS_URLS", "")
 
 # 뉴스 소스
 NEWS_FEEDS = [
@@ -173,6 +180,60 @@ def get_news() -> tuple[list[str], str, list[dict]]:
     return titles, links_text, links_json
 
 
+def get_today_schedule() -> list[dict]:
+    """구글 캘린더 '비공개 주소(iCal)'에서 오늘 하루 일정 조회
+    - GCAL_ICS_URLS: .ics URL을 콤마 또는 줄바꿈으로 구분해 여러 개 지정 가능
+    - 반복 일정(RRULE)도 recurring_ical_events로 오늘자에 맞게 전개하여 처리
+    - 반환 형식: [{"time": "종일" 또는 "04:00", "name": "일정 제목"}, ...]
+    """
+    raw_urls = GCAL_ICS_URLS.replace("\n", ",")
+    urls = [u.strip() for u in raw_urls.split(",") if u.strip()]
+    if not urls:
+        print("  ⏭️ 캘린더 조회 스킵 (GCAL_ICS_URLS 미설정)")
+        return []
+
+    now   = datetime.now(KST)
+    today = now.date()
+    schedule = []
+
+    for url in urls:
+        try:
+            r = requests.get(url, timeout=15)
+            if r.status_code != 200:
+                print(f"  ⚠️ ICS 다운로드 실패 ({r.status_code}): {url[:60]}...")
+                continue
+            cal = Calendar.from_ical(r.content)
+            # 오늘 하루(00:00~24:00, KST) 범위로 반복 일정까지 전개
+            events = recurring_ical_events.of(cal).between(
+                (today.year, today.month, today.day, 0, 0, 0),
+                (today.year, today.month, today.day, 23, 59, 59),
+            )
+            for ev in events:
+                name  = str(ev.get("summary", "(제목 없음)"))
+                dtstart = ev["DTSTART"].dt
+                if isinstance(dtstart, date_cls) and not isinstance(dtstart, datetime):
+                    # 종일 일정 (date만 있고 시간 없음)
+                    schedule.append({"time": "종일", "name": name})
+                else:
+                    t = dtstart.astimezone(KST) if dtstart.tzinfo else dtstart.replace(tzinfo=KST)
+                    schedule.append({"time": t.strftime("%H:%M"), "name": name})
+        except Exception as e:
+            print(f"  ⚠️ ICS 파싱 오류 ({url[:60]}...): {e}")
+            continue
+
+    schedule.sort(key=lambda s: ("0" if s["time"] == "종일" else "1" + s["time"]))
+    print(f"  ✅ 오늘 일정 {len(schedule)}건 조회 완료")
+    return schedule
+
+
+def format_schedule_text(schedule: list[dict]) -> str:
+    """텔레그램 메시지용 일정 텍스트 생성"""
+    if not schedule:
+        return ""
+    lines = [f"  ·{s['time']}  {s['name']}" for s in schedule]
+    return "📅 오늘의 일정\n" + "\n".join(lines) + "\n\n"
+
+
 def get_ai_report(market_data: str, news_titles: list[str],
                    us_date: str | None, kr_date: str | None) -> str:
     """Gemini 2.5 Flash로 AI 브리핑 생성"""
@@ -308,6 +369,9 @@ def main():
     print(market_text)
     print(f"  ▶ 미국 시장 기준일: {us_date} / 국내 시장 기준일: {kr_date}")
 
+    print("\n📅 오늘 일정 조회 중...")
+    schedule = get_today_schedule()
+
     print("\n📰 뉴스 수집 중...")
     titles, links_text, links_json = get_news()
     for t in titles:
@@ -320,6 +384,7 @@ def main():
     separator = "─" * 30
     full_msg  = (
         f"{today} {title}\n\n"
+        f"{format_schedule_text(schedule)}"
         f"{ai_summary}\n\n"
         f"{separator}\n"
         f"🔗 뉴스 원문\n\n"
@@ -331,11 +396,12 @@ def main():
     # ✅ GitHub 저장 (허브 뉴스룸 연동)
     print("\n💾 GitHub 저장 중...")
     save_to_github({
-        "date":    today,
-        "title":   title,
-        "content": ai_summary,
-        "market":  market_dict,
-        "links":   links_json,
+        "date":     today,
+        "title":    title,
+        "content":  ai_summary,
+        "market":   market_dict,
+        "links":    links_json,
+        "schedule": schedule,
     })
 
     print("\n✅ 전체 완료!")
