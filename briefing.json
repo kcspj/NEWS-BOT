@@ -1,54 +1,62 @@
 {
-  "date": "2026-08-30",
-  "title": "☀️ 주말 AI 경제 브리핑",
-  "content": "**[한국증권 리서치센터] 시장 브리핑 (2026년 08월 30일)**\n\n■ **시장 요약**\n08월 28일 마감 미국 증시는 S&P500이 0.25% 하락하고 나스닥100이 0.70% 하락하는 등 소폭 약세를 기록했습니다. 국내 증시에서는 08월 28일 마감 코스피가 1.79% 크게 하락했으나, 코스닥은 0.09% 상승하며 상대적으로 선방했습니다. 08월 28일 마감 미국채10년 금리는 4.72%로 1.03% 상승했고, 달러인덱스는 99.70으로 0.54% 상승하며 달러 강세 기조가 이어졌습니다. 반면 08월 30일 마감 원/달러 환율은 1,371.50원으로 0.65% 하락하며 원화가 소폭 강세를 보였습니다.\n\n■ **핵심 이슈 3가지**\n1.  **연준의 매파적 스탠스 강화:** \"연준과 백악관, ‘금리 충돌’ 코스 들어섰다\"는 보도처럼 연준의 긴축 기조 장기화 우려가 다시 부각되며 08월 28일 마감 미국채10년 금리가 1.03% 상승했습니다.\n2.  **개인 투자자의 해외 증시 이동:** 지난 두 달간 개인이 미국 주식 10조 원을 순매수하며 \"코스피보다 더 샀다\"는 뉴스는 국내 자금의 해외 유출 가속화를 시사합니다.\n3.  **국내 고위험 금융상품 규제 강화:** \"제2의 홍콩ELS 사태 막자\"는 움직임으로 은행의 고위험 상품 심의에 제조사 참여가 의무화되는 등 국내 금융권의 건전성 제고 노력이 이어지고 있습니다.\n\n■ **미국 증시 영향**\n08월 28일 마감 미국 증시는 연준의 매파적 발언과 이에 따른 08월 28일 마감 미국채10년 금리의 1.03% 상승 부담으로 인해 S&P500이 0.25%, 나스닥100이 0.70% 하락하는 등 전반적인 약세를 보였습니다. 달러인덱스가 0.54% 상승한 점도 금리 인상 기대감을 반영하며 위험자산에 대한 투자심리를 위축시켰습니다.\n\n■ **한국 증시 영향**\n08월 28일 마감 코스피는 글로벌 긴축 기조 장기화 우려와 개인 투자자들의 대규모 해외 주식 순매수라는 수급 부담이 겹치며 1.79% 크게 하락했습니다. 08월 30일 마감 원/달러 환율이 0.65% 하락하며 원화 강세를 보였으나, 08월 28일 달러인덱스 상승은 국내 증시에 부정적 요인으로 작용했습니다.\n\n■ **관심 업종**\n*   **금융 업종:** 고위험 상품 규제 강화 이슈로 은행 및 증권사의 상품 포트폴리오 변화 및 건전성 확보 노력이 중요해질 것입니다.\n*   **기술 성장주:** 높은 금리 환경이 지속될 가능성에 따라 밸류에이션 부담이 커질 수 있어 투자 심리에 영향을 받을 수 있습니다.\n\n■ **투자 포인트**\n*   글로벌 긴축 기조의 장기화 가능성과 미국채10년 금리 추이 지속적 모니터링이 필요합니다.\n*   개인 투자자들의 해외 증시 선호 현상이 국내 증시에 미치는 수급 영향을 주시해야 합니다.\n*   국내 금융 규제 변화가 업종 전반에 미치는 영향을 분석하여 대응해야 합니다.",
+  "date": "2026-08-31",
+  "title": "☀️ AI 경제 브리핑",
+  "content": "⚠️ AI 분석을 가져오지 못했습니다. (일시적으로 AI 서버가 혼잡합니다)",
   "market": {
     "나스닥100": "29,433.43 ▼0.70%",
     "S&P500": "7,711.76 ▼0.25%",
     "다우존스": "53,559.99 ▼0.02%",
-    "코스피": "6,788.88 ▼1.79%",
-    "코스닥": "838.41 ▲0.09%",
-    "원/달러": "1,371.50 ▼0.65%",
-    "달러인덱스": "99.70 ▲0.54%",
+    "코스피": "6,788.88 ━0.00%",
+    "코스닥": "838.41 ━0.00%",
+    "원/달러": "1,378.98 ▼0.11%",
+    "달러인덱스": "99.65 ▼0.05%",
     "미국채10년": "4.72 ▲1.03%",
     "VIX(공포)": "14.43 ▼0.55%",
-    "금": "4,529.90 ▼1.73%",
-    "WTI유가": "83.40 ▼0.16%"
+    "금": "4,494.30 ▲0.36%",
+    "WTI유가": "84.53 ▲1.35%"
   },
   "links": [
     {
-      "title": "“호텔·공유숙박 불안했는데…” 스마트폰으로 5초 만에 ‘몰카’ 찾는다",
-      "url": "https://www.mk.co.kr/news/it/12139723"
+      "title": "“축복 받은 느낌”…‘성매매 벌금형’ 지나 10년만에 공식석상, 어디길래",
+      "url": "https://www.mk.co.kr/news/culture/12140072"
     },
     {
-      "title": "“제2의 홍콩ELS 사태 막자”…은행 고위험상품 심의 땐 제조사도 참여 의무",
-      "url": "https://www.mk.co.kr/news/economy/12139722"
+      "title": "“전세도 없고 매매는 힘들고”…전년 대비 서울 아파트 입주물량 ‘반토막’",
+      "url": "https://www.mk.co.kr/news/economy/12140070"
     },
     {
-      "title": "개인, 두 달간 미국 주식 10조 순매수…코스피보다 더 샀다 - 매일경제 마켓",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE45X3RsUnhrN2pSOHlHd2FzZWpmYVRVYzJBR3VhdTB4V1J0UFpXTzYwUVFxdF9keUNTaFpTSm5fVmppOG1nZHVjR3ZHYVNCTXQxTVE?oc=5"
+      "title": "국내 증시 복귀했던 ‘서학개미’ 다시 미국 증시행 - 부산일보",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1DVndDd2RzQjhmN2VWYjJOMUwwSWhfUzAzVnAwckx1T1hGUGdSWFhqUkhBRF9BYTZqNmtYRlZxZ3k5Ml8tRlpZUVZ0WVJRVUMzRUNFY2RwdDZveGFyVkV3b1pUbzdzdU11WVF3bmVuWDAtT2FOMGlfZw?oc=5"
     },
     {
-      "title": "\"다시 미장으로\"…개인 투자자, 두 달간 美 주식 10조 매수 - KBC광주방송",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1wMkNMWXhseU1JMnhLMmZFSmFnTndaZUhTRGpPNHREU1FXRWVpdEZ6REk4UmYzMWFDdEhIT3RpUVFBZWdsajBxTUktZ1htc3FadVIxMld0YnN2Y2R6Yi1mSw?oc=5"
+      "title": "[시황] 미국증시, 연준 추가 금리인상 경계감에 기술주 중심 하락 마감 - 버핏연구소",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1nTUNGeUtmSmdkQ1YtX3B3N0VmbVBtZ1VhSTlPZFp0V1pNdk42UDVYbGk0ZV91NjVLVEtCTENMMl9IbG1BS3d4bGlWQk5JSjFQb1lHTkdlZ0Qzb3o2dE51UmZ3?oc=5"
     },
     {
-      "title": "\"연준 입만 보지 마라\"…'말 줄이겠다'는 워시가 던진 금리인상 힌트 - 뉴스1",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5DSC1HckJ1SHlNWHM5aGpFVVQtc0JGLXBCdUFPTjZtdXFDbGJfLXFzWm11VlFuakhLb2pnMnVTYTRCUzVjTzFzS1hrUHNxZ2txTFlGWjhGQkFCYU5sbzZCT1paWFJLQUJDMXBGNNIBbEFVX3lxTE5DSC1HckJ1SHlNWHM5aGpFVVQtc0JGLXBCdUFPTjZtdXFDbGJfLXFzWm11VlFuakhLb2pnMnVTYTRCUzVjTzFzS1hrUHNxZ2txTFlGWjhGQkFCYU5sbzZCT1paWFJLQUJDMXBGNA?oc=5"
+      "title": "[국제경제 흐름 읽기] 美 워시 의장, 잭슨홀 매파 데뷔⋯9월 금리인상 베팅 58%로 치솟아 - 포커스온경제",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1wMlpwR0RUMDRnVUVVOG9hbXpJbkN0N2huNEV6VnNZRXhSbVo1QXlBZGFHSnpBOXljNlVkSEJsdnRxMU9nemg2T1hzM1RTdHpXR1ozNE9VWFNiUUU5UXd6bg?oc=5"
     },
     {
-      "title": "“연준과 백악관, ‘금리 충돌’ 코스 들어섰다” - 헤럴드경제",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1seEcyMnJnRVFSWHpIRVY4NzRESTZSdHR4Nl9NMUxLSXQwQ0FJUXQ4NWlaUXBsNjZwbnZCS1VwRzV1WWI3VGZPNS1LUUhfZ0VuTnpsSlBn?oc=5"
+      "title": "美연준 의장 \"물가 우려\"에 시장 요동…9월 금리인상 확률 35%→59% - 머니투데이 - 머니투데이",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1xcUJyd1JqNGxpUXJCaXc1QjRhYVA3S1JMLWR2c1d5THhIeXJnY2lOUzdmd2w4TmJaVkRaWGx5VW90ZWdBNXlTS0IxUmsyUENodV81N0FwTE9PRnNYR2tyb2lEYTNlQjZo0gFuQVVfeXFMT2hWWGhUTEhSY2VCZVdUdnl2dnlHVGxSTnBJOVAzZTI0V20xQ00ybnpqNjVscmJUT1pDbS1WTUZ2N2xCRW5wdHNDbl94TV9PajFMZWp0UjRpWFBOUENmMkJpZWo2czFjS0xFcUx6Tmc?oc=5"
     }
   ],
   "schedule": [
     {
       "time": "종일",
-      "name": "지수 주봉,장기 지지선 이탈, 추세 전환 확인후 매수 들어갈것"
+      "name": "엔트로픽 상장시 까지 글로벌 자금 블랙홀가능성 주가지수 추가하락 예상"
     },
     {
       "time": "종일",
-      "name": "야간선물지수,나스닥선물지수 매일점검,거래량"
+      "name": "엔트로픽 상장시 까지 글로벌 자금 블랙홀가능성 주가지수 추가하락 예상"
+    },
+    {
+      "time": "종일",
+      "name": "엔트로픽 상장시 까지 글로벌 자금 블랙홀가능성 주가지수 추가하락 예상"
+    },
+    {
+      "time": "종일",
+      "name": "지수 주봉,장기 지지선 이탈, 추세 전환 확인후 매수 들어갈것"
     },
     {
       "time": "종일",
@@ -60,15 +68,11 @@
     },
     {
       "time": "종일",
+      "name": "야간선물지수,나스닥선물지수 매일점검,거래량"
+    },
+    {
+      "time": "종일",
       "name": "미국채 금리가 하락해야 강세장으로 전환가능 해진다"
-    },
-    {
-      "time": "종일",
-      "name": "엔트로픽 상장시 까지 글로벌 자금 블랙홀가능성 주가지수 추가하락 예상"
-    },
-    {
-      "time": "종일",
-      "name": "엔트로픽 상장시 까지 글로벌 자금 블랙홀가능성 주가지수 추가하락 예상"
     }
   ]
 }
