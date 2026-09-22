@@ -1,62 +1,50 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "title": "☀️ AI 경제 브리핑",
-  "content": "## 2026년 09월 22일 수석 애널리스트 브리핑\n\n■ **시장 요약**\n09월 21일 미국 증시는 기술주 강세로 나스닥100 ▲2.83% 등 주요 지수 모두 상승했습니다. 09월 21일 국내 코스피도 ▲2.11% 급등했습니다. 09월 22일 WTI 유가 ▲7.99% 폭락이 주목됩니다.\n\n■ **핵심 이슈 3가지**\n1.  09월 21일 미국 기술주/반도체 업종의 강력한 강세.\n2.  09월 22일 WTI 유가 ▲7.99% 폭락.\n3.  09월 21일 미국채10년 금리 ▲0.70% 하락 (4.96%).\n\n■ **미국 증시 영향**\n09월 21일 기술주·반도체 강세에 나스닥100 ▲2.83% 급등하며 S&P500, 다우존스 모두 상승했습니다. 중국인들의 미국 주식 매수세 유입과 미국채10년 금리 ▲0.70% 하락이 증시를 지지했습니다.\n\n■ **한국 증시 영향**\n09월 21일 미국 기술주 강세와 외국인 매수세 유입에 코스피가 ▲2.11% 급등했습니다. 09월 22일 원/달러 환율 ▲1.33% 하락(1,366.48원)은 국내 투자 심리 개선에 기여했습니다.\n\n■ **관심 업종**\n글로벌 기술주 강세 지속에 따라 반도체, IT 하드웨어 및 소프트웨어 업종에 주목합니다.\n\n■ **투자 포인트**\n미국 기술주 강세 및 09월 21일 미국채10년 금리 하락은 성장주 투자 심리 회복에 긍정적입니다. 09월 22일 WTI 유가 급락은 인플레이션 우려를 완화하며 시장 전반에 긍정적 요인으로 작용할 수 있습니다.",
+  "content": "발행일: 2026년 09월 23일 (수요일)\n\n**■ 시장 요약**\n09월 22일 미국 증시는 나스닥100이 반도체 강세로 0.82% 상승, 다우존스는 0.36% 하락하며 혼조 마감했습니다. S&P500은 0.00% 보합. 09월 22일 국내 증시 코스피, 코스닥 모두 0.00% 보합이었습니다. 09월 23일 원/달러 환율은 1,352.63원으로 1.53% 급락하며 원화 강세를 보였고, 09월 22일 WTI 유가는 6.45% 급락했습니다.\n\n**■ 핵심 이슈 3가지**\n1.  **미·이란 대면 협상:** 중동 긴장 완화 기대에 09월 22일 WTI 유가가 6.45% 급락했습니다.\n2.  **미국 연준 금리 인상 가능성:** 연준 인사 발언으로 10월 추가 인상 경계감이 유지되며, 09월 22일 미국채10년물 금리는 4.97%로 0.10% 상승했습니다.\n3.  **원화 강세 전환:** 09월 23일 원/달러 환율이 1,352.63원(▼1.53%) 급락하며 외국인 매수 유입 기대를 높였습니다.\n\n**■ 미국 증시 영향**\n09월 22일 미국 증시는 미·이란 협상발 유가 급락에 나스닥100이 0.82% 상승했으나, 연준의 매파적 발언에 다우존스는 0.36% 하락하며 혼조세를 보였습니다.\n\n**■ 한국 증시 영향**\n09월 22일 국내 증시 보합에도 불구하고, 09월 23일 원/달러 환율의 1.53% 급락은 외국인 투자심리에 긍정적입니다. 09월 22일 미국 반도체주 강세도 국내 관련 업종에 영향을 줄 수 있습니다.\n\n**■ 관심 업종**\n반도체, IT 하드웨어 (미국 반도체주 강세), 수출 비중 높은 업종 (원화 강세 수혜)\n\n**■ 투자 포인트**\n09월 23일 원화 강세와 09월 22일 미국 반도체주 강세에 주목하며 국내 기술주 및 수출주 관심이 유효합니다. 연준의 추가 금리 인상 가능성과 미국채 금리 상승은 경계해야 합니다.",
   "market": {
-    "나스닥100": "30,482.35 ▲2.83%",
-    "S&P500": "7,764.70 ▲1.49%",
-    "다우존스": "52,048.83 ▲0.71%",
-    "코스피": "7,155.78 ▲2.11%",
-    "코스닥": "841.75 ▲0.66%",
-    "원/달러": "1,366.48 ▼1.33%",
-    "달러인덱스": "100.39 ▲0.17%",
-    "미국채10년": "4.96 ▼0.70%",
-    "VIX(공포)": "14.87 ▲0.41%",
-    "금": "4,409.30 ▼0.35%",
-    "WTI유가": "92.29 ▼7.99%"
+    "나스닥100": "30,732.40 ▲0.82%",
+    "S&P500": "7,764.64 ▼0.00%",
+    "다우존스": "51,863.69 ▼0.36%",
+    "코스피": "7,017.91 ━0.00%",
+    "코스닥": "834.38 ━0.00%",
+    "원/달러": "1,352.63 ▼1.53%",
+    "달러인덱스": "100.56 ▲0.13%",
+    "미국채10년": "4.97 ▲0.10%",
+    "VIX(공포)": "14.21 ▼4.44%",
+    "금": "4,403.00 ▲0.44%",
+    "WTI유가": "89.60 ▼6.45%"
   },
   "links": [
     {
-      "title": "“취약계층 명절 생필품 지원”…서부발전, 추석 맞아 지역 복지단체에 3500만원 전달",
-      "url": "https://www.mk.co.kr/news/business/12158939"
+      "title": "동작구 사당자이 전용 60㎡ 12억 7천만원… 최근 3년 신고가 [MAI부동산]",
+      "url": "https://www.mk.co.kr/news/realestate/12159988"
     },
     {
-      "title": "“역시 애를 안 낳아서…” 백지연, 김혜수·엄정화 사진에 달린 댓글 보더니",
-      "url": "https://www.mk.co.kr/news/culture/12158937"
+      "title": "동작구 대방1차e-편한세상 84.32㎡ 18억 2500만원… 최근 3년 신고가 [MAI부동산]",
+      "url": "https://www.mk.co.kr/news/realestate/12159987"
     },
     {
-      "title": "[서울데이터랩] 미국 증시, 기술주·반도체 강세에 일제히 상승 마감…나스닥 급등 - 서울신문",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5IMHVLbnBPakdJd2xDQzU0aHdoby1ER0RWYUN3bS1Dend4MWRneGNKOHFPeXB5VFNXcTBndVloMTVoSDhHLVVseFY0SnZuZmhoeFZ5bnc1Um13dkNGVHlrMnZWVHZoTlFoZ2F2MGlmQQ?oc=5"
+      "title": "[굿모닝 증시]美 반도체주 강세…코스피 상승 출발 전망 - v.daum.net",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1reG13eUQ3V0MxY0dMNlNJMHJyU0lZTExoZW1EVUdGS0RQMnFTdFluWVBRY1JNd2ZXVFlIbU9PUUMzMVRqQlo1dzM4T3ZOLWc?oc=5"
     },
     {
-      "title": "\"미국 주식 더 사자\"…중국인들 '우르르' 안달난 까닭 [김주완의 글로벌머니 X파일] - 한국경제",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CMnY2T2s4VGoyakhSbDFlMFhRRm9uWVkwSGtnN19UbjdDWmRtd1FLb0tWRnl6dnhaUnNicU8xY0dIN1ROSEtkdmZLQVo3NkRjTUFVbjRzZmgtdw?oc=5"
+      "title": "[3분증시] 뉴욕증시, 미·이란 대면 협상 속 혼조 마감 - 연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAxT0loUzZUOU96SUFkRWVNS196VFVRcUxqVXhDX0JYUnJlQnVtTWJmMEhJeDFhSkl1TGFzS2xQWWpTMjhWNXcyTFFfUENfT2dOQ29IVA?oc=5"
     },
     {
-      "title": "“美연준, 금리 5% 이상으로 올릴수도”…BofA의 경고 - sedaily.com",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8zaVJRTUROVS1Sd2RydEJBa2tidXVSalJHYjNKQTM0ZUJHUjFHZXNlaUNLRlBRT280bEtETFVJaENMYmF0UVhuM0pGTko1bE85MGNv0gFTQVVfeXFMTzNpUlFNRE5VLVJ3ZHJ0QkFra2J1dVJqUkdiM0pBMzRlQkdSMUdlc2VpQ0tGUFFPbzRsS0RMVUloQ0xiYXRRWG4zSkZOSjVsTzkwY28?oc=5"
+      "title": "美국채 금리 보합권…연준 인사 발언 대기 속 10년물 4.95% - 뉴스1",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KOHVUYVNsbGROT1lRbVBUUmdPZWVVRnhIcXhmSFRwZnhEMEhra0hPMHZiVWxWMEZwRDJvZE9FQ1pKU3NmSm1JRzNQdFptZmM2WU5IZHlBN29SQUJEUjc4MC1DVEdKRVXSAWxBVV95cUxPbnVIODR2RjgycVhPR1ZzampOTC1UT3J0OU9Xb3FoY0NmYTVaQXNYdFBZd2tvRkYyaWtxZl9VNVN5Rlc5a0hPeGVSQmhpY004SkpERGJqU24yUkJ2MXZJZkZfZ2J5OXhVS19tMEE?oc=5"
     },
     {
-      "title": "[미리보기] 9월 4주차 금융시장 전망 - KB Think",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhRWE1VnZwX0VWeVFVWnpVZ21aTkJYUjJ1eUdQT0xNRE1aZ2lLRkJEN1I0SlZGX0VpZXd6UXVJTDFiaFMySUlfYkRxdk1mM09uenEwYWxDYWZVZ2pYN09FWHA1MThQbWkzejJPSQ?oc=5"
+      "title": "마크 잔디 \"연준, 신뢰 확보 위한 금리인상…10월도 인상 가능성\" | - 연합인포맥스",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAzWWNwWUVJN0dpMVpEVXFJU2ZjZnJEcjg1UVU5T3lwM2VnUnZwd1g5TEVpWlpBcG5FQUVPTWJvN1prTk1DektkcTBpZ2ZKTEw0WlRsZmttWXdtTi1HY3pFSlRuT016aEFodW1FR2xYeWxsSGVn?oc=5"
     }
   ],
   "schedule": [
     {
       "time": "종일",
-      "name": "미국채 금리가 하락해야 강세장으로 전환가능 해진다"
-    },
-    {
-      "time": "종일",
-      "name": "엔트로픽 상장시 까지 글로벌 자금 블랙홀가능성 주가지수 추가하락 예상"
-    },
-    {
-      "time": "종일",
       "name": "반도체 출하량 증가로 이익이 증가한것은 아니다. 현시점 약70% 정도 공장 가동률이다. 반도체 주가의 하락 시점 대비해야할때.."
-    },
-    {
-      "time": "종일",
-      "name": "코스닥은 홀수해에 수익난다, 짝수해 9~12월사이 코스닥 매수보유후  홀수년도 1~2분기 사이 매도고려"
     },
     {
       "time": "종일",
@@ -64,11 +52,23 @@
     },
     {
       "time": "종일",
+      "name": "지수 주봉,장기 지지선 이탈, 추세 전환 확인후 매수 들어갈것"
+    },
+    {
+      "time": "종일",
       "name": "짝수년도 9월에는 증시하락조심"
     },
     {
       "time": "종일",
-      "name": "지수 주봉,장기 지지선 이탈, 추세 전환 확인후 매수 들어갈것"
+      "name": "코스닥은 홀수해에 수익난다, 짝수해 9~12월사이 코스닥 매수보유후  홀수년도 1~2분기 사이 매도고려"
+    },
+    {
+      "time": "종일",
+      "name": "미국채 금리가 하락해야 강세장으로 전환가능 해진다"
+    },
+    {
+      "time": "종일",
+      "name": "엔트로픽 상장시 까지 글로벌 자금 블랙홀가능성 주가지수 추가하락 예상"
     }
   ]
 }
