@@ -1,51 +1,47 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "title": "☀️ AI 경제 브리핑",
-  "content": "## 증권사 리서치센터 모닝 브리핑 (2026년 10월 21일)\n\n■ 시장 요약\n10월 20일 국내 증시는 코스피 2.83%, 코스닥 2.41% 급등하며 강세를 보였다. 같은 날 미국 증시는 다우 1.02% 상승했으나 나스닥은 0.13% 하락하며 혼조세를 기록했다. 10월 21일 원/달러 환율은 0.40% 하락, WTI 유가는 4.98% 급락하며 위험선호 심리가 확산되었다.\n\n■ 핵심 이슈 3가지\n1.  **한국 수출 105.4% 급증:** 10월 1~20일 수출액이 616억달러로 전년 대비 105.4% 급증하며 한국 경제의 강력한 회복세를 시사했다.\n2.  **美 연준 의장 금리 동결 기대:** 워시 美 연준 의장이 미국 경제 회복력에 자신감을 표명하며 '금리 동결' 기대감을 높였다.\n3.  **SK하이닉스 솔리다임 美 상장 제동:** 안철수 의원이 SK하이닉스 손자회사 솔리다임의 미국 증시 상장을 저지해야 한다고 주장하며 논란이 확산되었다.\n\n■ 미국 증시 영향\n10월 20일 미국 증시는 다우 1.02% 상승하며 연준 의장의 낙관적인 경제 전망에 긍정적으로 반응했다. VIX 지수가 6.13% 하락하고 미국채10년 금리가 0.37% 내리며 투자 심리 개선 및 금리 인상 사이클 종료 기대감이 반영되었다.\n\n■ 한국 증시 영향\n10월 20일 코스피와 코스닥이 각각 2.83%, 2.41% 급등하며 강세를 보였다. 10월 1~20일 수출이 105.4% 급증한 데이터는 한국 경제 펀더멘탈에 대한 기대감을 높였으며, 10월 21일 원/달러 환율이 0.40% 하락하며 외국인 자금 유입에 긍정적 환경을 조성했다.\n\n■ 관심 업종\n압도적인 수출 데이터 호조로 **반도체**, **자동차** 업종. 현대차 신형 투싼 출시 또한 모멘텀으로 작용.\n\n■ 투자 포인트\n한국 수출의 강력한 회복세(105.4% 증가)와 연준의 금리 동결 기대감은 국내 증시의 추가 상승 동력으로 작용할 전망이다. 환율 안정화(원/달러 0.40% 하락)는 외국인 수급에 긍정적이며, 낙폭과대 수출주에 대한 관심을 유지해야 한다.",
+  "content": "**[2026년 10월 22일 목요일 리서치 브리핑]**\n\n■ **시장 요약**\n10월 21일 마감 미국 증시는 나스닥100이 1.13% 상승하는 등 견조한 흐름을 보였습니다. 반면, 10월 21일 마감 국내 증시는 코스피 0.56%, 코스닥 1.29% 하락하며 약세로 마감했습니다. 10월 22일 마감 WTI 유가는 3.79% 하락했으며, 원/달러 환율은 0.14% 상승했습니다.\n\n■ **핵심 이슈 3가지**\n1.  **미국 기술주 강세**: 10월 21일 나스닥100 1.13% 상승, 스페이스X·테슬라 호재 및 AI 반도체 반등.\n2.  **연준 금리 인상 압력**: 이코노미스트 12월 연준 금리 인상 전망과 10월 21일 미국채10년물 5.15% 기록.\n3.  **WTI 유가 급락**: 10월 22일 WTI 유가 3.79% 하락하며 인플레이션 우려 완화 기대.\n\n■ **미국 증시 영향**\n10월 21일 미국 증시는 나스닥100 1.13%, S&P500 0.58%, 다우존스 0.69% 모두 상승했습니다. 스페이스X, 테슬라 등 성장주 및 AI 반도체 종목이 상승을 견인했으며, 10월 21일 VIX 지수가 3.64% 하락하며 투자심리가 개선되었습니다.\n\n■ **한국 증시 영향**\n10월 21일 국내 증시는 코스피 0.56%, 코스닥 1.29% 하락하며 미국 증시와 디커플링 양상이었습니다. 10월 22일 원/달러 환율의 0.14% 상승(원화 약세)은 외국인 수급에 부담으로 작용할 수 있습니다. SK하이닉스 손자회사 솔리다임의 미국 증시 상장 반대 이슈는 국내 대형 기술주에 잠재적 불확실성을 높입니다.\n\n■ **관심 업종**\n미래차(현대차그룹 테크 캠퍼스 추진), AI 반도체(미국 증시 AI반도체 반등), 우주항공(스페이스X 호재).\n\n■ **투자 포인트**\n미국 기술주 강세와 AI 반도체 반등 흐름에 주목해야 합니다. 현대차그룹의 미래차 교육 투자는 장기적인 성장 동력을 제공하며, 10월 22일 WTI 유가 3.79% 하락은 물가 상승 압력 완화 기대로 이어질 수 있습니다.",
   "market": {
-    "나스닥100": "29,490.28 ▼0.13%",
-    "S&P500": "7,712.57 ▲0.28%",
-    "다우존스": "52,495.88 ▲1.02%",
-    "코스피": "5,709.87 ▲2.83%",
-    "코스닥": "800.78 ▲2.41%",
-    "원/달러": "1,324.68 ▼0.40%",
-    "달러인덱스": "101.78 ▼0.19%",
-    "미국채10년": "5.12 ▼0.37%",
-    "VIX(공포)": "17.31 ▼6.13%",
-    "금": "4,131.90 ▼0.68%",
-    "WTI유가": "98.50 ▼4.98%"
+    "나스닥100": "29,822.52 ▲1.13%",
+    "S&P500": "7,757.17 ▲0.58%",
+    "다우존스": "52,856.09 ▲0.69%",
+    "코스피": "5,703.73 ▼0.56%",
+    "코스닥": "782.51 ▼1.29%",
+    "원/달러": "1,325.83 ▲0.14%",
+    "달러인덱스": "101.70 ▼0.03%",
+    "미국채10년": "5.15 ▲0.57%",
+    "VIX(공포)": "16.68 ▼3.64%",
+    "금": "4,140.90 ▼0.04%",
+    "WTI유가": "97.93 ▼3.79%"
   },
   "links": [
     {
-      "title": "“6년 만의 완전변경”…현대차, ‘5세대 투싼’ 3140만원부터 계약 개시",
-      "url": "https://www.mk.co.kr/news/business/12181373"
+      "title": "[MK 골든크로스 돌파종목 : 토마토시스템(393210) & 산돌(419120)]",
+      "url": "https://www.mk.co.kr/news/stock/12182490"
     },
     {
-      "title": "[속보] 10월 1∼20일 수출 616억달러, 105.4% 증가…일평균 65.9%↑",
-      "url": "https://www.mk.co.kr/news/economy/12181372"
+      "title": "“특성화고 6000명에 미래차 교육”…현대차그룹, ‘테크 캠퍼스’ 추진",
+      "url": "https://www.mk.co.kr/news/business/12182489"
     },
     {
       "title": "안철수 “이 대통령, SK하이닉스 손자회사 ‘솔리다임’ 미국 증시 상장 반드시 막아야” - 경향신문",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DS1FGNFRiWlo1T1pHN1NGT1lQU2tLN0lFVnBxNXBMZkNqR1JBV1RrS1pja051SG9yMjBaMEYxLWR1UlR6dnRxN2FjWG4yZkU5bzNxbzM0R3RkQdIBX0FVX3lxTFBsaTl3d1VKT2ZUWjhYS0Y5N18ybG5hakFZQW0tRTU3OVM4TUktYWxUWVJaZl9TVTVHMzlQR0Y2Vk04cFQ2SThUblhQLU9WVU5WUjM5S3d6NF9aT1MyX2g0?oc=5"
     },
     {
-      "title": "12월부터 23시간 열리는 미국 증시… 낮과 밤 전략 달라야 - 조선일보",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZU04X1FSZUVWX3dlWmtvazlaS1cxcjFWcDlQeFRYY2lTUlVLWlE0bFF5UUZZN0plY1J4RUFSVTVhT0JlRmtfZkRoZDdkY1c1RGN0UTJvQk90aUpkUDFxZnlObUk2aVJPblRhTFR2X2o5aWVYS2o2LVlVQ0lybGZDWHk4b0xQQmF6czZUbWtn?oc=5"
+      "title": "미국증시, 스페이스X·테슬라 호재에 나스닥 상승…AI반도체 반등에도 다우 약세 - TopStarNews",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5rcGgyNXozVWhfTzREWjltb1loNXUyS1FHQ3h2ZGQ4YjlTZ1JLMjloU1hJSEtfakNHMHBjX0lsTW1TaHd3ZllCdVYtMTBteWNRcnkzMVh6UjE0azJpN3RSemJfY0xaeGUxLWpJRDM5a3FvQQ?oc=5"
+    },
+    {
+      "title": "이코노미스트 100명, 12월 연준 금리 인상 전망 - IDNFinancials",
+      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxOa01RTmdLMUM2VkRudk1ad1ZDMU5LZmVab1YzM0hyRHZFSGh1S0dMNnB0MmwtUHJ6MGRvTFM5bktDbEpLd1dJNGZBM0Nieng2akxSQ0Z4eXdXdXN0dHZWRHM1QVhFbTI2QWh1bExCWUJ0QkROTFJBdGVXb1dKUHN6RENzQUgwaWc1TlU1d0ZqWU0xU3UteXVUaXRMSnNFM3ZRbUNrcVNoZExOMU44R2RmRTNDdE5MSm52ZEwwRVhXcjU5T1lKT2JmSmpRSldRdnRnZVB1aVJUWjU4Rm04SGZVWWFwM2dIOHB1SGRER3BiZklfeGlyVVdYZkZLa2laV1VEbVZ0emVfb2x2MVREUmJXVWNVM0hZa2k0ZXdQQXFDOWthWnV1U0E?oc=5"
     },
     {
       "title": "워시 美 연준 의장, 미국 경제 회복력 자신…금리 경로에 대해서는 함구 - 더구루",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9qNTZyLTlnQ2JoVndOSmVHRm43eFFjNl9VYmtGYUFCZWRJUGQzRVFQdTFEekdrUXBmcXdqaGVDQmloRzB0ZXBtWVc2SlRmeXI5UjFERFdvMFFDWGk1VTV4TjBkaw?oc=5"
-    },
-    {
-      "title": "美 연준 의장, \"세계 경제 우리 예상에 부합\"...'금리 동결' 기대 커져 - 한국일보",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5USGU4UTJrQ0FKaVAtWk51b1VFejhrTkVLWjVPRDRCYkJpa1pMMWh1ZmJWN3BzYS1sTkJKQ2FKbXhIMWFHVW9nT1lXVHJTeTZjZmFXbThOeHdnY1hKd3FjcWJCeVhWRW94Vjd3OHFR0gFzQVVfeXFMTmx0WVFjSzZ5ejU3RHllakoyLTB5Sm1rU1VtRTdvUWJKcFQ5SUlEV3BxeFc0ZENuQldlWWgyX1NZd2lhdU1BOEJBZ01EekdqY3ExTDRsOHpkS1BEMkplaUR3ZDVpOEVUMW41M0NLeUhmYW1adw?oc=5"
     }
   ],
   "schedule": [
-    {
-      "time": "종일",
-      "name": "4분기 이후 새로운 랠리가능성"
-    },
     {
       "time": "종일",
       "name": "코스닥은 홀수해에 수익난다, 짝수해 9~12월사이 코스닥 매수보유후  홀수년도 1~2분기 사이 매도고려"
@@ -61,6 +57,10 @@
     {
       "time": "종일",
       "name": "야간선물지수,나스닥선물지수 매일점검,거래량"
+    },
+    {
+      "time": "종일",
+      "name": "4분기 이후 새로운 랠리가능성"
     }
   ]
 }
