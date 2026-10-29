@@ -1,47 +1,51 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "title": "☀️ AI 경제 브리핑",
-  "content": "발행일: 2026년 10월 28일 (수요일)\n\n**■ 시장 요약**\n10월 27일 미국 증시는 기술주·반도체 강세에 나스닥100 1.29%, S&P500 0.60% 상승 마감했습니다. 같은 날 국내 증시도 코스피 3.99%, 코스닥 3.80% 급등했습니다. 10월 28일 원/달러 환율은 0.42% 상승한 1,330.34원을 기록했습니다.\n\n**■ 핵심 이슈**\n1) 10월 27일 미국 증시의 기술주·반도체 주도 강세.\n2) 연준 금리 동결 전망 속 추가 인상 신호 주목에 10월 27일 미국채10년 금리 4.99% 기록.\n3) 국내 가상자산 과세 추가 유예 가능성 제기.\n\n**■ 미국 증시 영향**\n10월 27일 마감 미국 증시는 기술주·반도체 강세에 나스닥100 1.29% 등 일제히 상승했습니다. VIX는 4.73% 하락한 17.52를 기록하며 심리가 개선됐습니다. 다만, 연준 추가 인상 가능성 주목에 10월 27일 미국채10년 금리는 0.14% 상승한 4.99%를 기록했습니다.\n\n**■ 한국 증시 영향**\n10월 27일 마감 국내 증시는 미국 증시 기술주 강세 연동 및 저가 매수세 유입으로 코스피 3.99%, 코스닥 3.80% 급등했습니다. 10월 28일 원/달러 환율이 0.42% 상승한 1,330.34원을 기록하며 외국인 자금 흐름에 주의가 필요합니다.\n\n**■ 관심 업종**\n10월 27일 미국 증시 강세를 견인한 반도체, IT하드웨어 업종. 국내 가상자산 과세 유예 가능성 대두에 따른 관련주.\n\n**■ 투자 포인트**\n10월 27일 글로벌 기술주 강세 지속 여부와 연준의 향후 금리 정책 변화에 주목해야 합니다. 10월 28일 달러 강세는 국내 증시의 외국인 수급에 영향을 미칠 수 있습니다.",
+  "content": "**발행일: 2026년 10월 29일 (목요일)**\n\n**■ 시장 요약**\n10월 28일 마감 미국 증시는 나스닥100 ▲0.55%(29,813.16) 등 3대 지수 모두 상승했습니다. 반면 10월 28일 마감 국내 증시는 코스피 ▼2.13%(5,884.62), 코스닥 ▼3.48%(744.47)로 급락했으며, 10월 29일 마감 원/달러 환율은 ▲0.50% 상승한 1,333.38원을 기록했습니다.\n\n**■ 핵심 이슈 3가지**\n1.  **미국 연준 금리 동결 및 경제 평가 상향:** 연준은 금리를 동결했으나 경제 평가를 상향했습니다.\n2.  **미국 장기 국채 금리 상승:** 10월 28일 마감 미국채10년 금리 5.05%(▲1.04%)로 상승, 부담을 확대했습니다.\n3.  **국내 증시 급락 및 환율 상승:** 10월 28일 마감 국내 증시 급락과 10월 29일 마감 원/달러 환율 상승이 불안감을 키웠습니다.\n\n**■ 미국 증시 영향**\n10월 28일 마감 미국 증시는 연준의 금리 동결과 경제 평가 상향에 힘입어 나스닥100 ▲0.55% 등 모두 상승 마감했습니다. 앤트로픽 기대감에 반도체 섹터의 반등도 기여했습니다.\n\n**■ 한국 증시 영향**\n10월 28일 마감 국내 증시는 코스피 ▼2.13%, 코스닥 ▼3.48%로 크게 하락했습니다. 10월 29일 마감 원/달러 환율 0.50% 상승(1,333.38원)과 미국 장기 국채 금리 상승 부담이 복합적으로 작용했습니다.\n\n**■ 관심 업종**\n10월 28일 마감 미국 증시에서 반도체 섹터의 반등세를 고려 시, 국내 반도체 관련 업종에 대한 관심이 유효합니다.\n\n**■ 투자 포인트**\n미국 연준의 금리 동결은 불확실성을 완화했으나, 미국 장기 국채 금리 상승, 국내 증시 급락, 원/달러 환율 상승은 변동성 확대를 시사합니다. 개별 기업 실적 및 성장성에 기반한 신중한 접근이 필요합니다.",
   "market": {
-    "나스닥100": "29,651.44 ▲1.29%",
-    "S&P500": "7,722.60 ▲0.60%",
-    "다우존스": "52,377.57 ▲0.03%",
-    "코스피": "5,863.56 ▲3.99%",
-    "코스닥": "772.08 ▲3.80%",
-    "원/달러": "1,330.34 ▲0.42%",
-    "달러인덱스": "102.35 ▲0.38%",
-    "미국채10년": "4.99 ▲0.14%",
-    "VIX(공포)": "17.52 ▼4.73%",
-    "금": "4,076.10 ▲0.93%",
-    "WTI유가": "100.50 ▼1.24%"
+    "나스닥100": "29,813.16 ▲0.55%",
+    "S&P500": "7,743.98 ▲0.28%",
+    "다우존스": "52,475.10 ▲0.19%",
+    "코스피": "5,884.62 ▼2.13%",
+    "코스닥": "744.47 ▼3.48%",
+    "원/달러": "1,333.38 ▲0.50%",
+    "달러인덱스": "102.21 ▼0.11%",
+    "미국채10년": "5.05 ▲1.04%",
+    "VIX(공포)": "16.91 ▼3.48%",
+    "금": "4,063.50 ▼0.27%",
+    "WTI유가": "101.86 ▲1.96%"
   },
   "links": [
     {
-      "title": "[속보] 대신증권, 고객정보 3만8천여건 유출…긴급 대응조치 시행",
-      "url": "https://www.mk.co.kr/news/stock/12188030"
+      "title": "“고객 쓴소리가 정답”…포스코이앤씨, 실수요자 목소리로 브랜드 고도화",
+      "url": "https://www.mk.co.kr/news/realestate/12189592"
     },
     {
-      "title": "“과세 인프라 미비·청년 우려”…與, 가상자산 과세 추가 유예 무게",
-      "url": "https://www.mk.co.kr/news/economy/12188027"
+      "title": "강북도 6억 넘었다…서울 아파트 평균 전셋값 사상 최고",
+      "url": "https://www.mk.co.kr/news/economy/12189591"
     },
     {
-      "title": "[서울데이터랩]미국 증시, 기술주·반도체 강세에 일제히 상승 마감…나스닥 1%대 올라 - 서울신문",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE01Yk1uZ0hKUHp6MjVzXy1vYVI5MlhxODJWNlVWaGhvXzR2X2ljVTZfaWNLVE5zTkpWcmhoeC0yLVdDbGQzdHhad3gwVnhhUUVkaDhWeWI1Y2RvTllpbTFHLW9QMFFCQ1ZkVmZmSnI3cmJjVlluTjY1eW1PUXJadw?oc=5"
+      "title": "미국증시 전망…SK하이닉스 훈풍에도 FOMC·빅테크 '분수령' - 톱스타뉴스",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5kbWkxLUQwWFlZcFVGVFVPTHRRZ3ZublFUb2dqUVBQVzlWMlkxV2RWaDUwNk93WTRkdVUyMDFzZGVQdlRPMXh4ZnJoel9xN3ViSHRwU0lOc1lTWU13bi1ycGdnSmFDalYwTEtuYjNhV0Zfdw?oc=5"
     },
     {
-      "title": "日 증시, 메타발 美 강세장 연동하며 상승 - KB Think",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB5ZTBqQTJuTDYzVlh1R0xqbjRydjVlU3p4QXhOY01naDJ5Rld5YUx1bjJXTGF4UEFJVlE2dTh4OHNJWUZvakJzMU5MY1JJTWxueUxYV3c4WExFTnZDalhiWTlkeldkc0l0RnRBLUMyWEZsQQ?oc=5"
+      "title": "미국증시 나스닥 1.18% 상승…앤트로픽 기대에 반도체 반등, 다우는 강보합 - 톱스타뉴스",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1tWmRyYmg2M0tBZUo2T0ZzYzkyUTNDZVk5NkVyXzlrMlYyNDVuaXJoallyWmZKQWxjOXktWThXYjNsODkycC1zMGFhb2lfc1BaVE5GTEIyMFgya19BamRYSFNNUjF3aGR5R3BaVHJ6RmhNQQ?oc=5"
     },
     {
-      "title": "\"연준, 금리 동결하겠지만 워시 발언에 추가 인상 신호 주목\" - KB Think",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA1Rm9wQVpWdTRJSHo4bjJJYjE4ajZFRDFuOGxaTTZMRkZUZ2xSdzd4SjBxSzJLX2hKRG5fd0FCdFhwcFNLSzVHcmVWcGhtd2UwQUUyMWxPUkFvTjVONkdvT01qNzRxei10SWwzTGhtSGVJUQ?oc=5"
+      "title": "미국 연준, 금리 동결하며 '숨 고르기'...케빈 워시 연준 의장 \"한국 경제에 많은 관심\" - YTN",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE51REhoU05kWUpBYjNhdUxxOUxRbnR2N2diTGVkeWxiLUROck81X2Vub01BZ2ZNWldNbV9ETGhTTHNwRkVTcGZnUTBMbnVYMi01ajRCNThWQm1pQWhwdnc?oc=5"
     },
     {
-      "title": "美 국채금리 일제히 상승…연준 금리 동결 전망 속 연내 추가 인상 주목 - 뉴스1",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9oRS05VjRPdFBNR2dxcEVOYnRHU09LOURfb0hTeEhMaVN2THgwRnEzZ0YtbmRySkIxTFdqSUNuZktWbnZTZFNUeTVCam5BTDhDWnkxV19kbDcyUUZ0YnU2Ymt1YlpoQVU?oc=5"
+      "title": "[채권/외환] 美 연준, 금리 동결에도 경제 평가 상향…장기 국채 금리 상승·달러 약세 - 뉴스핌",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9QN285d1d4WTZxNERGM0g3aDRGc3kyWFk0S295bzdWVjJEUTdpRkRhc2RmNVFYMC0tTWgzSHRYMlc0QWRIMmRtRGZud2FIVWxtZVBhZEoxcVlIZ293?oc=5"
     }
   ],
   "schedule": [
+    {
+      "time": "종일",
+      "name": "야간선물지수,나스닥선물지수 매일점검,거래량"
+    },
     {
       "time": "종일",
       "name": "4분기 이후 새로운 랠리가능성"
@@ -49,14 +53,6 @@
     {
       "time": "종일",
       "name": "코스닥은 홀수해에 수익난다, 짝수해 9~12월사이 코스닥 매수보유후  홀수년도 1~2분기 사이 매도고려"
-    },
-    {
-      "time": "종일",
-      "name": "엔트로픽 상장시 까지 글로벌 자금 블랙홀가능성 주가지수 추가하락 예상"
-    },
-    {
-      "time": "종일",
-      "name": "야간선물지수,나스닥선물지수 매일점검,거래량"
     },
     {
       "time": "종일",
