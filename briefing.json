@@ -1,62 +1,62 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "title": "☀️ AI 경제 브리핑",
-  "content": "⚠️ AI 분석을 가져오지 못했습니다. (일시적으로 AI 서버가 혼잡합니다)",
+  "content": "**2026년 11월 03일 (화요일) 리서치 브리핑**\n\n■ **시장 요약**\n11월 02일 마감 미국 증시는 나스닥100(▼1.39%), S&P500(▼0.51%) 하락 속 다우존스(▲0.41%) 혼조 마감했습니다. 11월 02일 마감 국내 증시는 코스피(▼3.22%), 코스닥(▼3.04%) 모두 크게 하락했습니다. 11월 03일 마감 원/달러 환율은 1,338.48원(▲0.98%)으로 상승했고, 11월 02일 마감 VIX 지수도 21.15(▲8.91%)로 불확실성이 확대되었습니다.\n\n■ **핵심 이슈 3가지**\n1.  **美 고용 회복발 연준 긴축 우려:** 11월 02일 금리 동결에도 美 고용 회복 조짐에 따른 추가 금리 인상 가능성이 부각되며 시장 부담을 가중시켰습니다.\n2.  **국내 증시 수급 불안정성 심화:** '앤트로픽 등 미 주식 선호' 기조로 국내 시장에서의 자금 이탈 우려가 커지며 투자 심리가 위축되고 있습니다.\n3.  **美 증시 조정 막바지론 부각:** 모간스탠리는 '미국 증시 조정 막바지'를 진단하며, 낙폭 과대 기술주 중심의 반등 가능성에 대한 기대감을 조성했습니다.\n\n■ **미국 증시 영향**\n11월 02일 마감 나스닥100(-1.39%)과 S&P500(-0.51%) 하락은 美 고용 회복 조짐에 따른 긴축 장기화 우려를 반영합니다. 다우존스(+0.41%)의 선방과 일부 투자은행의 '조정 막바지' 진단은 향후 시장의 기술적 반등 여지를 시사합니다.\n\n■ **한국 증시 영향**\n11월 02일 마감 국내 증시 코스피(-3.22%), 코스닥(-3.04%)은 미 긴축 가능성 재부각 및 국내 수급 불안정성 영향으로 동반 급락했습니다. 11월 03일 마감 원/달러 환율의 1,338.48원(▲0.98%) 상승은 외국인 자금 유출 우려를 심화시키며 국내 증시 하방 압력을 가중시켰습니다.\n\n■ **관심 업종**\n'데스티네이션 호텔' 트렌드에 따라 소비 심리 회복 시 **여행/레저** 업종에 주목합니다. 또한 '조정 막바지' 진단 감안 시 실적 성장 기대감이 있는 **낙폭 과대 기술주**의 선별적 접근도 유효합니다.\n\n■ **투자 포인트**\n1.  미 연준의 긴축 스탠스 장기화 가능성에 대비하여 보수적인 포트폴리오를 유지할 필요가 있습니다.\n2.  국내 증시 수급 불균형 심화 속에서 낙폭 과대 우량 기술주 및 실적 개선 기대 소비재 업종에 대한 선별적 관심을 권고합니다.",
   "market": {
-    "나스닥100": "28,384.85 ▼3.46%",
-    "S&P500": "7,580.07 ▼1.82%",
-    "다우존스": "51,770.31 ▼1.09%",
-    "코스피": "5,783.63 ▲0.92%",
-    "코스닥": "729.49 ▲0.71%",
-    "원/달러": "1,338.57 ▲0.04%",
-    "달러인덱스": "101.93 ▲0.05%",
-    "미국채10년": "4.93 ▼1.20%",
-    "VIX(공포)": "19.42 ▲12.91%",
-    "금": "3,909.10 ▲0.26%",
-    "WTI유가": "102.15 ▼1.89%"
+    "나스닥100": "27,989.82 ▼1.39%",
+    "S&P500": "7,541.40 ▼0.51%",
+    "다우존스": "51,983.98 ▲0.41%",
+    "코스피": "5,670.26 ▼3.22%",
+    "코스닥": "712.04 ▼3.04%",
+    "원/달러": "1,338.48 ▲0.98%",
+    "달러인덱스": "101.81 ▲0.06%",
+    "미국채10년": "4.89 ▼0.71%",
+    "VIX(공포)": "21.15 ▲8.91%",
+    "금": "3,957.20 ▼0.31%",
+    "WTI유가": "96.64 ▲0.19%"
   },
   "links": [
     {
-      "title": "[MK시그널] 포티넷 매도신호 포착, 수익률 68.4% 달성",
-      "url": "https://www.mk.co.kr/news/stock/12193190"
+      "title": "감기약으로 마약 만든 일당…경찰에 13명 덜미",
+      "url": "https://www.mk.co.kr/news/society/12194540"
     },
     {
-      "title": "‘미안하다, 사야한다’…11월 유통 대전, 온·오프 연중 최대 할인",
-      "url": "https://www.mk.co.kr/news/business/12193188"
+      "title": "[Cover Story] 호텔을 위한 여행, ‘데스티네이션 호텔’    …럭셔리 호텔 자체가 여행의 목적지가 되다",
+      "url": "https://www.mk.co.kr/news/culture/12194613"
     },
     {
-      "title": "“코스피 반등 기다리기 지쳐”...국내 투자자, 지난달 미국 주식 올해 최대 순매수 - Chosunbiz",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQR2FaSDY4dVZFdVdmdkx1cjJDWjRKOXZOcjJTM0YyVjZucHBIUUlQM3NKRkxLUVVCLU4zS3h6ajBEenlPV3QtbXBBbWFTSVZBZnlNb2d2SXh6M2FnREJqOWs4TkpiX2xTLUNvYnJqTnlWRmZKQnJtb19xRjA0RFU1U2xvZWpUTWVt0gGcAUFVX3lxTFBuUW04YVRhcVFrWmNZd3M2cjB4LWVEa2JwZVRPamxxaWFtTUhsWHpWZF9ROURCRXdWSkVfU2cwNWVsbG5TRUpGMS1ydGNhSlZKdm4yVzQ1Y0ZFR19aUlR1WFJYaEdlSG0zWHB2R2JkcmtlZDl5V2hNVTRsVjdtdkhQNE12TFMxdjZVRTJlbDBhUlFVT2VNS0J3UHIzcQ?oc=5"
+      "title": "앤트로픽도 자금 흡수하나…쏟아지는 미국 주식에 국장 수급 우려 - 인베스트조선",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcnNZYnFaTGxWZXQybjRMZzJrZl9KUGtfNkRtbXQwOTRLaDZsWDMxUHBhYllieVYwY0x5c2JfZDZ2NHZDUmRBOENxRFVZa0pmZGpESksxN2pJNnZVdnhGdWtPM2JFYmphTmRWNGppSDB3b1dUQWM1VHluMjFFMW03VVJFMA?oc=5"
     },
     {
-      "title": "인텔 폭락에 미국 증시 급락, 이번 주는 애플·AMD 실적에 달렸다 - 네이버페이 머니스토리",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9iNkEtbDFWNW9XdkpvSDFGUDFfY0pzcHRqd3UzNEVwRFZWN3VlcWZLUjh3di1YYms4cFhoUmxFZ0lpOW41cmp6VlVWQ3UyZzFZM2xFMGlxMUs?oc=5"
+      "title": "[미국 특징주] 모간스탠리 \"미국 증시 조정 막바지 국면\" - 뉴스핌",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE12RlE0LTd5VXRLUWpPdm9ES2VRLUphV2lMS2lUelVhQjJRTEpkZVZYbDlJRVhfcVVpcW1Xd2RQY3NTV3dZYVRLZFlsTjFydlNodnRYTmF1TlJmb193?oc=5"
     },
     {
-      "title": "미 연준, 금리 동결했지만… 12월엔 다시 올릴까? - 금강일보",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBiQy1LU0oyeFJhUGUyN2R1QnZIa0JjSmljNFZ0WEgyYkkwRmg0VkVmVzdVTHRja1ZLSmdIRXI3bHZ1ckZ2UUhHQWc0TzJLbUZ3a0JGNnYtM2VlcHpEQVB5ZkpsYXl3TW44REE?oc=5"
+      "title": "美 고용 회복 조짐에 연준 추가 금리 인상 가능성 부각 - 더구루",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1pZ3Y4ODJxaDVZa1BXY2ZyVUsxWTBnVDNKekxYZzdMZTI3alctU3M1S3hIOGIzYnRNNGtlVWtjWUlYajdNS3lCeTdQZ1F2Q05ZWDVtWllURVJKODY2eEhWVThrUQ?oc=5"
     },
     {
       "title": "미국 연준, 금리 동결하며 '숨 고르기'...케빈 워시 연준 의장 \"한국 경제에 많은 관심\" - YTN",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE51REhoU05kWUpBYjNhdUxxOUxRbnR2N2diTGVkeWxiLUROck81X2Vub01BZ2ZNWldNbV9ETGhTTHNwRkVTcGZnUTBMbnVYMi01ajRCNThWQm1pQWhwdnc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4yZ1UtMTN1OHJsWDZRWWR0VXUwZjdXU05hR0lVanlGcWhNaWx5MUJDZHJ6ZmU5OWVBOW9vRFE0Y3VBaHY1RlVCRnRJSzZ3dEJHOXB1eUFoQkpnQWREd04xMGl3dVo4N2QwRDFtbHRsaE9IeFJBcFE?oc=5"
     }
   ],
   "schedule": [
-    {
-      "time": "종일",
-      "name": "미국채 금리가 하락해야 강세장으로 전환가능 해진다"
-    },
-    {
-      "time": "종일",
-      "name": "4분기 이후 새로운 랠리가능성"
-    },
     {
       "time": "종일",
       "name": "코스닥은 홀수해에 수익난다, 짝수해 9~12월사이 코스닥 매수보유후  홀수년도 1~2분기 사이 매도고려"
     },
     {
       "time": "종일",
+      "name": "미국채 금리가 하락해야 강세장으로 전환가능 해진다"
+    },
+    {
+      "time": "종일",
       "name": "야간선물지수,나스닥선물지수 매일점검,거래량"
+    },
+    {
+      "time": "종일",
+      "name": "4분기 이후 새로운 랠리가능성"
     }
   ]
 }
