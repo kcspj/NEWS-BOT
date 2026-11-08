@@ -129,10 +129,11 @@ def fetch_naver_index(symbol: str) -> tuple[float, float, str] | None:
         return None
 
 
-def get_market_data() -> tuple[str, dict, str, str]:
-    """시장 지표 수집 — (표시용 텍스트, 허브용 dict, 미국시장 기준일, 국내시장 기준일) 반환"""
+def get_market_data() -> tuple[str, dict, dict, str, str]:
+    """시장 지표 수집 — (표시용 텍스트, 허브용 dict, 숫자 원본 dict, 미국시장 기준일, 국내시장 기준일) 반환"""
     lines    = []
     market   = {}
+    raw      = {}  # 기간 분석용 숫자 원본 {지표명: {"close","pct","date"}}
     us_date  = None
     kr_date  = None
     KR_SYMBOLS = {"^KS11", "^KQ11", "^KS200"}
@@ -145,6 +146,7 @@ def get_market_data() -> tuple[str, dict, str, str]:
             arrow = "▲" if pct > 0 else ("▼" if pct < 0 else "━")
             lines.append(f"  [{date_str} 마감] {name:<12}: {curr:>10,.2f}  {arrow}{abs(pct):.2f}%")
             market[name] = f"{curr:,.2f} {arrow}{abs(pct):.2f}%"
+            raw[name] = {"close": round(curr, 2), "pct": round(pct, 2), "date": date_str}
             # 대표 기준일 저장 (코스피 → 국내 기준일 / 나스닥100 → 미국 기준일)
             if is_kr and kr_date is None:
                 kr_date = date_str
@@ -155,7 +157,7 @@ def get_market_data() -> tuple[str, dict, str, str]:
             lines.append(f"  {name:<12}: 데이터 없음")
             market[name] = "데이터 없음"
         time.sleep(0.3)  # 요청 간 짧은 딜레이
-    return "\n".join(lines), market, us_date, kr_date
+    return "\n".join(lines), market, raw, us_date, kr_date
 
 
 def get_news() -> tuple[list[str], str, list[dict]]:
@@ -272,6 +274,11 @@ def get_ai_report(market_data: str, news_titles: list[str],
 ■ 관심 업종
 ■ 투자 포인트"""
 
+    return call_gemini(prompt)
+
+
+def call_gemini(prompt: str) -> str:
+    """Gemini 2.5 Flash 호출 (일시 오류 재시도 포함) — 일간 브리핑·기간 리뷰 공용"""
     api_url = (
         "https://generativelanguage.googleapis.com/v1beta"
         f"/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
@@ -329,19 +336,18 @@ def send_telegram(text: str) -> None:
             print(f"  텔레그램 전송 실패: {e}")
 
 
-# ✅ 추가: GitHub에 briefing.json 저장
-def save_to_github(payload: dict) -> None:
-    """briefing.json 을 GitHub 저장소에 저장 (허브 뉴스룸용)"""
+def put_github_file(path: str, payload: dict, message: str) -> bool:
+    """GitHub 저장소의 지정 경로에 JSON 저장 (있으면 덮어쓰기, 없으면 생성)"""
     if not GITHUB_TOKEN or not GITHUB_USER:
         print("  ⏭️ GitHub 저장 스킵 (GITHUB_TOKEN / GITHUB_USER 미설정)")
-        return
+        return False
 
-    api_url  = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO}/contents/briefing.json"
-    headers  = {
+    api_url = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO}/contents/{path}"
+    headers = {
         "Authorization": f"token {GITHUB_TOKEN}",
         "Accept": "application/vnd.github.v3+json",
     }
-    content  = base64.b64encode(json.dumps(payload, ensure_ascii=False, indent=2).encode()).decode()
+    content = base64.b64encode(json.dumps(payload, ensure_ascii=False, indent=2).encode()).decode()
 
     # 기존 파일 SHA 조회 (업데이트 시 필요)
     sha = None
@@ -352,21 +358,34 @@ def save_to_github(payload: dict) -> None:
     except Exception:
         pass
 
-    body = {
-        "message": f"briefing: {payload['date']}",
-        "content": content,
-    }
+    body = {"message": message, "content": content}
     if sha:
         body["sha"] = sha
 
     try:
         r = requests.put(api_url, json=body, headers=headers, timeout=15)
         if r.status_code in (200, 201):
-            print("  ✅ GitHub briefing.json 저장 완료!")
-        else:
-            print(f"  ❌ GitHub 저장 실패 ({r.status_code}): {r.text[:200]}")
+            print(f"  ✅ GitHub {path} 저장 완료!")
+            return True
+        print(f"  ❌ GitHub {path} 저장 실패 ({r.status_code}): {r.text[:200]}")
     except Exception as e:
-        print(f"  ❌ GitHub 저장 오류: {e}")
+        print(f"  ❌ GitHub {path} 저장 오류: {e}")
+    return False
+
+
+def save_to_github(payload: dict) -> None:
+    """briefing.json(허브 뉴스룸용, 매일 덮어씀) 저장"""
+    put_github_file("briefing.json", payload, f"briefing: {payload['date']}")
+
+
+def save_history(day: str, title: str, ai_summary: str, market_raw: dict, links: list) -> None:
+    """기간 분석용 일별 기록 저장 — history/YYYY-MM-DD.json (누적, 덮어쓰지 않고 날짜별 파일)
+    ※ 개인 일정(schedule)은 일부러 제외"""
+    put_github_file(
+        f"history/{day}.json",
+        {"date": day, "title": title, "content": ai_summary, "market_raw": market_raw, "links": links},
+        f"history: {day}",
+    )
 
 
 def main():
@@ -387,7 +406,7 @@ def main():
     print(f"{'='*50}")
 
     print("\n📊 시장 지표 수집 중...")
-    market_text, market_dict, us_date, kr_date = get_market_data()
+    market_text, market_dict, market_raw, us_date, kr_date = get_market_data()
     print(market_text)
     print(f"  ▶ 미국 시장 기준일: {us_date} / 국내 시장 기준일: {kr_date}")
 
@@ -425,6 +444,7 @@ def main():
         "links":    links_json,
         "schedule": schedule,
     })
+    save_history(today, title, ai_summary, market_raw, links_json)
 
     print("\n✅ 전체 완료!")
 
