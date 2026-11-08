@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-08",
+  "title": "☀️ 주말 AI 경제 브리핑",
+  "content": "브리핑 발행일: 2026년 11월 08일 (일요일)\n\n**■ 시장 요약**\n11월 06일 국내 증시(코스피 ▼6.02% / 코스닥 ▼5.03%)는 급락했습니다. 반면 11월 06일 마감 미국 증시(나스닥100 ▲1.35% / 다우존스 ▼0.46%)는 혼조세를 보였습니다. 11월 06일 원/달러 환율은 1.21% 상승한 1,356.34원, 11월 06일 미국채10년물 금리는 0.45% 상승한 4.86%를 기록하며 금융시장 불안감이 고조되었습니다.\n\n**■ 핵심 이슈 3가지**\n1.  **美 추가 금리인상 압력:** 11월 06일 \"이례적으로 강한\" 고용 지표로 연준의 추가 금리 인상 우려가 확대됩니다.\n2.  **韓 증시 폭락:** 11월 06일 코스피 6.02% 급락, 매도 사이드카가 발동되며 미국 증시와 디커플링이 심화됐습니다.\n3.  **CPI 변수:** 향후 미국 CPI 발표가 나스닥 반등 및 AI 관련주의 방향을 결정할 핵심 변수입니다.\n\n**■ 미국 증시 영향**\n11월 06일, 고용 지표에 따른 금리 인상 우려에도 불구하고 나스닥100은 1.35% 상승했습니다. 그러나 다우존스는 0.46% 하락하며 혼조세였습니다. CPI 발표 전까지는 변동성 장세가 예상됩니다.\n\n**■ 한국 증시 영향**\n11월 06일 국내 증시 급락은 미국의 강력한 고용 지표발 추가 금리 인상 우려, 외국인 자금 이탈 가능성, 그리고 11월 06일 원/달러 환율 1.21% 상승 등 불안정한 금융 환경이 복합적으로 작용한 결과로 분석됩니다.\n\n**■ 관심 업종**\n*   **주택 리모델링:** 재건축 및 이사 제약으로 인해 주택 리모델링 시장이 성장할 가능성이 있습니다.\n*   **AI 관련 기술:** AI 경쟁 심화 속에서 차별화된 기술력을 보유한 특정 기업이 부각될 수 있습니다.\n\n**■ 투자 포인트**\n미국 CPI 발표 전까지는 높은 변동성이 예상되므로, 보수적인 관점으로 접근할 필요가 있습니다. 과도하게 하락하여 저평가된 국내 성장주나, 금리 인상 영향이 적은 주택 리모델링 등 내수 기반 업종에 대한 선별적 관심이 유효합니다. AI 기술 변화의 수혜를 입는 특정 기업에 대한 심층 분석도 중요합니다.",
+  "market_raw": {
+    "나스닥100": {
+      "close": 26989.99,
+      "pct": 1.35,
+      "date": "11월 06일"
+    },
+    "S&P500": {
+      "close": 7376.86,
+      "pct": 0.31,
+      "date": "11월 06일"
+    },
+    "다우존스": {
+      "close": 51285.73,
+      "pct": -0.46,
+      "date": "11월 06일"
+    },
+    "코스피": {
+      "close": 5059.69,
+      "pct": -6.02,
+      "date": "11월 06일"
+    },
+    "코스닥": {
+      "close": 644.27,
+      "pct": -5.03,
+      "date": "11월 06일"
+    },
+    "원/달러": {
+      "close": 1356.34,
+      "pct": 1.21,
+      "date": "11월 06일"
+    },
+    "달러인덱스": {
+      "close": 102.3,
+      "pct": 0.74,
+      "date": "11월 06일"
+    },
+    "미국채10년": {
+      "close": 4.86,
+      "pct": 0.45,
+      "date": "11월 06일"
+    },
+    "VIX(공포)": {
+      "close": 25.64,
+      "pct": -9.01,
+      "date": "11월 06일"
+    },
+    "금": {
+      "close": 4074.9,
+      "pct": -0.94,
+      "date": "11월 06일"
+    },
+    "WTI유가": {
+      "close": 90.83,
+      "pct": 0.34,
+      "date": "11월 06일"
+    }
+  },
+  "links": [
+    {
+      "title": "“재건축 어려운데 이사도 쉽지 않고”…‘쑥쑥’ 자라는 주택 리모델링 시장",
+      "url": "https://www.mk.co.kr/news/business/12201660"
+    },
+    {
+      "title": "같은 AI에 누군 울고, 누군 웃고… 메타·구글, 광고매출 격차 좁혀져",
+      "url": "https://www.mk.co.kr/news/world/12201659"
+    },
+    {
+      "title": "코스피, 미국 증시 강세 마감에도 3%대 하락...매도 사이드카 발동 - YTN",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9OQy1ZYlUzV3ViVXppNzRGR09VZXQzQ0RsVkhMdjR1S2gtcktVSGNMUDBuaTVwTXUtT0UwWDRBek5xOWx6eFdGZVZxRWtvUUtHeHNTRHdMVFZha2JaVmc?oc=5"
+    },
+    {
+      "title": "[미국증시 전망] CPI가 나스닥 반등 가른다…10년물 4.86%, 코어위브·AI주 시험대 - 톱스타뉴스",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1BcEZLZy1EOGlDOUVFN0R6THZHdGNQNk90THlsRUpiY1phRURjblZrdVFnMlIwcFlzTGllbjY5bVBtRGJsd1JTUTV0YkFHLTBzdllOckNXTmlxU1hKNTgzdUtBRWIyNG93LS1BTUNzcm5vUQ?oc=5"
+    },
+    {
+      "title": "연준 매파 \"고용 탄탄\"…美 추가 금리인상 불씨 - 매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5LbW5HUmRYdDRGNFNaNzZpS1o0Q3U4OGZHRjYzQ1ZLRzNxd1o2NDNDdDZWWldxbmMyUksyUlNZTkprR0dCY0p2bExQMmw4R200bGc?oc=5"
+    },
+    {
+      "title": "\"이례적으로 강한 고용\"…미국 금리인상 확률 '매우 높음' - 한국경제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Id3ByeDlINEpXcHB6M1JWZnFwdENFc29US19wMXhKN29KNm9TVEI3YXUtNFRNWG5iN21TRGRmZG1zU0E3aXFuNTVSQ1pfMXpGYnpWMGJaM0twdw?oc=5"
+    }
+  ]
+}
