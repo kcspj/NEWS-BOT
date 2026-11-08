@@ -1,0 +1,31 @@
+name: Period Review
+
+on:
+  schedule:
+    - cron: "30 23 * * 6"   # 매주 일요일 08:30 KST → 주간 리뷰
+    - cron: "0 0 1 * *"     # 매월 1일 09:00 KST → 월간 리뷰
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "분석할 기간(일)"
+        default: "30"
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install requests feedparser holidays icalendar recurring-ical-events
+      - name: Run review
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GH_USER: ${{ secrets.GH_USER }}
+          GH_REPO: ${{ secrets.GH_REPO }}
+          REVIEW_DAYS: ${{ github.event.inputs.days || (github.event.schedule == '30 23 * * 6' && '7' || '30') }}
+        run: python period_review.py
