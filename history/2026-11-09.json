@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-09",
+  "title": "☀️ AI 경제 브리핑",
+  "content": "발행일: 2026년 11월 09일 (월요일)\n\n■ 시장 요약\n11월 06일 미국 증시는 기술주 중심의 반등에도 불구하고, 11월 06일 국내 증시는 코스닥 1.45% 하락 등 약세를 보였습니다. 11월 09일 원/달러 환율은 0.31% 상승한 1,360.49원을 기록하며 원화 약세가 나타났습니다. 11월 06일 미국채 10년물 금리는 4.86%로 0.45% 상승했습니다.\n\n■ 핵심 이슈 3가지\n1.  11월 06일 나스닥100 1.35% 상승 등 미국 기술주 중심의 증시 반등.\n2.  \"이례적으로 강한 고용\"에 따른 미 연준의 추가 금리 인상 가능성 고조.\n3.  11월 06일 코스피 0.15%, 코스닥 1.45% 하락 등 국내 증시의 차별화된 약세.\n\n■ 미국 증시 영향\n11월 06일 나스닥100은 1.35% 상승하며 기술주 중심의 반등을 보였으나, \"고용 탄탄\" 발언 등 연준 매파의 추가 금리 인상 시사로 상승세 지속에 대한 불확실성이 상존합니다. 11월 06일 VIX(공포) 지수는 9.01% 하락한 25.64를 기록했습니다.\n\n■ 한국 증시 영향\n11월 06일 코스피는 0.15%, 코스닥은 1.45% 하락하며 미국 증시 반등 흐름에 동조하지 못했습니다. 11월 09일 원/달러 환율이 0.31% 상승한 1,360.49원을 기록하며 외국인 수급에 대한 부담으로 작용했습니다.\n\n■ 관심 업종\n현대차·기아의 협력사 탄소 규제 대응 지원 뉴스는 친환경 관련 산업 및 ESG 테마에 대한 관심을 유발할 수 있습니다.\n\n■ 투자 포인트\n미국의 강한 고용 지표와 이에 따른 추가 금리 인상 가능성을 주시하며, 국내 증시의 변동성 확대에 대비한 보수적인 접근이 필요합니다.",
+  "market_raw": {
+    "나스닥100": {
+      "close": 26989.99,
+      "pct": 1.35,
+      "date": "11월 06일"
+    },
+    "S&P500": {
+      "close": 7376.86,
+      "pct": 0.31,
+      "date": "11월 06일"
+    },
+    "다우존스": {
+      "close": 51285.73,
+      "pct": -0.46,
+      "date": "11월 06일"
+    },
+    "코스피": {
+      "close": 5051.95,
+      "pct": -0.15,
+      "date": "11월 06일"
+    },
+    "코스닥": {
+      "close": 634.92,
+      "pct": -1.45,
+      "date": "11월 06일"
+    },
+    "원/달러": {
+      "close": 1360.49,
+      "pct": 0.31,
+      "date": "11월 09일"
+    },
+    "달러인덱스": {
+      "close": 102.21,
+      "pct": -0.08,
+      "date": "11월 09일"
+    },
+    "미국채10년": {
+      "close": 4.86,
+      "pct": 0.45,
+      "date": "11월 06일"
+    },
+    "VIX(공포)": {
+      "close": 25.64,
+      "pct": -9.01,
+      "date": "11월 06일"
+    },
+    "금": {
+      "close": 4110.8,
+      "pct": 0.88,
+      "date": "11월 09일"
+    },
+    "WTI유가": {
+      "close": 90.45,
+      "pct": -0.42,
+      "date": "11월 09일"
+    }
+  },
+  "links": [
+    {
+      "title": "현대차·기아, 협력사 탄소 규제 대응 지원…설비 교체에 교육·멘토링까지",
+      "url": "https://www.mk.co.kr/news/business/12202103"
+    },
+    {
+      "title": "스파크플러스, 마곡 르웨스트에 ‘마곡나루점’ 문 연다",
+      "url": "https://www.mk.co.kr/news/it/12202101"
+    },
+    {
+      "title": "미국증시 반등해도 안심을 할 수 없는 이유 - 연합인포맥스",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBRU21zOEtoR2RyQ0FHd2lpclotMGpZRGNGZnBsZ3dxOFctbnlZa3U0akd1YXhUTE9zaFFYZFlsNUpISkMwZXBfdE5XY3NCMlZlYkQ3RUZhQ011NEp4eE1UNDZpRzVRSDduc2xnZ1V3WkPSAXRBVV95cUxQUGUwYTk2WTZ0LW50TkJVSHFIdHJ2WUlhUWU5U1hKRDVCYzdjc3NrcEk2YlYteXpJY1dFdmJDV1c3VXZWMVVHeXJJWkhIRXpFcG14Sjc0eDRLS3JOSkFPVzlscFdXUVZjTmoyY0hFMDdweDEySg?oc=5"
+    },
+    {
+      "title": "日 증시, 美 기술주 반등 따라 상승…닛케이 1%대·토픽스 2%대↑ - KB Think",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAwck1sSGRNVGpFNnpzWWpuNGE5T256UGxzZlMxbmRjTXNBZlEza210M2t6OFFORnFiWmo0V1gzVDZfRGVkRFppUW96dEhTZnUwR1FUNFBaNXlHcnBnU2JERko2dVBrLWtZQ0J2eFVTME9kdw?oc=5"
+    },
+    {
+      "title": "연준 매파 \"고용 탄탄\"…美 추가 금리인상 불씨 - 매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5LbW5HUmRYdDRGNFNaNzZpS1o0Q3U4OGZHRjYzQ1ZLRzNxd1o2NDNDdDZWWldxbmMyUksyUlNZTkprR0dCY0p2bExQMmw4R200bGc?oc=5"
+    },
+    {
+      "title": "\"이례적으로 강한 고용\"…미국 금리인상 확률 '매우 높음' - 한국경제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Id3ByeDlINEpXcHB6M1JWZnFwdENFc29US19wMXhKN29KNm9TVEI3YXUtNFRNWG5iN21TRGRmZG1zU0E3aXFuNTVSQ1pfMXpGYnpWMGJaM0twdw?oc=5"
+    }
+  ]
+}
