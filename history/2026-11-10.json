@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-10",
+  "title": "☀️ AI 경제 브리핑",
+  "content": "**발행일: 2026년 11월 10일 (화요일)**\n\n■ 시장 요약\n11월 09일, 미국 증시는 기술주/반도체 강세에 나스닥100이 3.40% 급등하며 주요 지수 일제히 상승. VIX는 22.31% 급락. 국내 증시도 코스피 3.80%, 코스닥 3.17% 급등 마감. 11월 10일 원/달러 환율은 1.35% 하락한 1,344.35원을 기록했습니다.\n\n■ 핵심 이슈 3가지\n1.  11월 09일, 기술주 반등으로 미 증시 급등(나스닥100 ▲3.40%).\n2.  VIX 22.31% 급락, 시장 불안감 해소.\n3.  연준 금리 향방 불확실성 속 CPI 발표 대기.\n\n■ 미국 증시 영향\n11월 09일, 기술주/반도체 주도 매수세로 나스닥100 3.40%, S&P500 2.35% 급등. VIX가 19.92로 하락하며 투자 심리가 크게 개선되었습니다.\n\n■ 한국 증시 영향\n11월 09일, 미 증시 훈풍에 코스피 3.80%, 코스닥 3.17% 동반 상승. 11월 10일 원/달러 환율 1,344.35원(▼1.35%)으로 외국인 매수세 유입 기대가 증대됩니다.\n\n■ 관심 업종\n반도체, IT 기술주, 친환경 에너지.\n\n■ 투자 포인트\nVIX 급락(▼22.31%)으로 확인된 개선된 투자 심리 기반, 기술 성장주 중심의 단기 반등 모멘텀을 활용. 단, CPI 발표 전후 변동성에 유의할 필요가 있습니다.",
+  "market_raw": {
+    "나스닥100": {
+      "close": 27907.62,
+      "pct": 3.4,
+      "date": "11월 09일"
+    },
+    "S&P500": {
+      "close": 7549.94,
+      "pct": 2.35,
+      "date": "11월 09일"
+    },
+    "다우존스": {
+      "close": 52389.75,
+      "pct": 2.15,
+      "date": "11월 09일"
+    },
+    "코스피": {
+      "close": 5209.72,
+      "pct": 3.8,
+      "date": "11월 09일"
+    },
+    "코스닥": {
+      "close": 659.25,
+      "pct": 3.17,
+      "date": "11월 09일"
+    },
+    "원/달러": {
+      "close": 1344.35,
+      "pct": -1.35,
+      "date": "11월 10일"
+    },
+    "달러인덱스": {
+      "close": 101.68,
+      "pct": 0.02,
+      "date": "11월 10일"
+    },
+    "미국채10년": {
+      "close": 4.86,
+      "pct": 0.1,
+      "date": "11월 09일"
+    },
+    "VIX(공포)": {
+      "close": 19.92,
+      "pct": -22.31,
+      "date": "11월 09일"
+    },
+    "금": {
+      "close": 4120.7,
+      "pct": 0.15,
+      "date": "11월 10일"
+    },
+    "WTI유가": {
+      "close": 85.7,
+      "pct": -1.32,
+      "date": "11월 10일"
+    }
+  },
+  "links": [
+    {
+      "title": "대법 “코로나 집회금지 속 ‘거리두기 단체집회’도 위법”",
+      "url": "https://www.mk.co.kr/news/society/12203669"
+    },
+    {
+      "title": "“기존 부지 활용”…동서발전, 친환경 액화천연가스 복합발전소 건설",
+      "url": "https://www.mk.co.kr/news/business/12203746"
+    },
+    {
+      "title": "기술주 반등 후 미국 증시 선물 보합세…CPI 발표 주목 - Investing.com 한국어",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBHSlNsd3hBV0JvSkttdU04NFpoRlpLanJ2d1N1ODJiOThjeDV3WDhXeURPVHZ3THBzOEtWbmUwOEhCY2xud1ROSW00VjdGRmNBcFZrOW1hRzdaeWNQdFA0UlZYV2pMb1RXMjhmejFVdG0?oc=5"
+    },
+    {
+      "title": "[서울데이터랩] 미국 증시, 기술주·반도체 강세에 일제히 급등 마감 - 서울신문",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9XeTNLbjc1akV2cVJXbTdObkJqZXFJZUVfMnREb0RtUm1GV0xfVXVsMFNaTkMtZFJ5bDJibEhqdkh1alNJSnpQWXFOTzVmWWNfZld0WE1hWF9oU1ZFV2RHdFl0TlNRbnotc2NuRk1jZw?oc=5"
+    },
+    {
+      "title": "\"인플레 2% 향하는지 확신 못해\" vs \"성장 빨라도 금리 동결\" - 매일경제 마켓",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBFNXA3ZGozQkV2VVdEX09aWEtZTTMtbm1JZ1BFdHJ5RjU0N29VdW9XajFvNFVUSE5qMmZHR1llLV9LMk1nZjktSDZJR1g1TV9S?oc=5"
+    },
+    {
+      "title": "백악관 경제 수장, 고용 쇼크 수준 호평...연준 12월 금리 인상은? - 코인리더스",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9oMFlGZ3RhNjZrc2xqelJIeWljMEppMzlrYndQZzFQWVJPZDkyYWVqbnRfMUs5cHpmMERkRWptZmtWWHlmSy01cENn?oc=5"
+    }
+  ]
+}
