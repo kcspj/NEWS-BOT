@@ -1,44 +1,44 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "title": "☀️ AI 경제 브리핑",
-  "content": "**발행일: 2026년 11월 10일 (화요일)**\n\n■ 시장 요약\n11월 09일, 미국 증시는 기술주/반도체 강세에 나스닥100이 3.40% 급등하며 주요 지수 일제히 상승. VIX는 22.31% 급락. 국내 증시도 코스피 3.80%, 코스닥 3.17% 급등 마감. 11월 10일 원/달러 환율은 1.35% 하락한 1,344.35원을 기록했습니다.\n\n■ 핵심 이슈 3가지\n1.  11월 09일, 기술주 반등으로 미 증시 급등(나스닥100 ▲3.40%).\n2.  VIX 22.31% 급락, 시장 불안감 해소.\n3.  연준 금리 향방 불확실성 속 CPI 발표 대기.\n\n■ 미국 증시 영향\n11월 09일, 기술주/반도체 주도 매수세로 나스닥100 3.40%, S&P500 2.35% 급등. VIX가 19.92로 하락하며 투자 심리가 크게 개선되었습니다.\n\n■ 한국 증시 영향\n11월 09일, 미 증시 훈풍에 코스피 3.80%, 코스닥 3.17% 동반 상승. 11월 10일 원/달러 환율 1,344.35원(▼1.35%)으로 외국인 매수세 유입 기대가 증대됩니다.\n\n■ 관심 업종\n반도체, IT 기술주, 친환경 에너지.\n\n■ 투자 포인트\nVIX 급락(▼22.31%)으로 확인된 개선된 투자 심리 기반, 기술 성장주 중심의 단기 반등 모멘텀을 활용. 단, CPI 발표 전후 변동성에 유의할 필요가 있습니다.",
+  "content": "**2026년 11월 11일 수요일 증시 브리핑**\n\n**■ 시장 요약**\n11월 10일 마감 미국 증시는 10월 CPI 상승 및 금리인상 우려로 S&P500 ▼0.38%, 나스닥100 ▼0.60% 하락했습니다. 11월 10일 마감 국내 증시는 코스피 ▲1.06%, 코스닥 ▲4.19% 급등하며 강한 디커플링을 보였습니다. 11월 11일 마감 원/달러 환율은 1,338.18원 ▼0.42%입니다.\n\n**■ 핵심 이슈 3가지**\n1.  美 10월 CPI 0.4% 상승 (예상치 상회) → 11월 10일 미국채10년 금리 ▲2.45%, 12월 연준 금리인상 압박.\n2.  씨티그룹, 美 증시·기술주 '중립' 하향 → 11월 10일 美 증시 하방 압력.\n3.  11월 10일 韓 증시, 코스닥 ▲4.19% 급등 등 美와 차별화된 강세. 11월 11일 원/달러 환율 하락 긍정적.\n\n**■ 미국 증시 영향**\n11월 10일 美 10월 CPI 상승 및 연준 금리인상 압박으로 S&P500 ▼0.38% 하락, 미국채10년 금리도 ▲2.45% 상승했습니다.\n\n**■ 한국 증시 영향**\n11월 10일 韓 증시, 美 하락에도 코스피 ▲1.06%, 코스닥 ▲4.19% 강세 기록. 11월 11일 원/달러 환율 ▼0.42% 하락하며 외국인 수급 개선 기대가 작용했습니다.\n\n**■ 관심 업종**\n11월 10일 코스닥 ▲4.19% 급등은 국내 성장주 및 기술주에 대한 강한 투자 심리 개선을 반영합니다.\n\n**■ 투자 포인트**\n美 인플레이션 우려 속 국내 증시의 차별화된 흐름에 주목합니다. 환율 안정화는 추가 상승 동력으로 작용할 수 있습니다.",
   "market": {
-    "나스닥100": "27,907.62 ▲3.40%",
-    "S&P500": "7,549.94 ▲2.35%",
-    "다우존스": "52,389.75 ▲2.15%",
-    "코스피": "5,209.72 ▲3.80%",
-    "코스닥": "659.25 ▲3.17%",
-    "원/달러": "1,344.35 ▼1.35%",
-    "달러인덱스": "101.68 ▲0.02%",
-    "미국채10년": "4.86 ▲0.10%",
-    "VIX(공포)": "19.92 ▼22.31%",
-    "금": "4,120.70 ▲0.15%",
-    "WTI유가": "85.70 ▼1.32%"
+    "나스닥100": "27,740.79 ▼0.60%",
+    "S&P500": "7,520.93 ▼0.38%",
+    "다우존스": "52,231.89 ▼0.30%",
+    "코스피": "5,294.84 ▲1.06%",
+    "코스닥": "695.58 ▲4.19%",
+    "원/달러": "1,338.18 ▼0.42%",
+    "달러인덱스": "102.27 ▲0.04%",
+    "미국채10년": "4.98 ▲2.45%",
+    "VIX(공포)": "19.46 ▼2.31%",
+    "금": "4,042.80 ▼1.74%",
+    "WTI유가": "86.39 ▼0.53%"
   },
   "links": [
     {
-      "title": "대법 “코로나 집회금지 속 ‘거리두기 단체집회’도 위법”",
-      "url": "https://www.mk.co.kr/news/society/12203669"
+      "title": "최민희, 사진기자들에 “하이에나 떼들” 비하…논란 일자 사과",
+      "url": "https://www.mk.co.kr/news/politics/12205116"
     },
     {
-      "title": "“기존 부지 활용”…동서발전, 친환경 액화천연가스 복합발전소 건설",
-      "url": "https://www.mk.co.kr/news/business/12203746"
+      "title": "[단독] 학부모 서명도 없이 ‘반대’?…서울 고교 교장공모제 의견수렴 절차 논란",
+      "url": "https://www.mk.co.kr/news/society/12205115"
     },
     {
-      "title": "기술주 반등 후 미국 증시 선물 보합세…CPI 발표 주목 - Investing.com 한국어",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBHSlNsd3hBV0JvSkttdU04NFpoRlpLanJ2d1N1ODJiOThjeDV3WDhXeURPVHZ3THBzOEtWbmUwOEhCY2xud1ROSW00VjdGRmNBcFZrOW1hRzdaeWNQdFA0UlZYV2pMb1RXMjhmejFVdG0?oc=5"
+      "title": "씨티그룹, 미국 증시·기술주 '비중 확대'→'중립' 하향 왜 - 한국경제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qLWIyWEJXMDZsUDBzQmJaVHdaREZRZURDY0V5a3ZwMzB5cmI0NDd0VjBabzA0ZUVGaXlsT2ZXODRVdnN0NGp1elBYX2ZwZE9EbmxlM0dBb2M5UQ?oc=5"
     },
     {
-      "title": "[서울데이터랩] 미국 증시, 기술주·반도체 강세에 일제히 급등 마감 - 서울신문",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9XeTNLbjc1akV2cVJXbTdObkJqZXFJZUVfMnREb0RtUm1GV0xfVXVsMFNaTkMtZFJ5bDJibEhqdkh1alNJSnpQWXFOTzVmWWNfZld0WE1hWF9oU1ZFV2RHdFl0TlNRbnotc2NuRk1jZw?oc=5"
+      "title": "엔비디아만 빼고 다 상승... 달라진 미국 증시, 추세전환 시작인가 - 매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGMDBCV2xrMDA2NmY5bm5lMEp4WGUza19BN01nSmY1S0tOcllzSllockhUM21jNHlHRVhoc3cwc0s2dTJTdkpXMEtoSTFTc2xiSWR4SUJR?oc=5"
     },
     {
-      "title": "\"인플레 2% 향하는지 확신 못해\" vs \"성장 빨라도 금리 동결\" - 매일경제 마켓",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBFNXA3ZGozQkV2VVdEX09aWEtZTTMtbm1JZ1BFdHJ5RjU0N29VdW9XajFvNFVUSE5qMmZHR1llLV9LMk1nZjktSDZJR1g1TV9S?oc=5"
+      "title": "[국제경제 흐름 읽기] 미국 연준, 인플레 우려에 내달 금리인상 전망-일부 빅스텝 가능성도 제기 - 포커스온경제",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5GSC1fZnBtRzE0TS1uYUlPRFdCQXF3NXFSU2haWGx0VmV3dF92bTFBR1E1MUVlN1Bfczl5UGNlZG5lUFJWNkhicUFEQ2p6dktkTTZjNWdWRzk5VFhQWVE?oc=5"
     },
     {
-      "title": "백악관 경제 수장, 고용 쇼크 수준 호평...연준 12월 금리 인상은? - 코인리더스",
-      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9oMFlGZ3RhNjZrc2xqelJIeWljMEppMzlrYndQZzFQWVJPZDkyYWVqbnRfMUs5cHpmMERkRWptZmtWWHlmSy01cENn?oc=5"
+      "title": "美 10월 CPI 0.4% 상승·예상치 상회…연준 12월 금리인상 '압박' - 더팩트",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tSkxHNXRTSk1qVC1VdDYwR2pyVmlNeVZHaXp2OURoRXk5cVE4a3g2TGItd0tERlk1QXNYVGR0cXRZQmg4QzJWOGd3b2EyRk94eHdmUno1YmRaUdIBVEFVX3lxTE85WEVvcWdnZmdqTHFoNXdCcFNMTUFGank1NXcwb05sSkdFMVUyMVRRM3VXbF82ZWp4RDQxbW1JTDFLUDNTTU54Q3VwMDdrSlp1RU9GXw?oc=5"
     }
   ],
   "schedule": [
@@ -48,11 +48,11 @@
     },
     {
       "time": "종일",
-      "name": "코스닥은 홀수해에 수익난다, 짝수해 9~12월사이 코스닥 매수보유후  홀수년도 1~2분기 사이 매도고려"
+      "name": "야간선물지수,나스닥선물지수 매일점검,거래량"
     },
     {
       "time": "종일",
-      "name": "야간선물지수,나스닥선물지수 매일점검,거래량"
+      "name": "코스닥은 홀수해에 수익난다, 짝수해 9~12월사이 코스닥 매수보유후  홀수년도 1~2분기 사이 매도고려"
     },
     {
       "time": "종일",
