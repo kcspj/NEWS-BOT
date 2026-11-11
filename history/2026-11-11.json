@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-11",
+  "title": "☀️ AI 경제 브리핑",
+  "content": "**2026년 11월 11일 수요일 증시 브리핑**\n\n**■ 시장 요약**\n11월 10일 마감 미국 증시는 10월 CPI 상승 및 금리인상 우려로 S&P500 ▼0.38%, 나스닥100 ▼0.60% 하락했습니다. 11월 10일 마감 국내 증시는 코스피 ▲1.06%, 코스닥 ▲4.19% 급등하며 강한 디커플링을 보였습니다. 11월 11일 마감 원/달러 환율은 1,338.18원 ▼0.42%입니다.\n\n**■ 핵심 이슈 3가지**\n1.  美 10월 CPI 0.4% 상승 (예상치 상회) → 11월 10일 미국채10년 금리 ▲2.45%, 12월 연준 금리인상 압박.\n2.  씨티그룹, 美 증시·기술주 '중립' 하향 → 11월 10일 美 증시 하방 압력.\n3.  11월 10일 韓 증시, 코스닥 ▲4.19% 급등 등 美와 차별화된 강세. 11월 11일 원/달러 환율 하락 긍정적.\n\n**■ 미국 증시 영향**\n11월 10일 美 10월 CPI 상승 및 연준 금리인상 압박으로 S&P500 ▼0.38% 하락, 미국채10년 금리도 ▲2.45% 상승했습니다.\n\n**■ 한국 증시 영향**\n11월 10일 韓 증시, 美 하락에도 코스피 ▲1.06%, 코스닥 ▲4.19% 강세 기록. 11월 11일 원/달러 환율 ▼0.42% 하락하며 외국인 수급 개선 기대가 작용했습니다.\n\n**■ 관심 업종**\n11월 10일 코스닥 ▲4.19% 급등은 국내 성장주 및 기술주에 대한 강한 투자 심리 개선을 반영합니다.\n\n**■ 투자 포인트**\n美 인플레이션 우려 속 국내 증시의 차별화된 흐름에 주목합니다. 환율 안정화는 추가 상승 동력으로 작용할 수 있습니다.",
+  "market_raw": {
+    "나스닥100": {
+      "close": 27740.79,
+      "pct": -0.6,
+      "date": "11월 10일"
+    },
+    "S&P500": {
+      "close": 7520.93,
+      "pct": -0.38,
+      "date": "11월 10일"
+    },
+    "다우존스": {
+      "close": 52231.89,
+      "pct": -0.3,
+      "date": "11월 10일"
+    },
+    "코스피": {
+      "close": 5294.84,
+      "pct": 1.06,
+      "date": "11월 10일"
+    },
+    "코스닥": {
+      "close": 695.58,
+      "pct": 4.19,
+      "date": "11월 10일"
+    },
+    "원/달러": {
+      "close": 1338.18,
+      "pct": -0.42,
+      "date": "11월 11일"
+    },
+    "달러인덱스": {
+      "close": 102.27,
+      "pct": 0.04,
+      "date": "11월 11일"
+    },
+    "미국채10년": {
+      "close": 4.98,
+      "pct": 2.45,
+      "date": "11월 10일"
+    },
+    "VIX(공포)": {
+      "close": 19.46,
+      "pct": -2.31,
+      "date": "11월 10일"
+    },
+    "금": {
+      "close": 4042.8,
+      "pct": -1.74,
+      "date": "11월 11일"
+    },
+    "WTI유가": {
+      "close": 86.39,
+      "pct": -0.53,
+      "date": "11월 11일"
+    }
+  },
+  "links": [
+    {
+      "title": "최민희, 사진기자들에 “하이에나 떼들” 비하…논란 일자 사과",
+      "url": "https://www.mk.co.kr/news/politics/12205116"
+    },
+    {
+      "title": "[단독] 학부모 서명도 없이 ‘반대’?…서울 고교 교장공모제 의견수렴 절차 논란",
+      "url": "https://www.mk.co.kr/news/society/12205115"
+    },
+    {
+      "title": "씨티그룹, 미국 증시·기술주 '비중 확대'→'중립' 하향 왜 - 한국경제",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qLWIyWEJXMDZsUDBzQmJaVHdaREZRZURDY0V5a3ZwMzB5cmI0NDd0VjBabzA0ZUVGaXlsT2ZXODRVdnN0NGp1elBYX2ZwZE9EbmxlM0dBb2M5UQ?oc=5"
+    },
+    {
+      "title": "엔비디아만 빼고 다 상승... 달라진 미국 증시, 추세전환 시작인가 - 매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGMDBCV2xrMDA2NmY5bm5lMEp4WGUza19BN01nSmY1S0tOcllzSllockhUM21jNHlHRVhoc3cwc0s2dTJTdkpXMEtoSTFTc2xiSWR4SUJR?oc=5"
+    },
+    {
+      "title": "[국제경제 흐름 읽기] 미국 연준, 인플레 우려에 내달 금리인상 전망-일부 빅스텝 가능성도 제기 - 포커스온경제",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5GSC1fZnBtRzE0TS1uYUlPRFdCQXF3NXFSU2haWGx0VmV3dF92bTFBR1E1MUVlN1Bfczl5UGNlZG5lUFJWNkhicUFEQ2p6dktkTTZjNWdWRzk5VFhQWVE?oc=5"
+    },
+    {
+      "title": "美 10월 CPI 0.4% 상승·예상치 상회…연준 12월 금리인상 '압박' - 더팩트",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tSkxHNXRTSk1qVC1VdDYwR2pyVmlNeVZHaXp2OURoRXk5cVE4a3g2TGItd0tERlk1QXNYVGR0cXRZQmg4QzJWOGd3b2EyRk94eHdmUno1YmRaUdIBVEFVX3lxTE85WEVvcWdnZmdqTHFoNXdCcFNMTUFGank1NXcwb05sSkdFMVUyMVRRM3VXbF82ZWp4RDQxbW1JTDFLUDNTTU54Q3VwMDdrSlp1RU9GXw?oc=5"
+    }
+  ]
+}
