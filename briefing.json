@@ -1,51 +1,47 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "title": "☀️ AI 경제 브리핑",
-  "content": "**2026년 11월 11일 수요일 증시 브리핑**\n\n**■ 시장 요약**\n11월 10일 마감 미국 증시는 10월 CPI 상승 및 금리인상 우려로 S&P500 ▼0.38%, 나스닥100 ▼0.60% 하락했습니다. 11월 10일 마감 국내 증시는 코스피 ▲1.06%, 코스닥 ▲4.19% 급등하며 강한 디커플링을 보였습니다. 11월 11일 마감 원/달러 환율은 1,338.18원 ▼0.42%입니다.\n\n**■ 핵심 이슈 3가지**\n1.  美 10월 CPI 0.4% 상승 (예상치 상회) → 11월 10일 미국채10년 금리 ▲2.45%, 12월 연준 금리인상 압박.\n2.  씨티그룹, 美 증시·기술주 '중립' 하향 → 11월 10일 美 증시 하방 압력.\n3.  11월 10일 韓 증시, 코스닥 ▲4.19% 급등 등 美와 차별화된 강세. 11월 11일 원/달러 환율 하락 긍정적.\n\n**■ 미국 증시 영향**\n11월 10일 美 10월 CPI 상승 및 연준 금리인상 압박으로 S&P500 ▼0.38% 하락, 미국채10년 금리도 ▲2.45% 상승했습니다.\n\n**■ 한국 증시 영향**\n11월 10일 韓 증시, 美 하락에도 코스피 ▲1.06%, 코스닥 ▲4.19% 강세 기록. 11월 11일 원/달러 환율 ▼0.42% 하락하며 외국인 수급 개선 기대가 작용했습니다.\n\n**■ 관심 업종**\n11월 10일 코스닥 ▲4.19% 급등은 국내 성장주 및 기술주에 대한 강한 투자 심리 개선을 반영합니다.\n\n**■ 투자 포인트**\n美 인플레이션 우려 속 국내 증시의 차별화된 흐름에 주목합니다. 환율 안정화는 추가 상승 동력으로 작용할 수 있습니다.",
+  "content": "## 증시 브리핑 (2026년 11월 12일)\n\n**■ 시장 요약**\n11월 11일 마감 미국 증시는 월가 연말 랠리 기대감에 나스닥100이 ▲2.28%, S&P500이 ▲1.31% 상승 마감했습니다. 공포 지수 VIX는 17.49로 ▼10.12% 하락하며 투자심리가 개선되었습니다. 11월 11일 마감 국내 증시도 코스피가 ▲1.50% 상승했으나, 미국 물가 재상승 및 12월 금리 인상 우려는 상존합니다.\n\n**■ 핵심 이슈 3가지**\n1.  월가 발 연말 랠리 기대감 부상 (SG \"S&P500 연말 8,000p 간다\" 등)\n2.  미국 물가 재상승에 따른 연준 12월 0.5%p 금리 인상론 확산\n3.  VIX 지수 17.49 기록, ▼10.12% 급락하며 투자 불안 심리 완화\n\n**■ 미국 증시 영향**\n11월 11일 마감 미국 증시는 연말 랠리 기대감과 VIX 지수 급락에 힘입어 나스닥100 ▲2.28%, S&P500 ▲1.31%, 다우존스 ▲0.49% 등 주요 지수가 강세 마감했습니다. 그러나 미국채10년 금리가 5.00으로 ▲0.30% 소폭 상승하며 물가 및 금리 인상 압박은 지속되는 모습입니다.\n\n**■ 한국 증시 영향**\n11월 11일 마감 국내 증시는 미국 증시 훈풍에 코스피가 ▲1.50% 상승 마감했습니다. 11월 12일 마감 원/달러 환율이 1,334.58로 ▼0.55% 하락하며 외국인 수급 개선에 긍정적 영향이 예상됩니다. 다만 코스닥은 ▲0.07%로 상승폭이 미미하여 대형주 중심의 차별화 장세가 예상됩니다.\n\n**■ 관심 업종**\n11월 11일 마감 미국 나스닥100 강세에 따른 IT, 반도체 업종. 11월 12일 마감 원/달러 환율 하락에 따른 수출 관련 대형주.\n\n**■ 투자 포인트**\n1.  단기적으로 연말 랠리 기대감 속 기술주 중심의 성장주에 주목할 필요가 있습니다.\n2.  미국 물가 재상승 및 연준의 12월 금리 0.5%p 인상 가능성에 대한 경계심을 유지해야 합니다.\n3.  VIX 지수 하락에도 미국채10년 금리가 5.00%를 유지하며 긴축 기조는 여전, 지표 변화에 민감한 대응이 요구됩니다.",
   "market": {
-    "나스닥100": "27,740.79 ▼0.60%",
-    "S&P500": "7,520.93 ▼0.38%",
-    "다우존스": "52,231.89 ▼0.30%",
-    "코스피": "5,294.84 ▲1.06%",
-    "코스닥": "695.58 ▲4.19%",
-    "원/달러": "1,338.18 ▼0.42%",
-    "달러인덱스": "102.27 ▲0.04%",
-    "미국채10년": "4.98 ▲2.45%",
-    "VIX(공포)": "19.46 ▼2.31%",
-    "금": "4,042.80 ▼1.74%",
-    "WTI유가": "86.39 ▼0.53%"
+    "나스닥100": "28,374.25 ▲2.28%",
+    "S&P500": "7,619.38 ▲1.31%",
+    "다우존스": "52,486.49 ▲0.49%",
+    "코스피": "5,456.23 ▲1.50%",
+    "코스닥": "705.62 ▲0.07%",
+    "원/달러": "1,334.58 ▼0.55%",
+    "달러인덱스": "102.95 ▲0.04%",
+    "미국채10년": "5.00 ▲0.30%",
+    "VIX(공포)": "17.49 ▼10.12%",
+    "금": "3,994.00 ▼0.90%",
+    "WTI유가": "86.01 ▼0.03%"
   },
   "links": [
     {
-      "title": "최민희, 사진기자들에 “하이에나 떼들” 비하…논란 일자 사과",
-      "url": "https://www.mk.co.kr/news/politics/12205116"
+      "title": "대법원 무죄…‘성유리 남편’ 안성현, 결국 코인 청탁 혐의 벗었다",
+      "url": "https://www.mk.co.kr/news/society/12206218"
     },
     {
-      "title": "[단독] 학부모 서명도 없이 ‘반대’?…서울 고교 교장공모제 의견수렴 절차 논란",
-      "url": "https://www.mk.co.kr/news/society/12205115"
+      "title": "“지금 중국 베이징에 있다”…젠슨 황과 불륜 앨리스 황, 행적 묘연했는데",
+      "url": "https://www.mk.co.kr/news/world/12206214"
     },
     {
-      "title": "씨티그룹, 미국 증시·기술주 '비중 확대'→'중립' 하향 왜 - 한국경제",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qLWIyWEJXMDZsUDBzQmJaVHdaREZRZURDY0V5a3ZwMzB5cmI0NDd0VjBabzA0ZUVGaXlsT2ZXODRVdnN0NGp1elBYX2ZwZE9EbmxlM0dBb2M5UQ?oc=5"
+      "title": "美 증시 폭락 끝났나…월가 \"연말 랠리 온다\" - 연합인포맥스",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE84QVpLa3JBQnpzSWt4MVJjcXhBX1FpV1BPWmVFdHltdWQ2YldhRWNiTmx4QlpyWElQSF9fblphTXkzeGpncnpNb0NGNlF0dnVQellrMFNsdExLbllEUnhjZFFvcXdvcXFKN2d0dDNEVnk?oc=5"
     },
     {
-      "title": "엔비디아만 빼고 다 상승... 달라진 미국 증시, 추세전환 시작인가 - 매일경제",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGMDBCV2xrMDA2NmY5bm5lMEp4WGUza19BN01nSmY1S0tOcllzSllockhUM21jNHlHRVhoc3cwc0s2dTJTdkpXMEtoSTFTc2xiSWR4SUJR?oc=5"
+      "title": "SG \"S&P500 연말 8,000 간다\"…상승 여력 5%\" - KB Think",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9QRkZJRElRXzhTVnl3RGpsajE4Mi1VRHg1ZUl2WHZlNkJ2VkJfT3dyQnpQc2V6MGFlM3RXaS1oR1piT2pELUUzZ1Q0RUc2bFlBbDdEVV82WHdhR1d2dWZSaEh4a3JJakpnNEZKaDIwcEZHZw?oc=5"
     },
     {
-      "title": "[국제경제 흐름 읽기] 미국 연준, 인플레 우려에 내달 금리인상 전망-일부 빅스텝 가능성도 제기 - 포커스온경제",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5GSC1fZnBtRzE0TS1uYUlPRFdCQXF3NXFSU2haWGx0VmV3dF92bTFBR1E1MUVlN1Bfczl5UGNlZG5lUFJWNkhicUFEQ2p6dktkTTZjNWdWRzk5VFhQWVE?oc=5"
+      "title": "미국 물가 다시 꿈틀…연준, 0.5%p 금리 인상론 부상 - OBC 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CWTZKMzZ5TnZnR3ItMEpGY3o0azhSemlOekhkVDBYSUNHb2lEc0JaZmdhN1owb2hPWkY5ZFNtTmZUVFlaNHQzZE5QckJ4NUhkZDFVNEV3QUtORVB6aTRiS1VjOWdGcHU5ZVE?oc=5"
     },
     {
-      "title": "美 10월 CPI 0.4% 상승·예상치 상회…연준 12월 금리인상 '압박' - 더팩트",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tSkxHNXRTSk1qVC1VdDYwR2pyVmlNeVZHaXp2OURoRXk5cVE4a3g2TGItd0tERlk1QXNYVGR0cXRZQmg4QzJWOGd3b2EyRk94eHdmUno1YmRaUdIBVEFVX3lxTE85WEVvcWdnZmdqTHFoNXdCcFNMTUFGank1NXcwb05sSkdFMVUyMVRRM3VXbF82ZWp4RDQxbW1JTDFLUDNTTU54Q3VwMDdrSlp1RU9GXw?oc=5"
+      "title": "美 연준 12월 금리 인상 기정사실화…인상폭 주목 - 스페셜경제",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBSS3NPYUg5WlUzLTZIX21haFJxWnNsVWMxRmdnRjhvYVE0TGstMjNlUTkxZ1lvQk9VQVlpN2JnQWRRdFllTUFHYTh3WTZBNW1xZzI1UnUtX055R2RCTHJCZTl4V3RSNEViZW1YMA?oc=5"
     }
   ],
   "schedule": [
-    {
-      "time": "종일",
-      "name": "4분기 이후 새로운 랠리가능성"
-    },
     {
       "time": "종일",
       "name": "야간선물지수,나스닥선물지수 매일점검,거래량"
@@ -53,6 +49,10 @@
     {
       "time": "종일",
       "name": "코스닥은 홀수해에 수익난다, 짝수해 9~12월사이 코스닥 매수보유후  홀수년도 1~2분기 사이 매도고려"
+    },
+    {
+      "time": "종일",
+      "name": "4분기 이후 새로운 랠리가능성"
     },
     {
       "time": "종일",
