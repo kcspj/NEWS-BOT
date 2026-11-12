@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-12",
+  "title": "☀️ AI 경제 브리핑",
+  "content": "## 증시 브리핑 (2026년 11월 12일)\n\n**■ 시장 요약**\n11월 11일 마감 미국 증시는 월가 연말 랠리 기대감에 나스닥100이 ▲2.28%, S&P500이 ▲1.31% 상승 마감했습니다. 공포 지수 VIX는 17.49로 ▼10.12% 하락하며 투자심리가 개선되었습니다. 11월 11일 마감 국내 증시도 코스피가 ▲1.50% 상승했으나, 미국 물가 재상승 및 12월 금리 인상 우려는 상존합니다.\n\n**■ 핵심 이슈 3가지**\n1.  월가 발 연말 랠리 기대감 부상 (SG \"S&P500 연말 8,000p 간다\" 등)\n2.  미국 물가 재상승에 따른 연준 12월 0.5%p 금리 인상론 확산\n3.  VIX 지수 17.49 기록, ▼10.12% 급락하며 투자 불안 심리 완화\n\n**■ 미국 증시 영향**\n11월 11일 마감 미국 증시는 연말 랠리 기대감과 VIX 지수 급락에 힘입어 나스닥100 ▲2.28%, S&P500 ▲1.31%, 다우존스 ▲0.49% 등 주요 지수가 강세 마감했습니다. 그러나 미국채10년 금리가 5.00으로 ▲0.30% 소폭 상승하며 물가 및 금리 인상 압박은 지속되는 모습입니다.\n\n**■ 한국 증시 영향**\n11월 11일 마감 국내 증시는 미국 증시 훈풍에 코스피가 ▲1.50% 상승 마감했습니다. 11월 12일 마감 원/달러 환율이 1,334.58로 ▼0.55% 하락하며 외국인 수급 개선에 긍정적 영향이 예상됩니다. 다만 코스닥은 ▲0.07%로 상승폭이 미미하여 대형주 중심의 차별화 장세가 예상됩니다.\n\n**■ 관심 업종**\n11월 11일 마감 미국 나스닥100 강세에 따른 IT, 반도체 업종. 11월 12일 마감 원/달러 환율 하락에 따른 수출 관련 대형주.\n\n**■ 투자 포인트**\n1.  단기적으로 연말 랠리 기대감 속 기술주 중심의 성장주에 주목할 필요가 있습니다.\n2.  미국 물가 재상승 및 연준의 12월 금리 0.5%p 인상 가능성에 대한 경계심을 유지해야 합니다.\n3.  VIX 지수 하락에도 미국채10년 금리가 5.00%를 유지하며 긴축 기조는 여전, 지표 변화에 민감한 대응이 요구됩니다.",
+  "market_raw": {
+    "나스닥100": {
+      "close": 28374.25,
+      "pct": 2.28,
+      "date": "11월 11일"
+    },
+    "S&P500": {
+      "close": 7619.38,
+      "pct": 1.31,
+      "date": "11월 11일"
+    },
+    "다우존스": {
+      "close": 52486.49,
+      "pct": 0.49,
+      "date": "11월 11일"
+    },
+    "코스피": {
+      "close": 5456.23,
+      "pct": 1.5,
+      "date": "11월 11일"
+    },
+    "코스닥": {
+      "close": 705.62,
+      "pct": 0.07,
+      "date": "11월 11일"
+    },
+    "원/달러": {
+      "close": 1334.58,
+      "pct": -0.55,
+      "date": "11월 12일"
+    },
+    "달러인덱스": {
+      "close": 102.95,
+      "pct": 0.04,
+      "date": "11월 12일"
+    },
+    "미국채10년": {
+      "close": 5.0,
+      "pct": 0.3,
+      "date": "11월 11일"
+    },
+    "VIX(공포)": {
+      "close": 17.49,
+      "pct": -10.12,
+      "date": "11월 11일"
+    },
+    "금": {
+      "close": 3994.0,
+      "pct": -0.9,
+      "date": "11월 12일"
+    },
+    "WTI유가": {
+      "close": 86.01,
+      "pct": -0.03,
+      "date": "11월 12일"
+    }
+  },
+  "links": [
+    {
+      "title": "대법원 무죄…‘성유리 남편’ 안성현, 결국 코인 청탁 혐의 벗었다",
+      "url": "https://www.mk.co.kr/news/society/12206218"
+    },
+    {
+      "title": "“지금 중국 베이징에 있다”…젠슨 황과 불륜 앨리스 황, 행적 묘연했는데",
+      "url": "https://www.mk.co.kr/news/world/12206214"
+    },
+    {
+      "title": "美 증시 폭락 끝났나…월가 \"연말 랠리 온다\" - 연합인포맥스",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE84QVpLa3JBQnpzSWt4MVJjcXhBX1FpV1BPWmVFdHltdWQ2YldhRWNiTmx4QlpyWElQSF9fblphTXkzeGpncnpNb0NGNlF0dnVQellrMFNsdExLbllEUnhjZFFvcXdvcXFKN2d0dDNEVnk?oc=5"
+    },
+    {
+      "title": "SG \"S&P500 연말 8,000 간다\"…상승 여력 5%\" - KB Think",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9QRkZJRElRXzhTVnl3RGpsajE4Mi1VRHg1ZUl2WHZlNkJ2VkJfT3dyQnpQc2V6MGFlM3RXaS1oR1piT2pELUUzZ1Q0RUc2bFlBbDdEVV82WHdhR1d2dWZSaEh4a3JJakpnNEZKaDIwcEZHZw?oc=5"
+    },
+    {
+      "title": "미국 물가 다시 꿈틀…연준, 0.5%p 금리 인상론 부상 - OBC 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CWTZKMzZ5TnZnR3ItMEpGY3o0azhSemlOekhkVDBYSUNHb2lEc0JaZmdhN1owb2hPWkY5ZFNtTmZUVFlaNHQzZE5QckJ4NUhkZDFVNEV3QUtORVB6aTRiS1VjOWdGcHU5ZVE?oc=5"
+    },
+    {
+      "title": "美 연준 12월 금리 인상 기정사실화…인상폭 주목 - 스페셜경제",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBSS3NPYUg5WlUzLTZIX21haFJxWnNsVWMxRmdnRjhvYVE0TGstMjNlUTkxZ1lvQk9VQVlpN2JnQWRRdFllTUFHYTh3WTZBNW1xZzI1UnUtX055R2RCTHJCZTl4V3RSNEViZW1YMA?oc=5"
+    }
+  ]
+}
