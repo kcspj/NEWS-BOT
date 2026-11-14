@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-14",
+  "title": "☀️ 주말 AI 경제 브리핑",
+  "content": "## 2026년 11월 14일 수석 애널리스트 브리핑\n\n■ 시장 요약\n11월 13일 마감 미국 증시 나스닥100(-1.22%), S&P500(-0.40%) 하락. 국내 11월 13일 마감 코스피(-0.98%)도 동반 하락했으나 코스닥(+0.45%)은 상승. 11월 13일 마감 미국채10년 금리 5.15%(▲1.00%) 및 달러인덱스 103.41(▲0.23%) 강세가 시장 부담.\n\n■ 핵심 이슈 3가지\n1.  12월 美 연준 빅스텝 금리 인상 가능성 고조.\n2.  11월 13일 마감 미국채10년 금리 5.15%까지 상승.\n3.  달러 강세 및 위험회피 심리 확산. (11월 13일 마감 VIX 19.30 ▲3.21%)\n\n■ 미국 증시 영향\n11월 13일 마감 나스닥100(-1.22%)은 금리 상승 부담으로 크게 하락. S&P500(-0.40%)도 하락했으나 다우존스(+0.10%)는 상대적 견조세를 보임.\n\n■ 한국 증시 영향\n11월 13일 마감 코스피(-0.98%)는 대외 불확실성 및 11월 14일 마감 원/달러 환율 1,336.20원(▲0.18%) 상승 압력에 하락. 코스닥(+0.45%)은 개별 종목 위주로 차별화된 움직임을 시현.\n\n■ 관심 업종\n12월 美 연준 통화정책 경계감 속, 금리 인상 수혜가 예상되는 금융 업종과 경기 방어적 필수 소비재, 11월 13일 마감 코스닥 강세 보인 중소형 성장주 중 선별적 관심.\n\n■ 투자 포인트\n시장 변동성 확대 구간, 우량 가치주 및 안정적 실적 기반 기업 위주 접근. 美 연준의 12월 통화정책 결정과 향후 발표될 경제지표 변화에 주목할 필요.",
+  "market_raw": {
+    "나스닥100": {
+      "close": 27943.74,
+      "pct": -1.22,
+      "date": "11월 13일"
+    },
+    "S&P500": {
+      "close": 7561.67,
+      "pct": -0.4,
+      "date": "11월 13일"
+    },
+    "다우존스": {
+      "close": 52347.55,
+      "pct": 0.1,
+      "date": "11월 13일"
+    },
+    "코스피": {
+      "close": 5290.53,
+      "pct": -0.98,
+      "date": "11월 13일"
+    },
+    "코스닥": {
+      "close": 699.66,
+      "pct": 0.45,
+      "date": "11월 13일"
+    },
+    "원/달러": {
+      "close": 1336.2,
+      "pct": 0.18,
+      "date": "11월 14일"
+    },
+    "달러인덱스": {
+      "close": 103.41,
+      "pct": 0.23,
+      "date": "11월 13일"
+    },
+    "미국채10년": {
+      "close": 5.15,
+      "pct": 1.0,
+      "date": "11월 13일"
+    },
+    "VIX(공포)": {
+      "close": 19.3,
+      "pct": 3.21,
+      "date": "11월 13일"
+    },
+    "금": {
+      "close": 3886.3,
+      "pct": 0.03,
+      "date": "11월 13일"
+    },
+    "WTI유가": {
+      "close": 88.56,
+      "pct": -0.2,
+      "date": "11월 13일"
+    }
+  },
+  "links": [
+    {
+      "title": "“허리 19인치 됐어요”…갈비뼈 6개 부러뜨려 허리 줄인 美 여성",
+      "url": "https://www.mk.co.kr/news/world/12208866"
+    },
+    {
+      "title": "“60억 반포 아파트도 ‘미달 흑역사’ 있었다”…청약 부진 단지들 다시볼까",
+      "url": "https://www.mk.co.kr/news/realestate/12208864"
+    },
+    {
+      "title": "미국·중국·ETF로 알아보는 2027년 머니게임 - 한경매거진",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9QZldsSW9WbWN3TTB4TVlUbXVsM29RVUlRbUhlZmVqN08zemwzMnZQajgzUEFiOTBBTjFxRWZ0TGY3TFktbUluZUpGNVNHb3d3UVVuXzVtN3F1ZkdMUHdncTU3WFVtTUtEa3RGTA?oc=5"
+    },
+    {
+      "title": "[11월 둘째 주 세계경제동향 브리핑] 코스피 5,200선 회복…한미 증시 동반 반등 - 기호일보",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBrMmFPX2F5bEN2cDNMMENjTklGeWVCc2VFbXBvRjhZUVh1U3cyX19kWkhZemhOMmV1TExuaGdya183VDZwaDBtS2dPUlNlWnExdFkzR3VSZlVhbFZKejRwSG5BR0hxUVJ5MjlmU0JCYw?oc=5"
+    },
+    {
+      "title": "미국 연준 12월 기준금리 인상 전망: '빅스텝' 가능성과 한국 경제 영향 정리 💸 - 뉴닉",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5JUEJmVVJsa0V4d1NoSkpvYzVZYXJzeTVpdmJ1VU9JZmVzNTg2RzRxTlYxNG1kZGtMdlozSW9jUHNvTEhVLVVoRGNmTXd6RkE4cEdB?oc=5"
+    },
+    {
+      "title": "前 연준 부의장 - 매일경제 마켓",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBUaFdldnlQSF9PSUZ0QTNHZnNkMU5SQm1tcHZfeHBpWUNjRnFOZWJyZm1DSUVjT01iNmRxeC1iRDBTa3IwVmFySllJblNSYzZp?oc=5"
+    }
+  ]
+}
