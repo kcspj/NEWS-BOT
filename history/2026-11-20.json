@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-20",
+  "title": "☀️ AI 경제 브리핑",
+  "content": "## 증권사 리서치센터 모닝 브리핑 (2026년 11월 20일)\n\n수석 애널리스트 홍길동\n\n---\n\n**■ 시장 요약**\n11월 19일 미국 증시와 국내 증시는 연준의 매파적 기조와 AI 테마의 차익실현 움직임으로 일제히 큰 폭 하락 마감했습니다. 11월 19일 나스닥100은 26,517.05로 2.21%, S&P500은 7,175.83으로 2.02%, 다우존스는 49,097.06으로 2.19% 하락했습니다. 국내 코스피는 4,900.64로 4.62%, 코스닥은 656.25로 4.17% 급락했습니다. 11월 19일 VIX(공포) 지수는 28.44로 15.80% 급등하며 시장의 불안감을 반영했습니다. 11월 20일 원/달러 환율은 1,338.92원으로 0.64% 상승했습니다.\n\n**■ 핵심 이슈 3가지**\n1.  **미 연준의 강력한 매파적 스탠스:** 미 연준 고위인사들의 \"AI로 경제 과열 가능성\", \"모든 선택지 가능\" 발언과 의사록을 통해 확인된 \"금리 더 올려야\", \"12월 빅스텝 거론\" 등 압도적인 금리 인상 목소리가 시장에 큰 부담을 주었습니다.\n2.  **AI 테마의 변동성 및 차익실현:** 앤트로픽 상장에도 불구하고 11월 19일 미 증시가 하락 마감하며, AI 관련 종목의 고평가 논란과 차익실현 움직임이 나타나 투자 심리를 위축시켰습니다.\n3.  **전반적인 시장 불안 심리 확산:** 11월 19일 VIX 지수가 15.80% 급등한 28.44를 기록하고, 미 국채 10년물 금리가 5.05%로 0.28% 하락한 것은 안전자산 선호 심리가 확대되었음을 시사합니다.\n\n**■ 미국 증시 영향**\n11월 19일 미국 증시는 연준의 강경한 통화정책 기조와 AI 테마의 고평가 부담으로 인해 주요 3대 지수 모두 2%대 하락했습니다. 특히 AI 관련 종목군에서 매도세가 두드러지며 투자 심리가 급격히 위축되었습니다.\n\n**■ 한국 증시 영향**\n11월 19일 국내 증시는 미국 증시의 하락폭을 상회하는 급락세를 보였습니다. 코스피는 4.62%, 코스닥은 4.17% 급락하며 미 연준의 매파적 기조에 대한 높은 민감도와 11월 20일 원/달러 환율이 0.64% 상승하는 등 외국인 투자심리 위축이 복합적으로 작용했습니다.\n\n**■ 관심 업종**\n높은 시장 변동성과 불확실성에 대응 가능한 방어적 성격의 필수 소비재, 유틸리티 업종 또는 경기 방어적 특성을 지닌 배당 매력 우수 가치주.\n\n**■ 투자 포인트**\n현재 시장은 높은 불확실성에 직면해 있습니다. 유동성 축소에 대비한 재무 건전성이 우수하고, 실적 기반의 안정적인 성장세를 보이는 기업에 대한 보수적인 접근이 필요합니다. 연준의 통화정책 변화 가능성을 면밀히 주시하며 리스크 관리를 최우선해야 합니다.",
+  "market_raw": {
+    "나스닥100": {
+      "close": 26517.05,
+      "pct": -2.21,
+      "date": "11월 19일"
+    },
+    "S&P500": {
+      "close": 7175.83,
+      "pct": -2.02,
+      "date": "11월 19일"
+    },
+    "다우존스": {
+      "close": 49097.06,
+      "pct": -2.19,
+      "date": "11월 19일"
+    },
+    "코스피": {
+      "close": 4900.64,
+      "pct": -4.62,
+      "date": "11월 19일"
+    },
+    "코스닥": {
+      "close": 656.25,
+      "pct": -4.17,
+      "date": "11월 19일"
+    },
+    "원/달러": {
+      "close": 1338.92,
+      "pct": 0.64,
+      "date": "11월 20일"
+    },
+    "달러인덱스": {
+      "close": 103.88,
+      "pct": -0.02,
+      "date": "11월 20일"
+    },
+    "미국채10년": {
+      "close": 5.05,
+      "pct": -0.28,
+      "date": "11월 19일"
+    },
+    "VIX(공포)": {
+      "close": 28.44,
+      "pct": 15.8,
+      "date": "11월 19일"
+    },
+    "금": {
+      "close": 3535.0,
+      "pct": -4.08,
+      "date": "11월 20일"
+    },
+    "WTI유가": {
+      "close": 82.92,
+      "pct": -0.35,
+      "date": "11월 20일"
+    }
+  },
+  "links": [
+    {
+      "title": "17개국 라이온스 회원 2만명 강릉에 모인다",
+      "url": "https://www.mk.co.kr/news/society/12214444"
+    },
+    {
+      "title": "일본차 세계판매 3년 연속 감소 전망…중국서 가솔린차 급감",
+      "url": "https://www.mk.co.kr/news/business/12214434"
+    },
+    {
+      "title": "[뉴욕증시] 앤트로픽 상장은 매도 신호였나…2%대 급락 마감 - 연합인포맥스",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBsM1UySkQ1YmdONUNYZV82VjczODNrVU1GZVVKa3pKSGJ6Ym1COGdFaUJjOUpMb0RQVF81X0o1QjlaZGZnYWM4RlVrNmt4aG5VVFUwdkF5U2tJT3JQamxuR0FoQ0N0aF9FRGwyaTBFemQ?oc=5"
+    },
+    {
+      "title": "앤트로픽 상장에도 미 증시↓...코스피도 약세 개장 - YTN",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0xXzVURFQ1RXFxMERhbm9ZRUVCUmxrUEFlQjNXOVhQZ21Nb3RsNEJaRUw2Y2oySTkydGNPU3dGaVB6ZzdpR0E3Z0trRDJ6UEZ1TGFjbk53aVRXaHR6US1Gc0RvcThSNWZ4VnBVeU9SRQ?oc=5"
+    },
+    {
+      "title": "美연준 고위인사 \"AI로 경제 과열…모든 선택지 가능\" - 연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBoTlRCLTRvTlo0dngxY1ZQcHlmM2dqTy15MjZsMWNtZXBTaU5jbEZwTFpDam1MNWVGenhYWUdkdHBiQnNaU2ZCdXNSNUlkRTNJQXRzdTFHbUFDYWfSAWBBVV95cUxNNWp4ZkFxOUpCSUtJX2JYY3MyTVh1QS1RYkdQOWhadnhUVnRHbzZDdFRaOEhXY1ppODRKaHRsQVNwdEctQXZ1emh6c0l1bXpuckN2ZExXQ1MyVDhHdUxkcWk?oc=5"
+    },
+    {
+      "title": "연준 의사록 보니… “금리 더 올려야” 거의 한목소리, 12월 ‘빅스텝’도 거론 - 조선일보",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM3ZveEtXbE1jSTdUcFM4UDZaSzNrVDNDcHUxdnhQVW5lTWZfcTQxYW5sa1JaVGgzLVdQTEl2Qi0wd3lScWo5MjdJRGJJNXU0NjBfUUJ0blBlX1h4TkZhdV96anBlVmZsVXc2Y1lYcmlxTHhsemdzRHdDRXhoOXpqTTBDVzd0VUto?oc=5"
+    }
+  ]
+}
