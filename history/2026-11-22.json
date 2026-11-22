@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-22",
+  "title": "☀️ 주말 AI 경제 브리핑",
+  "content": "**발행일: 2026년 11월 22일 (일요일)**\n\n■ 시장 요약\n11월 20일, 미국 및 국내 증시는 연준의 매파적 기조 재확인과 AI 관련주 투매 우려로 동반 급락했습니다. 11월 20일 VIX(공포) 지수는 35.89로 26.20% 급등하며 시장의 불안감을 반영했습니다.\n\n■ 핵심 이슈 3가지\n1.  **연준의 매파적 스탠스:** 11월 20일 공개된 연준 의사록에서 \"금리 더 올려야\" 한다는 의견과 12월 '빅스텝' 가능성이 거론되며 강력한 긴축 의지가 재확인되었습니다.\n2.  **AI 관련주 투매 심화:** '5천피' 붕괴와 함께 AI 관련 기술주 중심의 매도세가 11월 20일 미국 증시 급락을 주도했습니다.\n3.  **글로벌 위험 회피 심리:** 미 증시 급락과 연준의 발언에 따라 투자 심리가 위축되며 안전자산 선호 경향이 확산되었습니다.\n\n■ 미국 증시 영향\n11월 20일, 나스닥100은 5.61% 급락한 25,028.98, S&P500은 3.70% 하락한 6,910.39를 기록했습니다. 연준의 강력한 긴축 의지와 AI 섹터의 급격한 매도세가 복합적으로 작용했습니다.\n\n■ 한국 증시 영향\n11월 20일, 코스피는 5.21% 하락한 4,869.96, 코스닥은 5.71% 급락한 645.68을 기록하며 미 증시의 영향을 크게 받았습니다. 11월 22일 원/달러 환율은 0.23% 상승한 1,337.80원을 기록하며 환율 상승 압력도 가중되고 있습니다.\n\n■ 관심 업종\n글로벌 증시 변동성 확대 구간에서는 실적 개선이 기대되는 방어적 업종과 더불어, 과도하게 매도된 AI 관련 성장주 내에서 펀더멘털이 견고한 기업에 대한 옥석 가리기가 중요해질 것입니다.\n\n■ 투자 포인트\n향후 연준의 금리 인상 발언과 주요 경제 지표 변화를 면밀히 주시해야 합니다. 변동성 장세에서는 기업 펀더멘털을 기반으로 한 선별적 투자 전략이 필요합니다.",
+  "market_raw": {
+    "나스닥100": {
+      "close": 25028.98,
+      "pct": -5.61,
+      "date": "11월 20일"
+    },
+    "S&P500": {
+      "close": 6910.39,
+      "pct": -3.7,
+      "date": "11월 20일"
+    },
+    "다우존스": {
+      "close": 48147.33,
+      "pct": -1.93,
+      "date": "11월 20일"
+    },
+    "코스피": {
+      "close": 4869.96,
+      "pct": -5.21,
+      "date": "11월 20일"
+    },
+    "코스닥": {
+      "close": 645.68,
+      "pct": -5.71,
+      "date": "11월 20일"
+    },
+    "원/달러": {
+      "close": 1337.8,
+      "pct": 0.23,
+      "date": "11월 22일"
+    },
+    "달러인덱스": {
+      "close": 103.81,
+      "pct": -0.09,
+      "date": "11월 20일"
+    },
+    "미국채10년": {
+      "close": 4.91,
+      "pct": -2.77,
+      "date": "11월 20일"
+    },
+    "VIX(공포)": {
+      "close": 35.89,
+      "pct": 26.2,
+      "date": "11월 20일"
+    },
+    "금": {
+      "close": 3515.4,
+      "pct": -4.62,
+      "date": "11월 20일"
+    },
+    "WTI유가": {
+      "close": 83.41,
+      "pct": 0.24,
+      "date": "11월 20일"
+    }
+  },
+  "links": [
+    {
+      "title": "금천구 오피스텔 보일러실서 미라화된 시신 나왔다",
+      "url": "https://www.mk.co.kr/news/society/12215510"
+    },
+    {
+      "title": "경부선 탈선에 논술 수험생 발목… 준법투쟁까지 ‘겹악재’",
+      "url": "https://www.mk.co.kr/news/society/12215509"
+    },
+    {
+      "title": "오늘 노동절로 미국 증시 하루 종일 휴장: 투자자가 알아야 할 사항 - TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5qN1BQb1ZhWE50WjhCRlJhNGh1eDhzN20xNEZXRktYVEY5RHFITVpqbnZmNnN0STZqRjhxMlFmUEw1Ukt1eDZVOTlZRURDUDZSVmFpd2FmTHppcmctYWVoX2R2czRIZjkzaWJCbkVQSDZPaWtH?oc=5"
+    },
+    {
+      "title": "'5천피' 무너지고 美증시 급락…'AI 투매' 추가 충격오나 - 연합뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5sSVlQR3NzWjNIdEpnZF9KVVNnOEFYVnM0cVppaXZfSjZXSHl6UlNYRnB1UUFtYU5PV0xUQmtDSWgtMjRvdmdWUzA2dzl5eFk1M3JxUS1kWHJsblnSAWBBVV95cUxNV1puVTNuemZya3lBTnF3ci1jZ1pxSW0yVXp6NTBGQlRXZmtjZGxFczgta21UV2hpVWVSVGV6Mzd5cTdoVk56VEZ5RmNPblM1eTV2OGJ1X3NQREZDUU5LTWg?oc=5"
+    },
+    {
+      "title": "연준 의사록 보니… “금리 더 올려야” 거의 한목소리, 12월 ‘빅스텝’도 거론 - 조선일보",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM3ZveEtXbE1jSTdUcFM4UDZaSzNrVDNDcHUxdnhQVW5lTWZfcTQxYW5sa1JaVGgzLVdQTEl2Qi0wd3lScWo5MjdJRGJJNXU0NjBfUUJ0blBlX1h4TkZhdV96anBlVmZsVXc2Y1lYcmlxTHhsemdzRHdDRXhoOXpqTTBDVzd0VUto?oc=5"
+    },
+    {
+      "title": "\"대응 늦으면 큰 고통\" 연준에…트럼프 \"경제 좋은데 금리 왜 올리나\" - 조세일보",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBtRlluRVFaZFlqOFRZbFFucUlxTVpSYmJSYlpnSzRDZ1FwMHVXMWpwOUtfejVKelFXN1FTYmlwbG05bm1YaG05M2VWanFoR1owenhfcTN1NmVxbXRKNkgw?oc=5"
+    }
+  ]
+}
