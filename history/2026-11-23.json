@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-23",
+  "title": "☀️ AI 경제 브리핑",
+  "content": "**[브리핑 발행일: 2026년 11월 23일 (월요일)]**\n\n■ **시장 요약**\n11월 20일 미국 및 국내 증시가 엔비디아 회계 조사 보도와 연준 긴축 우려로 동반 급락했습니다. 나스닥100은 5.61%, 코스피는 3.34% 하락했으며, VIX 지수는 26.20% 급등한 35.89를 기록하며 시장 불안감이 고조되었습니다. 11월 23일 원/달러 환율은 0.90% 상승한 1,346.83원을 기록했습니다.\n\n■ **핵심 이슈 3가지**\n1.  11월 20일, 엔비디아 회계 조사 보도가 미국 증시 급락의 직접적 원인으로 작용하며 기술주 전반에 대한 투심 위축.\n2.  미 재무장관의 \"연준 과도한 긴축 경제 위협\" 발언 등 연준의 통화 정책 관련 불확실성 증폭.\n3.  11월 23일, 한국 정부의 증시 불안정 인지 및 증안펀드 관련 설명 시사, 정책 당국의 개입 가능성 부각.\n\n■ **미국 증시 영향**\n11월 20일, 엔비디아발 악재로 나스닥100(▼5.61%), S&P500(▼3.70%), 다우존스(▼1.93%) 모두 큰 폭 하락. VIX(▲26.20%) 급등과 미국채10년 금리(▼2.77%) 하락은 안전자산 선호 심리 및 극심한 시장 불안을 반영했습니다.\n\n■ **한국 증시 영향**\n11월 20일, 미국 증시 급락에 연동되어 코스피(▼3.34%)와 코스닥(▼2.08%)이 동반 하락. 11월 23일 원/달러 환율 상승(▲0.90%)은 외국인 매도 압력을 가중시킬 수 있으나, 정부의 증시 안정화 펀드 논의는 하방 경직성 확보에 대한 기대를 높였습니다.\n\n■ **관심 업종**\n11월 23일 금 가격 2.50% 상승(3,603.20)에 따른 금 관련 상품 및 높은 변동성 장세에 대비한 경기 방어적 성격의 업종.\n\n■ **투자 포인트**\n11월 20일 미국 증시 하락 요인(엔비디아, 연준 정책) 전개 상황과 11월 23일 국내 정부의 증안펀드 구체화 여부에 주목하며, VIX 지수(35.89)가 높은 만큼 단기적으로 보수적 접근 및 방어적 포트폴리오 유지가 필요합니다.",
+  "market_raw": {
+    "나스닥100": {
+      "close": 25028.98,
+      "pct": -5.61,
+      "date": "11월 20일"
+    },
+    "S&P500": {
+      "close": 6910.39,
+      "pct": -3.7,
+      "date": "11월 20일"
+    },
+    "다우존스": {
+      "close": 48147.33,
+      "pct": -1.93,
+      "date": "11월 20일"
+    },
+    "코스피": {
+      "close": 4707.14,
+      "pct": -3.34,
+      "date": "11월 20일"
+    },
+    "코스닥": {
+      "close": 632.23,
+      "pct": -2.08,
+      "date": "11월 20일"
+    },
+    "원/달러": {
+      "close": 1346.83,
+      "pct": 0.9,
+      "date": "11월 23일"
+    },
+    "달러인덱스": {
+      "close": 103.74,
+      "pct": -0.07,
+      "date": "11월 23일"
+    },
+    "미국채10년": {
+      "close": 4.91,
+      "pct": -2.77,
+      "date": "11월 20일"
+    },
+    "VIX(공포)": {
+      "close": 35.89,
+      "pct": 26.2,
+      "date": "11월 20일"
+    },
+    "금": {
+      "close": 3603.2,
+      "pct": 2.5,
+      "date": "11월 23일"
+    },
+    "WTI유가": {
+      "close": 83.26,
+      "pct": -0.86,
+      "date": "11월 23일"
+    }
+  },
+  "links": [
+    {
+      "title": "화요일 출근길 영하 5도…충청·전라·제주에 눈 또는 비 [날씨]",
+      "url": "https://www.mk.co.kr/news/society/12215915"
+    },
+    {
+      "title": "쌍용건설, 2381억원 규모 부산 거제2구역 재건축 수주",
+      "url": "https://www.mk.co.kr/news/realestate/12215914"
+    },
+    {
+      "title": "미국 증시, 엔비디아 회계 조사 보도에 급락 - 네이버페이 머니스토리",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9FN2FkX1RSNVQ1VWtKa3RtSVk1Mzh1amdRekl0dTY2Mk5Xc2JWMTBtSGp2bFJQTmpWWWR1SW9MNnpNRVM5UEZaSmZ3TmZNaGhMQlZIckloX1I?oc=5"
+    },
+    {
+      "title": "[속보]靑 \"증시 불안정, 미국 증시와 연동 측면…경제부총리, 간담회서 증안펀드 관련 설명할 것\" - 머니투데이 - 머니투데이",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zQ2VXVE5mOU9DYTQ1VndmTzBEcEQtXzhXNHNpUlRzNDBDLTJxaEpsZXBFQnU3TndGalhBWUhaQmxSYV9vYkZlVGNDSk5TQXhudjRBOGZ3Qy1mSndHU0ZFdGlVLXRqS2xobVI2dtIBckFVX3lxTFAwSkNZQTl0eEdYNlFBNUpac2VScG1GR3hGeG4zRjQxMVZFalhzMS00TGlKRnRmNzBNcWZSRlZqNWlObEllSndBWEtMWk1IRmFwQmtfVGo1X1VDYmV0eU9aRm1ZR1ZBWFpLX3IxSlhmMTZmQQ?oc=5"
+    },
+    {
+      "title": "美 재무장관 \"연준 과도한 긴축, 경제 위협할 수 있어\" - 블루밍비트",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA0dzN0dEtfOW1nek9KZUJQQ2RKRG1fS1I5NGpyM3lZbGdNSk1GQlcyc0JmNWFsNmtCLVlmZFo3bHAtYkZXRHhmbGJrZ0hVT1dW?oc=5"
+    },
+    {
+      "title": "\"대응 늦으면 큰 고통\" 연준에…트럼프 \"경제 좋은데 금리 왜 올리나\" - 조세일보",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBtRlluRVFaZFlqOFRZbFFucUlxTVpSYmJSYlpnSzRDZ1FwMHVXMWpwOUtfejVKelFXN1FTYmlwbG05bm1YaG05M2VWanFoR1owenhfcTN1NmVxbXRKNkgw?oc=5"
+    }
+  ]
+}
