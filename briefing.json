@@ -1,40 +1,40 @@
 {
-  "date": "2026-11-22",
-  "title": "☀️ 주말 AI 경제 브리핑",
-  "content": "**발행일: 2026년 11월 22일 (일요일)**\n\n■ 시장 요약\n11월 20일, 미국 및 국내 증시는 연준의 매파적 기조 재확인과 AI 관련주 투매 우려로 동반 급락했습니다. 11월 20일 VIX(공포) 지수는 35.89로 26.20% 급등하며 시장의 불안감을 반영했습니다.\n\n■ 핵심 이슈 3가지\n1.  **연준의 매파적 스탠스:** 11월 20일 공개된 연준 의사록에서 \"금리 더 올려야\" 한다는 의견과 12월 '빅스텝' 가능성이 거론되며 강력한 긴축 의지가 재확인되었습니다.\n2.  **AI 관련주 투매 심화:** '5천피' 붕괴와 함께 AI 관련 기술주 중심의 매도세가 11월 20일 미국 증시 급락을 주도했습니다.\n3.  **글로벌 위험 회피 심리:** 미 증시 급락과 연준의 발언에 따라 투자 심리가 위축되며 안전자산 선호 경향이 확산되었습니다.\n\n■ 미국 증시 영향\n11월 20일, 나스닥100은 5.61% 급락한 25,028.98, S&P500은 3.70% 하락한 6,910.39를 기록했습니다. 연준의 강력한 긴축 의지와 AI 섹터의 급격한 매도세가 복합적으로 작용했습니다.\n\n■ 한국 증시 영향\n11월 20일, 코스피는 5.21% 하락한 4,869.96, 코스닥은 5.71% 급락한 645.68을 기록하며 미 증시의 영향을 크게 받았습니다. 11월 22일 원/달러 환율은 0.23% 상승한 1,337.80원을 기록하며 환율 상승 압력도 가중되고 있습니다.\n\n■ 관심 업종\n글로벌 증시 변동성 확대 구간에서는 실적 개선이 기대되는 방어적 업종과 더불어, 과도하게 매도된 AI 관련 성장주 내에서 펀더멘털이 견고한 기업에 대한 옥석 가리기가 중요해질 것입니다.\n\n■ 투자 포인트\n향후 연준의 금리 인상 발언과 주요 경제 지표 변화를 면밀히 주시해야 합니다. 변동성 장세에서는 기업 펀더멘털을 기반으로 한 선별적 투자 전략이 필요합니다.",
+  "date": "2026-11-23",
+  "title": "☀️ AI 경제 브리핑",
+  "content": "**[브리핑 발행일: 2026년 11월 23일 (월요일)]**\n\n■ **시장 요약**\n11월 20일 미국 및 국내 증시가 엔비디아 회계 조사 보도와 연준 긴축 우려로 동반 급락했습니다. 나스닥100은 5.61%, 코스피는 3.34% 하락했으며, VIX 지수는 26.20% 급등한 35.89를 기록하며 시장 불안감이 고조되었습니다. 11월 23일 원/달러 환율은 0.90% 상승한 1,346.83원을 기록했습니다.\n\n■ **핵심 이슈 3가지**\n1.  11월 20일, 엔비디아 회계 조사 보도가 미국 증시 급락의 직접적 원인으로 작용하며 기술주 전반에 대한 투심 위축.\n2.  미 재무장관의 \"연준 과도한 긴축 경제 위협\" 발언 등 연준의 통화 정책 관련 불확실성 증폭.\n3.  11월 23일, 한국 정부의 증시 불안정 인지 및 증안펀드 관련 설명 시사, 정책 당국의 개입 가능성 부각.\n\n■ **미국 증시 영향**\n11월 20일, 엔비디아발 악재로 나스닥100(▼5.61%), S&P500(▼3.70%), 다우존스(▼1.93%) 모두 큰 폭 하락. VIX(▲26.20%) 급등과 미국채10년 금리(▼2.77%) 하락은 안전자산 선호 심리 및 극심한 시장 불안을 반영했습니다.\n\n■ **한국 증시 영향**\n11월 20일, 미국 증시 급락에 연동되어 코스피(▼3.34%)와 코스닥(▼2.08%)이 동반 하락. 11월 23일 원/달러 환율 상승(▲0.90%)은 외국인 매도 압력을 가중시킬 수 있으나, 정부의 증시 안정화 펀드 논의는 하방 경직성 확보에 대한 기대를 높였습니다.\n\n■ **관심 업종**\n11월 23일 금 가격 2.50% 상승(3,603.20)에 따른 금 관련 상품 및 높은 변동성 장세에 대비한 경기 방어적 성격의 업종.\n\n■ **투자 포인트**\n11월 20일 미국 증시 하락 요인(엔비디아, 연준 정책) 전개 상황과 11월 23일 국내 정부의 증안펀드 구체화 여부에 주목하며, VIX 지수(35.89)가 높은 만큼 단기적으로 보수적 접근 및 방어적 포트폴리오 유지가 필요합니다.",
   "market": {
     "나스닥100": "25,028.98 ▼5.61%",
     "S&P500": "6,910.39 ▼3.70%",
     "다우존스": "48,147.33 ▼1.93%",
-    "코스피": "4,869.96 ▼5.21%",
-    "코스닥": "645.68 ▼5.71%",
-    "원/달러": "1,337.80 ▲0.23%",
-    "달러인덱스": "103.81 ▼0.09%",
+    "코스피": "4,707.14 ▼3.34%",
+    "코스닥": "632.23 ▼2.08%",
+    "원/달러": "1,346.83 ▲0.90%",
+    "달러인덱스": "103.74 ▼0.07%",
     "미국채10년": "4.91 ▼2.77%",
     "VIX(공포)": "35.89 ▲26.20%",
-    "금": "3,515.40 ▼4.62%",
-    "WTI유가": "83.41 ▲0.24%"
+    "금": "3,603.20 ▲2.50%",
+    "WTI유가": "83.26 ▼0.86%"
   },
   "links": [
     {
-      "title": "금천구 오피스텔 보일러실서 미라화된 시신 나왔다",
-      "url": "https://www.mk.co.kr/news/society/12215510"
+      "title": "화요일 출근길 영하 5도…충청·전라·제주에 눈 또는 비 [날씨]",
+      "url": "https://www.mk.co.kr/news/society/12215915"
     },
     {
-      "title": "경부선 탈선에 논술 수험생 발목… 준법투쟁까지 ‘겹악재’",
-      "url": "https://www.mk.co.kr/news/society/12215509"
+      "title": "쌍용건설, 2381억원 규모 부산 거제2구역 재건축 수주",
+      "url": "https://www.mk.co.kr/news/realestate/12215914"
     },
     {
-      "title": "오늘 노동절로 미국 증시 하루 종일 휴장: 투자자가 알아야 할 사항 - TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5qN1BQb1ZhWE50WjhCRlJhNGh1eDhzN20xNEZXRktYVEY5RHFITVpqbnZmNnN0STZqRjhxMlFmUEw1Ukt1eDZVOTlZRURDUDZSVmFpd2FmTHppcmctYWVoX2R2czRIZjkzaWJCbkVQSDZPaWtH?oc=5"
+      "title": "미국 증시, 엔비디아 회계 조사 보도에 급락 - 네이버페이 머니스토리",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9FN2FkX1RSNVQ1VWtKa3RtSVk1Mzh1amdRekl0dTY2Mk5Xc2JWMTBtSGp2bFJQTmpWWWR1SW9MNnpNRVM5UEZaSmZ3TmZNaGhMQlZIckloX1I?oc=5"
     },
     {
-      "title": "'5천피' 무너지고 美증시 급락…'AI 투매' 추가 충격오나 - 연합뉴스",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5sSVlQR3NzWjNIdEpnZF9KVVNnOEFYVnM0cVppaXZfSjZXSHl6UlNYRnB1UUFtYU5PV0xUQmtDSWgtMjRvdmdWUzA2dzl5eFk1M3JxUS1kWHJsblnSAWBBVV95cUxNV1puVTNuemZya3lBTnF3ci1jZ1pxSW0yVXp6NTBGQlRXZmtjZGxFczgta21UV2hpVWVSVGV6Mzd5cTdoVk56VEZ5RmNPblM1eTV2OGJ1X3NQREZDUU5LTWg?oc=5"
+      "title": "[속보]靑 \"증시 불안정, 미국 증시와 연동 측면…경제부총리, 간담회서 증안펀드 관련 설명할 것\" - 머니투데이 - 머니투데이",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zQ2VXVE5mOU9DYTQ1VndmTzBEcEQtXzhXNHNpUlRzNDBDLTJxaEpsZXBFQnU3TndGalhBWUhaQmxSYV9vYkZlVGNDSk5TQXhudjRBOGZ3Qy1mSndHU0ZFdGlVLXRqS2xobVI2dtIBckFVX3lxTFAwSkNZQTl0eEdYNlFBNUpac2VScG1GR3hGeG4zRjQxMVZFalhzMS00TGlKRnRmNzBNcWZSRlZqNWlObEllSndBWEtMWk1IRmFwQmtfVGo1X1VDYmV0eU9aRm1ZR1ZBWFpLX3IxSlhmMTZmQQ?oc=5"
     },
     {
-      "title": "연준 의사록 보니… “금리 더 올려야” 거의 한목소리, 12월 ‘빅스텝’도 거론 - 조선일보",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM3ZveEtXbE1jSTdUcFM4UDZaSzNrVDNDcHUxdnhQVW5lTWZfcTQxYW5sa1JaVGgzLVdQTEl2Qi0wd3lScWo5MjdJRGJJNXU0NjBfUUJ0blBlX1h4TkZhdV96anBlVmZsVXc2Y1lYcmlxTHhsemdzRHdDRXhoOXpqTTBDVzd0VUto?oc=5"
+      "title": "美 재무장관 \"연준 과도한 긴축, 경제 위협할 수 있어\" - 블루밍비트",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA0dzN0dEtfOW1nek9KZUJQQ2RKRG1fS1I5NGpyM3lZbGdNSk1GQlcyc0JmNWFsNmtCLVlmZFo3bHAtYkZXRHhmbGJrZ0hVT1dW?oc=5"
     },
     {
       "title": "\"대응 늦으면 큰 고통\" 연준에…트럼프 \"경제 좋은데 금리 왜 올리나\" - 조세일보",
@@ -44,11 +44,11 @@
   "schedule": [
     {
       "time": "종일",
-      "name": "4분기 이후 새로운 랠리가능성"
+      "name": "코스닥은 홀수해에 수익난다, 짝수해 9~12월사이 코스닥 매수보유후  홀수년도 1~2분기 사이 매도고려"
     },
     {
       "time": "종일",
-      "name": "코스닥은 홀수해에 수익난다, 짝수해 9~12월사이 코스닥 매수보유후  홀수년도 1~2분기 사이 매도고려"
+      "name": "4분기 이후 새로운 랠리가능성"
     },
     {
       "time": "종일",
