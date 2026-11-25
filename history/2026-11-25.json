@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-25",
+  "title": "☀️ AI 경제 브리핑",
+  "content": "발행일: 2026년 11월 25일 (수요일)\n\n**■ 시장 요약**\n11월 24일 미국 증시는 나스닥100(-1.99%), S&P500(-0.50%) 하락 속 다우존스(+0.85%) 혼조세를 보였습니다. 11월 24일 국내 코스피는 5.75% 급락한 4,718.40을 기록했습니다. 11월 25일 원/달러 환율은 0.15% 상승한 1,342.98을 기록하며 원화 약세가 심화됐습니다.\n\n**■ 핵심 이슈 3가지**\n1.  **미 연준 통화정책 논쟁**: 애크먼은 연준의 2% 물가 목표 고집 시 경기 침체를 경고했습니다.\n2.  **국내 증시 불안정 및 정부 대응**: 11월 24일 코스피 급락 후 靑은 증안펀드 관련 설명을 예고했습니다.\n3.  **미 기술주 선별 강세**: 11월 24일 나스닥 하락에도 엔비디아는 +31% 상승세를 보였습니다.\n\n**■ 미국 증시 영향**\n미 연준 정책 불확실성 지속되며 11월 24일 S&P500은 0.50% 하락했습니다. 다만 11월 24일 다우존스는 0.85% 상승했으며, 미국채10년 금리 0.28% 하락(4.90%)은 안전자산 선호를 반영합니다.\n\n**■ 한국 증시 영향**\n11월 24일 코스피 5.75% 급락은 미국 증시 연동 및 11월 25일 원/달러 환율 0.15% 상승(1,342.98)에 따른 원화 약세 영향입니다. 정부의 시장 안정화 대책에 관심이 증대됩니다.\n\n**■ 관심 업종**\n정부의 증안펀드 효과가 기대되는 업종에 주목할 필요가 있습니다. 또한, \"반도체 효과\" 뉴스 및 엔비디아의 강세에 힘입은 국내 반도체 관련주가 주목됩니다.\n\n**■ 투자 포인트**\n미 연준의 통화정책 변화 가능성을 주시하며 거시 지표를 분석해야 합니다. 국내 증시는 정부 정책 방향에 따라 변동성 확대가 예상되므로, 방어적 접근과 함께 반도체 등 성장주 중심의 선별적 접근이 유효합니다.",
+  "market_raw": {
+    "나스닥100": {
+      "close": 26214.17,
+      "pct": -1.99,
+      "date": "11월 24일"
+    },
+    "S&P500": {
+      "close": 7201.09,
+      "pct": -0.5,
+      "date": "11월 24일"
+    },
+    "다우존스": {
+      "close": 50018.7,
+      "pct": 0.85,
+      "date": "11월 24일"
+    },
+    "코스피": {
+      "close": 4718.4,
+      "pct": -5.75,
+      "date": "11월 24일"
+    },
+    "코스닥": {
+      "close": 650.95,
+      "pct": -2.24,
+      "date": "11월 24일"
+    },
+    "원/달러": {
+      "close": 1342.98,
+      "pct": 0.15,
+      "date": "11월 25일"
+    },
+    "달러인덱스": {
+      "close": 103.96,
+      "pct": 0.15,
+      "date": "11월 25일"
+    },
+    "미국채10년": {
+      "close": 4.9,
+      "pct": -0.28,
+      "date": "11월 24일"
+    },
+    "VIX(공포)": {
+      "close": 26.36,
+      "pct": -0.98,
+      "date": "11월 24일"
+    },
+    "금": {
+      "close": 3548.0,
+      "pct": -0.39,
+      "date": "11월 25일"
+    },
+    "WTI유가": {
+      "close": 80.75,
+      "pct": -1.58,
+      "date": "11월 25일"
+    }
+  },
+  "links": [
+    {
+      "title": "‘황금돼지띠’ 이후 가장 큰 폭?…아기 울음소리 14% 늘었다",
+      "url": "https://www.mk.co.kr/news/society/12218003"
+    },
+    {
+      "title": "반도체·신규 입주 효과?…인구 감소세 속에서도 경기·충청권엔 사람 몰렸다",
+      "url": "https://www.mk.co.kr/news/realestate/12218002"
+    },
+    {
+      "title": "[속보]靑 \"증시 불안정, 미국 증시와 연동 측면…경제부총리, 간담회서 증안펀드 관련 설명할 것\" - 머니투데이 - 머니투데이",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zQ2VXVE5mOU9DYTQ1VndmTzBEcEQtXzhXNHNpUlRzNDBDLTJxaEpsZXBFQnU3TndGalhBWUhaQmxSYV9vYkZlVGNDSk5TQXhudjRBOGZ3Qy1mSndHU0ZFdGlVLXRqS2xobVI2dtIBckFVX3lxTFAwSkNZQTl0eEdYNlFBNUpac2VScG1GR3hGeG4zRjQxMVZFalhzMS00TGlKRnRmNzBNcWZSRlZqNWlObEllSndBWEtMWk1IRmFwQmtfVGo1X1VDYmV0eU9aRm1ZR1ZBWFpLX3IxSlhmMTZmQQ?oc=5"
+    },
+    {
+      "title": "엔비디아 +31%, 미국 증시 바닥 찍었을까요? - 네이버 프리미엄콘텐츠",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNc3BseEU1TWlTLUN5Yi1CTzNEd0l0REVWd2dhcU1UN1VhSTdxX3FRR2NLZDFJZnBTYmczSXJPbmV2bThFd3BGQUNlbHRlN2I2V0VISWNidXBYSUhjSHduWEpjMEctaTFWdDVIc01lWXhhYmpRM284Z0FpNkJXSXZzWGhYWWhFbUg4bzhj?oc=5"
+    },
+    {
+      "title": "애크먼 “연준 금리 올리면 내년 침체올수도” - 매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1uTjNHTDFmZW94QnRVNXFfRlpGeWdaUEdrYTNSLVppRDZIRm1pYzZRNmxmRUJPbllpSnBfZnZabWtHZGE5ZzY2Tm5uYTNOWllHMlFZMHdR?oc=5"
+    },
+    {
+      "title": "애크먼 \"연준, 물가 2% 고집하다 세계경제 망친다…3%로 올려라\" - 뉴스1",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5kTmZrYV9DUEZoUFpQTV9DZ1dxU1ZXcC1SeUxSVk1Ha0NkcmVPODJoZG56NnVBczRkSXh6blNUQlFnN21uLUxqRF9nU3NlT2RWQ2MyZnNHRmo?oc=5"
+    }
+  ]
+}
